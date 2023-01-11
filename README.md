@@ -2,7 +2,7 @@
 https://github.com/JavaGuru-Frontend/group_4
 
 ## Лекции
-[00-Вводная]() 
+[00-Вводная](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/00/00-Intro.pdf) 
 
 ## Домашние работы 
 
