@@ -8,48 +8,49 @@ https://github.com/JavaGuru-Frontend/group_4
 [00](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/Homeworks/00/00-homework.md) 
 
 ## Выполнение работ
-| github        | Student                       | 0 | 
-:-------------- | :------------------------     |:-:|
-|               | Jevgenij      Voronov         |   |
-|               | Karina        Kapliar         |   |
-|               | Romans 	    Šodnaks         |   |
-|               | Sergei	    Pavlov          |   |
-|               | Фомина	    Татьяна         |   |
-|               | Marina	    Filatova        |   |
-|               | Regina	    Ustjanceva      |   |
-|               | Kirills	    Sokolovs        |   |
-|               | Alina	        Boluša          |   |
-|               | Nataļja	    Pancireva       |   |
-|               | Inita	        Zahareviča      |   |
-|               | Vladislavs	Ruskulis        |   |
-|               | Анастасия 	Чудакова        |   |
-|               | Maris 	    Gravitis        |   |
-|               | Vladislav	    Ruskulis        |   |
-|               | Glebs	        Minchenko       |   |
-|               | Irina	        Hohotva         |   |
-|               | Jegors 	    Savcenko        |   |
-|               | Денис 	    Томшис          |   |
-|               | Олег                          |   |	
-|               | Ruslan	    Pankratov       |   |
-|               | Tatjana 	    Zinke           |   |
-|               | Aleksandr	    Kucer           |   |
-|               | Natalija	    Sapronenko      |   |
-|               | Aigars	    Zukulis         |   |
-|               | Эдуард                        |   |	
-|               | Davronbek	    Yusupjonov      |   |
-|               | Oleh	        Petrishen       |   |
-|               | Даниэль	    Демишин         |   |
-|               | Сергей	    Минаев          |   |
-|               | Sergejs	    Fadins          |   |
-|               | Andrejs	    Holavskis       |   |
-|               | Aurorax	    Aurorax         |   |
-|               | Marina	    Kuznecova       |   |
-|               | dainis	    landsmanis      |   |
-|               | Deivid	                    |   |
-|               | Юлия	        Максимова       |   |
-|               | Staņislavs	Šavļuks         |   |
-|               | Dmitrijs 	    Kupcus          |   |
-|               | Anna	        Zolotarjova     |   |
-|               | Dmitrijs	    Mislivecs       |   |
-|               | Santa Kristine	Mammadli    |   |
-|               | Mukhammad	Ali     Abdunazarov |   |
+| github            | Student                       | 0 | 
+:--------------     | :------------------------     |:-:|
+|                   | Jevgenij      Voronov         |   |
+| marinafilatova    | Marina	    Filatova        |   |
+| Karina-kapliar    | Karina        Kapliar         |   |
+| maklaj90          | Олег          Андреев         |   |
+| Natalija82        | Natalija	    Sapronenko      |   |
+| Davron96          | Davronbek	    Yusupjonov      |   |
+| 7Pierre           | Петр          Оленович        |   |
+| axo987            | Andrejs	    Holavskis       |   |
+| ChiuRiu           | Staņislavs	Šavļuks         |   |
+|                   | Romans 	    Šodnaks         |   |
+|                   | Sergei	    Pavlov          |   |
+|                   | Фомина	    Татьяна         |   |
+|                   | Regina	    Ustjanceva      |   |
+|                   | Kirills	    Sokolovs        |   |
+|                   | Alina	        Boluša          |   |
+|                   | Nataļja	    Pancireva       |   |
+|                   | Inita	        Zahareviča      |   |
+|                   | Vladislavs	Ruskulis        |   |
+|                   | Анастасия 	Чудакова        |   |
+|                   | Maris 	    Gravitis        |   |
+|                   | Vladislav	    Ruskulis        |   |
+|                   | Glebs	        Minchenko       |   |
+|                   | Irina	        Hohotva         |   |
+|                   | Jegors 	    Savcenko        |   |
+|                   | Денис 	    Томшис          |   |
+|                   | Ruslan	    Pankratov       |   |
+|                   | Tatjana 	    Zinke           |   |
+|                   | Aleksandr	    Kucer           |   |
+|                   | Aigars	    Zukulis         |   |
+|                   | Эдуард                        |   |	
+|                   | Oleh	        Petrishen       |   |
+|                   | Даниэль	    Демишин         |   |
+|                   | Сергей	    Минаев          |   |
+|                   | Sergejs	    Fadins          |   |
+|                   | Aurorax	    Aurorax         |   |
+|                   | Marina	    Kuznecova       |   |
+|                   | dainis	    landsmanis      |   |
+|                   | Deivid	                    |   |
+|                   | Юлия	        Максимова       |   |
+|                   | Dmitrijs 	    Kupcus          |   |
+|                   | Anna	        Zolotarjova     |   |
+|                   | Dmitrijs	    Mislivecs       |   |
+|                   | Santa Kristine	Mammadli    |   |
+|                   | Mukhammad	Ali     Abdunazarov |   |
