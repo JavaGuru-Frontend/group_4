@@ -10,7 +10,7 @@ https://github.com/JavaGuru-Frontend/group_4
 ## Выполнение работ
 | github            | Student                       | 0 | 
 :--------------     | :------------------------     |:-:|
-|                   | Jevgenij      Voronov         |   |
+|                   | Jevgenij      Voronov         | * |
 | marinafilatova    | Marina	    Filatova        |   |
 | Karina-kapliar    | Karina        Kapliar         |   |
 | maklaj90          | Олег          Андреев         |   |
