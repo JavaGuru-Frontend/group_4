@@ -5,10 +5,12 @@ https://github.com/JavaGuru-Frontend/group_4
 [00-Вводная](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/00/00-Intro.pdf) 
 
 ## Домашние работы 
+[00](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/Homeworks/00/00-homework.md) 
 
 ## Выполнение работ
 | github        | Student                       | 0 | 
 :-------------- | :------------------------     |:-:|
+|               | Jevgenij      Voronov         |   |
 |               | Karina        Kapliar         |   |
 |               | Romans 	    Šodnaks         |   |
 |               | Sergei	    Pavlov          |   |
