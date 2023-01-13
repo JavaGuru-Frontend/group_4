@@ -17,7 +17,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
 | 7Pierre           | Петр          Оленович        |   |
-| axo987            | Andrejs	    Holavskis       |   |
+| axo987            | Andrejs	    Holavskis       | * |
 | ChiuRiu           | Staņislavs	Šavļuks         |   |
 |                   | Romans 	    Šodnaks         |   |
 |                   | Sergei	    Pavlov          |   |
