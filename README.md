@@ -23,7 +23,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Sergei	    Pavlov          |   |
 |                   | Фомина	    Татьяна         |   |
 |                   | Regina	    Ustjanceva      |   |
-|                   | Kirills	    Sokolovs        |   |
+| KirillsSokolovs   | Kirills	    Sokolovs          | * |
 |                   | Alina	        Boluša          |   |
 |                   | Nataļja	    Pancireva       |   |
 |                   | Inita	        Zahareviča      |   |
