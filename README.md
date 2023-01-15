@@ -45,7 +45,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Сергей	    Минаев          |   |
 |                   | Sergejs	    Fadins          |   |
 |                   | Aurorax	    Aurorax         |   |
-|                   | Marina	    Kuznecova       |   |
+|                   | Marina	    Kuznecova       | *  |
 |                   | dainis	    landsmanis      |   |
 |                   | Deivid	                    |   |
 |                   | Юлия	        Максимова       |   |
