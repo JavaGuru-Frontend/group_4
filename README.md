@@ -48,7 +48,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Marina	    Kuznecova       |   |
 |                   | dainis	    landsmanis      |   |
 |                   | Deivid	                    |   |
-|                   | Юлия	        Максимова       |   |
+|                   | Юлия	        Максимова       | * |
 |                   | Dmitrijs 	    Kupcus          |   |
 |                   | Anna	        Zolotarjova     |   |
 |                   | Dmitrijs	    Mislivecs       |   |
