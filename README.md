@@ -13,7 +13,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Jevgenij      Voronov         |   |
 | marinafilatova    | Marina	    Filatova        |   |
 | Karina-kapliar    | Karina        Kapliar         |   |
-| maklaj90          | Олег          Андреев         |   |
+| maklaj90          | Олег          Андреев         | * |
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
 | 7Pierre           | Петр          Оленович        |   |
