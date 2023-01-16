@@ -43,7 +43,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Oleh	        Petrishen       |   |
 |                   | Даниэль	    Демишин         |   |
 |                   | Сергей	    Минаев          |   |
-|                   | Sergejs	    Fadins          |   |
+|Evirum             | Sergejs	    Fadins          | * |
 |                   | Aurorax	    Aurorax         |   |
 |                   | Marina	    Kuznecova       | *  |
 |                   | dainis	    landsmanis      |   |
