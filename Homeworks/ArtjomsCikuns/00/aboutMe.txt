@@ -1,7 +1,20 @@
-Hi! my name is Artjoms Čikuns.
+Hi! my name is Artjoms Čikuns. I am 17 years old, I live in latvia
 So far, I've only been moonlighting in various places
 for physical work, and as such, I don't have any work experience.
 But in the future I plan to become a Frontend Developer.
+
+The programming languages which i plan to learn:
+HTML.
+CSS.
+Javascript.
+React.
+
+My Hobbies :
+Programming.
+English.
+Morning Run.
+Gym.
+Writing music.
 
 My contact info
 Email: artemscikuns@gmail.com
