@@ -29,6 +29,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Alina	        Boluša          |   |
 |                   | Nataļja	    Pancireva       |   |
 |                   | Inita	        Zahareviča      |   |
+|                   | Vladislavs	Ruskulis        | * |
 |                   | Анастасия 	Чудакова        |   |
 |                   | Maris 	    Gravitis        |   |
 |                   | Vladislav	    Ruskulis        |   |
