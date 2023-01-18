@@ -10,24 +10,24 @@ https://github.com/JavaGuru-Frontend/group_4
 ## Выполнение работ
 | github            | Student                       | 0 | 
 :--------------     | :------------------------     |:-:|
-|                   | Jevgenij      Voronov         |   |
-| marinafilatova    | Marina	    Filatova        |   |
 | Karina-kapliar    | Karina        Kapliar         |   |
-| maklaj90          | Олег          Андреев         |   |
+| maklaj90          | Олег          Авдеев          |   |
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
 | 7Pierre           | Петр          Оленович        |   |
 | axo987            | Andrejs	    Holavskis       | * |
 | ChiuRiu           | Staņislavs	Šavļuks         |   |
+| KirillsSokolovs   | Kirills	    Sokolovs        | * |
+| Ruskulis94        | Vladislavs	Ruskulis        | * |
+| Evirum            | Sergejs	    Fadins          | * |
+|                   | Marina	    Kuznecova       | * |
 |                   | Romans 	    Šodnaks         |   |
 |                   | Sergei	    Pavlov          |   |
 |                   | Фомина	    Татьяна         |   |
 |                   | Regina	    Ustjanceva      |   |
-| KirillsSokolovs   | Kirills	    Sokolovs          | * |
 |                   | Alina	        Boluša          |   |
 |                   | Nataļja	    Pancireva       |   |
 |                   | Inita	        Zahareviča      |   |
-|Ruskulis94         | Vladislavs	Ruskulis        | * |
 |                   | Анастасия 	Чудакова        |   |
 |                   | Maris 	    Gravitis        |   |
 |                   | Vladislav	    Ruskulis        |   |
@@ -43,9 +43,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Oleh	        Petrishen       |   |
 |                   | Даниэль	    Демишин         |   |
 |                   | Сергей	    Минаев          |   |
-|Evirum             | Sergejs	    Fadins          | * |
 |                   | Aurorax	    Aurorax         |   |
-|                   | Marina	    Kuznecova       | *  |
 |                   | dainis	    landsmanis      |   |
 |                   | Deivid	                    |   |
 |                   | Юлия	        Максимова       |   |
