@@ -10,31 +10,34 @@ https://github.com/JavaGuru-Frontend/group_4
 ## Выполнение работ
 | github            | Student                       | 0 | 
 :--------------     | :------------------------     |:-:|
+| axo987            | Andrejs	    Holavskis       | ✓ |
+| Tsarov19          | Artem         Tsarov          | ✓ |
+| DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ |
+| Irvita74          | Irina	        Hohotva         | ✓ |
+| Irvita74          | Jevgenij	    Voronov         | ✓ |
+|                   | Julija	    Maksimova       | ✓ |
+| KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |
+|                   | Marina	    Kuznecova       | ✓ |
+| maklaj90          | Oleg          Avdejevs        | ✓ |
+| 7Pierre           | Pjotr         Olenovics       | ✓ |
 | Evirum            | Sergejs	    Fadins          | ✓ |
-| Karina-kapliar    | Karina        Kapliar         |   |
-| maklaj90          | Олег          Авдеев          |   |
+| ChiuRiu           | Stanislavs	Savluks         | ✓ |
+| Ruskulis94        | Vladislavs	Ruskulis        | ✓ |
+| ArtemCikun        | Artem         Cikuns          | ? |
+| Karina-kapliar    | Karina        Kapliar         | ? |
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
-| 7Pierre           | Петр          Оленович        | * |
-| axo987            | Andrejs	    Holavskis       | * |
-| ChiuRiu           | Staņislavs	Šavļuks         |   |
-| KirillsSokolovs   | Kirills	    Sokolovs        | * |
-| Ruskulis94        | Vladislavs	Ruskulis        | * |
-|                   | Marina	    Kuznecova       | * |
 |                   | Romans 	    Šodnaks         |   |
 |                   | Sergei	    Pavlov          |   |
 |                   | Фомина	    Татьяна         |   |
 |                   | Regina	    Ustjanceva      |   |
-| KirillsSokolovs   | Kirills	    Sokolovs        | * |
 |                   | Alina	        Boluša          |   |
 |                   | Nataļja	    Pancireva       |   |
 |                   | Inita	        Zahareviča      |   |
-|                   | Vladislavs	Ruskulis        | * |
 |                   | Анастасия 	Чудакова        |   |
 |                   | Maris 	    Gravitis        |   |
 |                   | Vladislav	    Ruskulis        |   |
 |                   | Glebs	        Minchenko       |   |
-|    Irvita74       | Irina	        Hohotva         |  *|
 |                   | Jegors 	    Savcenko        |   |
 |                   | Денис 	    Томшис          |   |
 |                   | Ruslan	    Pankratov       |   |
@@ -48,7 +51,6 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Aurorax	    Aurorax         |   |
 |                   | dainis	    landsmanis      |   |
 |                   | Deivid	                    |   |
-|                   | Юлия	        Максимова       | * |
 |                   | Dmitrijs 	    Kupcus          |   |
 |                   | Anna	        Zolotarjova     |   |
 |                   | Dmitrijs	    Mislivecs       |   |
