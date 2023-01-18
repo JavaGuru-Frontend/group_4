@@ -10,6 +10,7 @@ https://github.com/JavaGuru-Frontend/group_4
 ## Выполнение работ
 | github            | Student                       | 0 | 
 :--------------     | :------------------------     |:-:|
+| Evirum            | Sergejs	    Fadins          | ✓ |
 | Karina-kapliar    | Karina        Kapliar         |   |
 | maklaj90          | Олег          Авдеев          |   |
 | Natalija82        | Natalija	    Sapronenko      |   |
@@ -19,7 +20,6 @@ https://github.com/JavaGuru-Frontend/group_4
 | ChiuRiu           | Staņislavs	Šavļuks         |   |
 | KirillsSokolovs   | Kirills	    Sokolovs        | * |
 | Ruskulis94        | Vladislavs	Ruskulis        | * |
-| Evirum            | Sergejs	    Fadins          | * |
 |                   | Marina	    Kuznecova       | * |
 |                   | Romans 	    Šodnaks         |   |
 |                   | Sergei	    Pavlov          |   |
