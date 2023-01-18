@@ -32,7 +32,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Maris 	    Gravitis        |   |
 |                   | Vladislav	    Ruskulis        |   |
 |                   | Glebs	        Minchenko       |   |
-|                   | Irina	        Hohotva         |   |
+|    Irvita74       | Irina	        Hohotva         |  *|
 |                   | Jegors 	    Savcenko        |   |
 |                   | Денис 	    Томшис          |   |
 |                   | Ruslan	    Pankratov       |   |
