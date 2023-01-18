@@ -24,7 +24,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | ChiuRiu           | Stanislavs	Savluks         | ✓ |
 | Ruskulis94        | Vladislavs	Ruskulis        | ✓ |
 | ArtemCikun        | Artem         Cikuns          | ✓ |
-| Karina-kapliar    | Karina        Kapliar         | ? |
+| Karina-kapliar    | Karina        Kapliar         | ✓ |
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
 |                   | Romans 	    Šodnaks         |   |
