@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Теги Интерактив</title>
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <li><a href="main.html">Основные</a></li>
+        <li><a href="textformat.html">Форматирование</a></li>
+        <li><a href="semantic.html">Семантические</a></li>
+        <li><a href="form.html">Формы</a></li>
+        <li><a href="img.html">Картинки</a></li>
+        <li><a href="link.html">Ссылки</a></li>
+        <li><a href="list.html">Списки</a></li>
+        <li><a href="media.html">Интерактив</a></li>
+        <li><a href="tables.html">Таблицы</a></li>
+        <li><a href="meta.html">Мета</a></li>
+        <li><a href="resources.html">Ресурсы</a></li>
+      </ul>
+      <hr>
+    </header>
+    <article id="content">
+      audio | video | iframe | source | embed | details summary | meter | progress
+
+      <!-- audio -->
+      <hr>
+      <h2>audio</h2>
+      <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+        <p>
+          Ваш браузер не поддерживает встроенное аудио. Попробуйте
+          <a href="audio.mp3" download>скачать</a> файл.
+        </p>
+      </audio>
+      <!-- /audio -->
+
+      <!-- video -->
+      <hr>
+      <h2>video</h2>
+      <video controls width="250">
+        <source src="flower.webm" type="video/webm">
+        <source src="flower.mp4" type="video/mp4">
+        Ваш браузер не поддерживает встроенные видео :(
+      </video>
+      <!-- /video -->
+
+      <!-- iframe -->
+      <hr>
+      <h2>iframe</h2>
+      <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Map"
+        width="200"
+        height="200"
+        frameborder="1"
+        allowfullscreen="true"
+        src="https://yandex.ru/map-widget/v1/-/CBFkaYSE0A"
+      >
+      </iframe>
+      <!-- /iframe -->
+
+      <!-- embed -->
+      <hr>
+      <h2>embed</h2>
+      <embed src="../1-HTML.pdf" type="application/pdf">
+      <!-- /embed -->
+
+      <!-- details summary -->
+      <hr>
+      <h2>details summary</h2>
+      <details>
+        <summary>Легенда</summary>
+        <p>Раскрывающийся текст</p>
+      </details>
+      <!-- /details summary -->
+
+      <!-- meter -->
+      <hr>
+      <h2>meter</h2>
+      <meter id="fuel"
+        min="0" max="100"
+        low="33" high="66" optimum="80"
+        value="83">
+        at 50/100
+      </meter>
+      <!-- /meter -->
+
+      <!-- progress -->
+      <hr>
+      <h2>progress</h2>
+      <progress value="30" max="100"></progress>
+      <!-- /progress -->
+
+    </article>
+  </body>
+</html>
