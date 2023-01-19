@@ -25,6 +25,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | Ruskulis94        | Vladislavs	Ruskulis        | ✓ |
 | ArtemCikun        | Artem         Cikuns          | ✓ |
 | Karina-kapliar    | Karina        Kapliar         | ✓ |
+|azukulis           | Aigars	    Zukulis         | ✓ |
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
 |                   | Romans 	    Šodnaks         |   |
@@ -43,7 +44,6 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Ruslan	    Pankratov       |   |
 |                   | Tatjana 	    Zinke           |   |
 |                   | Aleksandr	    Kucer           |   |
-|azukulis           | Aigars	    Zukulis         | * |
 |                   | Эдуард                        |   |	
 |                   | Oleh	        Petrishen       |   |
 |                   | Даниэль	    Демишин         |   |
