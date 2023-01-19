@@ -43,7 +43,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |                   | Ruslan	    Pankratov       |   |
 |                   | Tatjana 	    Zinke           |   |
 |                   | Aleksandr	    Kucer           |   |
-|                   | Aigars	    Zukulis         |   |
+|azukulis           | Aigars	    Zukulis         | * |
 |                   | Эдуард                        |   |	
 |                   | Oleh	        Petrishen       |   |
 |                   | Даниэль	    Демишин         |   |
