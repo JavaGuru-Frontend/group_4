@@ -17,7 +17,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | Tsarov19          | Artem         Tsarov          | ✓ |
 | DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ |
 | Irvita74          | Irina	        Hohotva         | ✓ |
-|                   | Jevgenij	    Voronov         | ✓ |
+| JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |
 |                   | Julija	    Maksimova       | ✓ |
 | KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |
 | Satemmka          | Marina	    Kuznecova       | ✓ |
