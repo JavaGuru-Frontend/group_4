@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Теги Формы</title>
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <li><a href="main.html">Основные</a></li>
+        <li><a href="textformat.html">Форматирование</a></li>
+        <li><a href="semantic.html">Семантические</a></li>
+        <li><a href="form.html">Формы</a></li>
+        <li><a href="img.html">Картинки</a></li>
+        <li><a href="link.html">Ссылки</a></li>
+        <li><a href="list.html">Списки</a></li>
+        <li><a href="media.html">Интерактив</a></li>
+        <li><a href="tables.html">Таблицы</a></li>
+        <li><a href="meta.html">Мета</a></li>
+        <li><a href="resources.html">Ресурсы</a></li>      
+      </ul>
+      <hr>
+    </header>
+    <article id="content">
+      form |input | textarea | button | select | option | optgroup | datalist | label | fieldset | legend
+
+      <!-- form -->
+      <hr>
+      <h2>Form</h2>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Input</legend>
+          <label for="name">Введите своё имя:</label>
+          <input type="text" name="name" id="name" required>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Textarea</legend>
+          <label for="story">Расскажите о себе:</label>
+          <textarea id="story" name="story" rows="5" cols="33">Frontend-разработчик со стажем</textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Button</legend>
+          <button type="submit">Отправить</button>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Select</legend>
+          <label for="city-select">Ваш город</label>
+          <select name="city" id="city-select">
+            <optgroup label="Латвия">
+              <option value="Рига">Рига</option>
+              <option value="Елгава">Елгава</option>
+            </optgroup>
+            <optgroup label="Россия">
+              <option value="Москва">Москва</option>
+              <option value="Питер">Питер</option>
+            </optgroup>
+          </select>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Datalist</legend>
+          <label for="my-browser">Выберите браузер из списка:</label>
+          <input list="browsers" id="my-browser" name="my-browser">
+          <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Yandex Browser">
+            <option value="Opera">
+            <option value="Safari">
+            <option value="Microsoft Edge">
+          </datalist>
+        </fieldset>
+      </form>
+      <!-- /form -->
+    </article>
+  </body>
+</html>
