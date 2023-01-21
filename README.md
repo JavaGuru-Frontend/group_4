@@ -31,7 +31,7 @@ https://github.com/JavaGuru-Frontend/group_4
 |azukulis           | Aigars	    Zukulis         | ✓ |
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
-|                   | Romans 	    Šodnaks         | * |
+|                   | Romans 	    Šodnaks         | ** |
 |                   | Sergei	    Pavlov          |   |
 |                   | Фомина	    Татьяна         |   |
 |                   | Regina	    Ustjanceva      |   |
