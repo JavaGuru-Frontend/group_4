@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+  </head>
+  <body>
+      <!-- Форма регистрации -->
+      <hr>
+      <h2>Форма регистрации</h2>
+      <form action="" method="get">
+        <fieldset>
+          <label for="name">Введите свой логин:</label>
+          <input type="text" name="name" id="name" required>
+          <label for="password">Введите свой пароль:</label>
+          <input type="text" password="password" id="password" required>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Дополнительная информация о себе:</legend>
+          <label for="story">Дополнительная информация о себе</label>
+          <textarea>
+        <b>Укажите пол</b><br>
+                <label>for="male" Мужской</label>
+                <input type="checkbox">
+                <label>for="female" Женский</label>
+                <input type="checkbox">
+          </textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Button</legend>
+          <button type="submit">Отправить</button>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Select</legend>
+          <label for="city-select">Ваш город</label>
+          <select name="city" id="city-select">
+            <optgroup label="Латвия">
+              <option value="Рига">Рига</option>
+              <option value="Елгава">Елгава</option>
+            </optgroup>
+            <optgroup label="Россия">
+              <option value="Москва">Москва</option>
+              <option value="Питер">Питер</option>
+            </optgroup>
+          </select>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Datalist</legend>
+          <label for="my-browser">Выберите браузер из списка:</label>
+          <input list="browsers" id="my-browser" name="my-browser">
+          <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Yandex Browser">
+            <option value="Opera">
+            <option value="Safari">
+            <option value="Microsoft Edge">
+          </datalist>
+        </fieldset>
+      </form>
+      <!-- /form -->
+  </body>
+</html>
