@@ -45,6 +45,21 @@
           <input type="checkbox" checked name="Фильмы"/>Фильмы <br> 
         </fieldset>
         <br>
+        <fieldset> 
+          <legend>Добавить документ:</legend>
+          <form enctype="multipart/form-data" method="post" action="http://localhost:8080/postfile.php">
+            <p>
+                <input type="file" name="file" />
+            </p>
+            <p>
+                <input type="submit" value="Отправить" />
+            </p>
+        </form>
+        </fieldset>
+
+
+
+
         <fieldset>
           <legend>Button</legend>
           <button type="submit">Отправить</button>
