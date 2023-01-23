@@ -22,7 +22,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | 7Pierre           | Pjotr         Olenovics       | ✓ |
 | Evirum            | Sergejs	    Fadins          | ✓ |
 | ChiuRiu           | Stanislavs	Savluks         | ✓ |
-| Ruskulis94        | Vladislavs	Ruskulis        | ✓ |
+| Ruskulis94        | Vladislavs	Ruskulis        | * |
 | ArtemCikun        | Artem         Cikuns          | ✓ |
 | Karina-kapliar    | Karina        Kapliar         | ✓ |
 | Natalija82        | Natalija	    Sapronenko      |   |
