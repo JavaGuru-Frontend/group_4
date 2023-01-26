@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Porato Form</title>
+    </head>
+    <body>
+        <h1>Potato form v1.0</h1>
+        <form>
+            <!--login form-->
+            <feildset>
+                <legend></legend>
+                <label for="login">Login name:</label>
+                <input type="text" id="login" name="login" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </feildset>
+            <!--login form-->
+            <!--Additional info form block-->
+            <fieldset>
+                <legend><mark>Additional information<mark></legend>
+                <h3> Select your gender:</h3>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+                <h3>Enter your birthdate</h3>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <h3>Enter address</h3>
+                <label for="city">City you live at:</label>
+                <input type="text" id="city" name="City">
+            </fieldset>
+            <!--Additional info form block-->
+            <!--Hobby form-->
+            <fieldset>
+                <legend><mark>Hobby</mark></legend>
+                <p>You can select multiple</p>
+                <input type="checkbox" id="hobby1" value="Drawing">
+                <label for="hobby1"> Drawing</label>
+            <!--How to allign checkboxes?-->
+                <input type="checkbox" id="hobby2"  value="Coding">
+                <label for="hobby2"> Coding</label><br>
+                <input type="checkbox" id="hobby3"  value="Traveling">
+                <label for="hobby3"> Traveling</label>
+                <input type="checkbox" id="hobby4"  value="Play music">
+                <label for="hobby4"> Play music</label><br>
+            </fieldset>
+            <!--Hobby form-->
+                <fieldset>
+                    <legend><mark>Select your car prefferences</mark></legend>
+                    <label for="car-select">Car prefference</label>
+                    <select name="city" id="city-select">
+                      <optgroup label="Electric">
+                        <option value="Tesla">Tesla</option>
+                        <option value="BMW">BMW</option>
+                      </optgroup>
+                      <optgroup label="Petrol">
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="VAZ">VAZ</option>
+                      </optgroup>
+                    </select>
+                  </fieldset>
+                  <!--Hobby form-->
+                  <!--submit button-->
+                  <br>
+                  <button type="submit">Submit</button>    
+                  <!--submit button-->  
+        </form>
+    </body>
+</html>
+
+
+Yellow text
