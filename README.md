@@ -15,48 +15,21 @@ https://github.com/JavaGuru-Frontend/group_4
 :--------------     | :------------------------     |:-:|:-:|
 | axo987            | Andrejs	    Holavskis       | ✓ |   |
 | Tsarov19          | Artem         Tsarov          | ✓ | ? |
-| ArtemCikun        | Artem         Cikuns          | ✓ |   |
-| DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ |   |
+| ArtemCikun        | Artem         Cikuns          | ✓ | * |
+| DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ | * |
 | Irvita74          | Irina	        Hohotva         | ✓ |   |
 | JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |   |
 |                   | Julija	    Maksimova       | ✓ |   |
 | KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |   |
 | Satemmka          | Marina	    Kuznecova       | ✓ | * |
-| maklaj90          | Oleg          Avdejevs        | ✓ |   |
-| 7Pierre           | Pjotr         Olenovics       | ✓ |   |
-| Evirum            | Sergejs	    Fadins          | ✓ |   |
-| ChiuRiu           | Stanislavs	Savluks         | ✓ |   |
+| maklaj90          | Oleg          Avdejevs        | ✓ | * |
+| 7Pierre           | Pjotr         Olenovics       | ✓ | * |
+| Evirum            | Sergejs	    Fadins          | ✓ | * |
+| ChiuRiu           | Stanislavs	Savluks         | ✓ | * |
 | Ruskulis94        | Vladislavs	Ruskulis        | * | ? |
 | ArtemCikun        | Artem         Cikuns          | ✓ |   |
-| Karina-kapliar    | Karina        Kapliar         | ✓ |   |
-|azukulis           | Aigars	    Zukulis         | ✓ |   |
+| Karina-kapliar    | Karina        Kapliar         | ✓ | * |
+| azukulis           | Aigars	    Zukulis         | ✓ | * |
 | Natalija82        | Natalija	    Sapronenko      |   |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |   |
-|                   | Romans 	    Šodnaks         | ** |   |
-|                   | Sergei	    Pavlov          |   ||
-|                   | Фомина	    Татьяна         |   ||
-|                   | Regina	    Ustjanceva      |   ||
-|                   | Alina	        Boluša          |   |
-|                   | Nataļja	    Pancireva       |   |
-|                   | Inita	        Zahareviča      |   |
-|                   | Анастасия 	Чудакова        |   |
-|                   | Maris 	    Gravitis        |   |
-|                   | Vladislav	    Ruskulis        |   |
-|                   | Glebs	        Minchenko       |   |
-|                   | Jegors 	    Savcenko        |   |
-|                   | Денис 	    Томшис          |   |
-|                   | Ruslan	    Pankratov       |   |
-|                   | Tatjana 	    Zinke           |   |
-|                   | Aleksandr	    Kucer           |   |
-|                   | Эдуард                        |   |	
-|                   | Oleh	        Petrishen       |   |
-|                   | Даниэль	    Демишин         |   |
-|                   | Сергей	    Минаев          |   |
-|                   | Aurorax	    Aurorax         |   |
-|                   | dainis	    landsmanis      |   |
-|                   | Deivid	                    |   |
-|                   | Dmitrijs 	    Kupcus          |   |
-|                   | Anna	        Zolotarjova     |   |
-|                   | Dmitrijs	    Mislivecs       |   |
-|                   | Santa Kristine	Mammadli    |   |
-|                   | Mukhammad	Ali     Abdunazarov |   |
+|                   | Romans 	    Šodnaks         | * |   |
