@@ -17,7 +17,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | Tsarov19          | Artem         Tsarov          | ✓ |
 | DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ |
 | Irvita74          | Irina	        Hohotva         | ✓ |
-|                   | Jevgenij	    Voronov         | ✓ |
+| JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |
 |                   | Julija	    Maksimova       | ✓ |
 | KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |
 | Satemmka          | Marina	    Kuznecova       | ✓ |
@@ -25,13 +25,13 @@ https://github.com/JavaGuru-Frontend/group_4
 | 7Pierre           | Pjotr         Olenovics       | ✓ |
 | Evirum            | Sergejs	    Fadins          | ✓ |
 | ChiuRiu           | Stanislavs	Savluks         | ✓ |
-| Ruskulis94        | Vladislavs	Ruskulis        | ✓ |
+| Ruskulis94        | Vladislavs	Ruskulis        | * |
 | ArtemCikun        | Artem         Cikuns          | ✓ |
 | Karina-kapliar    | Karina        Kapliar         | ✓ |
 |azukulis           | Aigars	    Zukulis         | ✓ |
 | Natalija82        | Natalija	    Sapronenko      |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |
-|                   | Romans 	    Šodnaks         |   |
+|                   | Romans 	    Šodnaks         | ✓ |
 |                   | Sergei	    Pavlov          |   |
 |                   | Фомина	    Татьяна         |   |
 |                   | Regina	    Ustjanceva      |   |
