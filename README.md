@@ -11,30 +11,31 @@ https://github.com/JavaGuru-Frontend/group_4
 
 
 ## Выполнение работ
-| github            | Student                       | 0 | 
-:--------------     | :------------------------     |:-:|
-| axo987            | Andrejs	    Holavskis       | ✓ |
-| Tsarov19          | Artem         Tsarov          | ✓ |
-| DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ |
-| Irvita74          | Irina	        Hohotva         | ✓ |
-| JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |
-|                   | Julija	    Maksimova       | ✓ |
-| KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |
-| Satemmka          | Marina	    Kuznecova       | ✓ |
-| maklaj90          | Oleg          Avdejevs        | ✓ |
-| 7Pierre           | Pjotr         Olenovics       | ✓ |
-| Evirum            | Sergejs	    Fadins          | ✓ |
-| ChiuRiu           | Stanislavs	Savluks         | ✓ |
-| Ruskulis94        | Vladislavs	Ruskulis        | ✓ |
-| ArtemCikun        | Artem         Cikuns          | ✓ |
-| Karina-kapliar    | Karina        Kapliar         | ✓ |
-|azukulis           | Aigars	    Zukulis         | ✓ |
-| Natalija82        | Natalija	    Sapronenko      |   |
-| Davron96          | Davronbek	    Yusupjonov      |   |
-|                   | Romans 	    Šodnaks         | ✓ |
-|                   | Sergei	    Pavlov          |   |
-|                   | Фомина	    Татьяна         |   |
-|                   | Regina	    Ustjanceva      |   |
+| github            | Student                       | 0 | 1 |
+:--------------     | :------------------------     |:-:|:-:|
+| axo987            | Andrejs	    Holavskis       | ✓ |   |
+| Tsarov19          | Artem         Tsarov          | ✓ | ? |
+| ArtemCikun        | Artem         Cikuns          | ✓ |   |
+| DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ |   |
+| Irvita74          | Irina	        Hohotva         | ✓ |   |
+| JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |   |
+|                   | Julija	    Maksimova       | ✓ |   |
+| KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |   |
+| Satemmka          | Marina	    Kuznecova       | ✓ | * |
+| maklaj90          | Oleg          Avdejevs        | ✓ |   |
+| 7Pierre           | Pjotr         Olenovics       | ✓ |   |
+| Evirum            | Sergejs	    Fadins          | ✓ |   |
+| ChiuRiu           | Stanislavs	Savluks         | ✓ |   |
+| Ruskulis94        | Vladislavs	Ruskulis        | * | ? |
+| ArtemCikun        | Artem         Cikuns          | ✓ |   |
+| Karina-kapliar    | Karina        Kapliar         | ✓ |   |
+|azukulis           | Aigars	    Zukulis         | ✓ |   |
+| Natalija82        | Natalija	    Sapronenko      |   |   |
+| Davron96          | Davronbek	    Yusupjonov      |   |   |
+|                   | Romans 	    Šodnaks         | ** |   |
+|                   | Sergei	    Pavlov          |   ||
+|                   | Фомина	    Татьяна         |   ||
+|                   | Regina	    Ustjanceva      |   ||
 |                   | Alina	        Boluša          |   |
 |                   | Nataļja	    Pancireva       |   |
 |                   | Inita	        Zahareviča      |   |
