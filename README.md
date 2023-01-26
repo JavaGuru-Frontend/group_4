@@ -21,7 +21,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |   |
 |                   | Julija	    Maksimova       | ✓ |   |
 | KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |   |
-| Satemmka          | Marina	    Kuznecova       | ✓ |   |
+| Satemmka          | Marina	    Kuznecova       | ✓ | * |
 | maklaj90          | Oleg          Avdejevs        | ✓ |   |
 | 7Pierre           | Pjotr         Olenovics       | ✓ |   |
 | Evirum            | Sergejs	    Fadins          | ✓ |   |
