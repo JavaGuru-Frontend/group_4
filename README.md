@@ -3,11 +3,13 @@ https://github.com/JavaGuru-Frontend/group_4
 
 ## Лекции
 [00-Вводная](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/00/00-Intro.pdf)  
-[01-HTML](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/01-HTML/1-HTML.pdf) 
+[01-HTML](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/01-HTML/1-HTML.pdf)   
+[02-CSS](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/01-CSS/1-CSS.pdf) 
 
 ## Домашние работы 
 [00](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/00/homework.md)  
-[01](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/01/Homework.md) 
+[01](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/01/Homework.md)  
+[02](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/02/Homework.md) 
 
 
 ## Выполнение работ
@@ -33,3 +35,4 @@ https://github.com/JavaGuru-Frontend/group_4
 | Natalija82        | Natalija	    Sapronenko      |   |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |   |
 |                   | Romans 	    Šodnaks         | * |   |
+| Koreskov          |                               | * |   |
