@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+    <article id="content">
+        <h1>Форма Регистрации</h1>
+        <form action="" method="get">
+            <!-- fieldset login password -->
+            <fieldset>
+                <label for="name">Введите своё логин:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="password">Введити пароль:</label>
+                <input type="password" name="password" id="password" required>
+            </fieldset>
+            <br>
+
+            <!-- fieldset about me  with checkbox -->
+            <fieldset>
+                <legend><mark>Дополнительная инфомация о себе:</mark></legend>
+                
+                <p><b>Укажите пол</b></p>
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">Мужской</label><br>
+                
+                <input type="radio" id="female" name="female" value="female">
+                <label for="female">Женский</label><br>
+
+                <p><b>Укажите дату рождения</b></p>
+                <label for="birthday">День рождения:</label>
+                <input type="date" id="birthday" name="birthday">
+
+                <p><b>Место проживания</b></p>
+                <label for="city-select">Ваш город</label>
+                <input list="city" id="city-select" name="city-select">
+                <datalist id="city">
+                    <option value="Рига">
+                    <option value="Елгава">
+                </datalist>
+            </fieldset>           
+            <br>
+
+            <!-- fieldset hobbies -->
+            <fieldset>
+                <legend><mark>Ваши хобби:</mark></legend>
+                <table>
+                    <caption>Можно выбрать любое количество увлечений</caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby1" name="hobby1" value="travel">
+                                <label for="hobby1">Путешествия</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby1" name="hobby1" value="programmin">
+                                <label for="hobby1">Програмировать</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby3" name="hobby3" value="painting">
+                                <label for="hobby3">Рисовать</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby4" name="hobby4" value="music">
+                                <label for="hobby4">Играть на музыкальных инструментах</label><br>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+
+            <!-- fieldset your field -->
+            <fieldset>
+                <legend><mark>Своё поле</mark></legend>
+                <p><b>Добавить любое поле на выбор не из приставленных</b></p>
+            </fieldset>
+            <br>
+
+            <!-- button -->
+            <button type="submit">Отправить</button>
+        </form>
+    </article>
+</body>
+</html>

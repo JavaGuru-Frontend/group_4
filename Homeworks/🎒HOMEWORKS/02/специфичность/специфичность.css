@@ -1,0 +1,34 @@
+/* Укажите специфичность в коментариях */
+
+p {}                                   
+
+.titleClass {}                         
+
+#titleId {}                             
+
+p.titleClass {}                         
+
+p#titleId {}                            
+
+p#titleId.titleClass1.titleClass2 {}   
+
+p em {}                                 
+
+p .class {}                             
+
+p .class {                              
+    color: red !important
+}                             
+
+
+/*  какое из свойт будет применено 
+    указать знаками < или = или >
+    пример  (em) < (.class)
+    em 0.0.1
+    .class 0.1.0
+*/
+
+(p em) /*  */ (p.class) 
+(#m_d) /*  */ (em.m_cl)
+(div p#my_id span) /*  */ (div[title*="City"] span#s_id) 
+(div>div.my_class p[contenteditable].red_color span:hover) /*  */ (div p+div[title="css"] p.green_color span) 
