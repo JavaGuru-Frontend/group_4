@@ -33,3 +33,4 @@ https://github.com/JavaGuru-Frontend/group_4
 | Natalija82        | Natalija	    Sapronenko      |   |   |
 | Davron96          | Davronbek	    Yusupjonov      |   |   |
 |                   | Romans 	    Šodnaks         | * |   |
+| Koreskov          | Viktors       Koreskovs       |   |   |
