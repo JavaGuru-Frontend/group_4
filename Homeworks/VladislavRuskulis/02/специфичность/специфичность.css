@@ -41,8 +41,8 @@ p .class {
 /*0.0.1.0.0/*  /*0.0.0.1.1/*
 (#m_d) /* > */ (em.m_cl)
 
-/*0.0.1.0.2/*              /*0.0.1.1.1/*
-(div p#my_id span) /* < */ (div[title*="City"] span#s_id)
+/*0.0.1.0.3/*              /*0.0.1.0.3/*
+(div p#my_id span) /* = */ (div[title*="City"] span#s_id)
 
-/*0.0.0.1.5/*                                                      /*0.0.0.1.5/*
-(div>div.my_class p[contenteditable].red_color span:hover) /* = */ (div p+div[title="css"] p.green_color span) 
+/*0.0.0.2.3/*                                                      /*0.0.0.1.5/*
+(div>div.my_class p[contenteditable].red_color span:hover) /* > */ (div p+div[title="css"] p.green_color span) 
