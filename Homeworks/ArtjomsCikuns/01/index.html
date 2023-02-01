@@ -13,11 +13,14 @@
     />
   </head>
   <body>
-    <div class="container text-center">
+    <div class="container text center">
       <div class="row">
         <div class="col-lg-6 mx-auto">
-          <img src="kartinka profila-round (1).png" alt="Artem" />
-          <img src="background.jpg" alt="Background"/>
+          <img src="kartinka profila-round (1).png" />
+          <img
+          src=https://oir.mobi/uploads/posts/2021-03/thumbs/1616582443_34-p-chernii-fon-gradient-40.jpg
+          />
+
           <h1>Artjoms Čikuns</h1>
 
           <p>
@@ -37,28 +40,35 @@
       <div class="row">
         <div class="col-lg-3 mx-auto">
           <h4>Education:</h4>
-          <p>2012-2021 Jelgavas 6.vidusskola</p>
-          <p>2022-2024 Jelgavas novada Neklātienes vidusskola</p>
+          <ul>
+            <p>2012-2021 Jelgavas 6.vidusskola</p>
+            <p>2022-2024 Jelgavas novada Neklātienes vidusskola</p>
+          </ul>
 
           <h4>The programming languages which i plan to learn:</h4>
-          <p>HTML.</p>
-          <p>CSS.</p>
-          <p>Javascript.</p>
-          <p>React.</p>
-          <p>Git.</p>
+          <ul>
+            <li>HTML.</li>
+            <li>CSS.</li>
+            <li>Javascript.</li>
+            <li>React.</li>
+            <li>Git.</li>
+          </ul>
 
           <h4>My Hobbies :</h4>
-          <p>Programming.</p>
-          <p>English.</p>
-          <p>Morning Run.</p>
-          <p>Gym.</p>
-          <p>Writing music.</p>
+          <ul>
+            <li>Programming.</li>
+            <li>English.</li>
+            <li>Morning Run.</li>
+            <li>Gym.</li>
+            <li>Writing music.</li>
+          </ul>
 
           <h4>Languages:</h4>
-          <p>Russian (Native or bilingual proficiency).</p>
-          <p>Latvian (Elementary proficiency).</p>
-          <p>English (Elementary proficiency).</p>
-
+          <ul>
+            <li>Russian (Native or bilingual proficiency).</li>
+            <li>Latvian (Elementary proficiency).</li>
+            <li>English (Elementary proficiency).</li>
+          </ul>
           <h4>My contact info:</h4>
           <a href="mailto:artemscikuns@gmail.com">Email</a>
           <p></p>
@@ -68,6 +78,39 @@
           <p>Phone number: +37120414951</p>
         </div>
       </div>
+      <section id="contactme">
+        <h4>Contact me</h4>
+
+        <form action="action_page.php">
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Your name.."
+            style="width: 200px"
+          />
+          <br /><br />
+
+          <input
+            type="text"
+            id="company"
+            name="lastname"
+            placeholder="Company name.."
+            style="width: 200px"
+          />
+          <br /><br />
+
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write a message.."
+            style="width: 200px; height: 100px"
+          ></textarea>
+          <br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
     </div>
   </body>
 </html>
