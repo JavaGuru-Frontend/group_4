@@ -5,140 +5,128 @@
   <title>Register</title>
    </head>
   <body>
-  <form>
-  <article id="concent">
-  <h1>Register</h1>
-  </article>
-
+  <!--Главный заголовок-->
+  <h1>Register</h1><hr>
+  <!--Форма входа в систему-->
+<form action="#" method="POST">
   <fieldset>
-    <legend><h3><mark>Please fill in this form to create an account</mark></h3></legend>
-    
-    <fieldset>
-    <label for="email">Email</label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-    <label for="psw">Password</label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    <label for="psw-repeat">Repeat Password</label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    <br>
-    <br>
-    <button type="submit">Send</button>
+      <legend><p><b><mark>Please fill in this form to create an account</mark></p></b></legend>
+      <label for="email">Email</label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="psw">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw-repeat">Repeat Password</label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <label><p>Your phone number:</p></label>
+      <label for="country code">Country code</label>
+      <input type="text" placeholder="Enter Code" name="Enter Code" required>
+      <label for="phone Number">Phone humber</label>
+      <input type="text" placeholder="Enter Number" name="Enter number" required>
     <p>Already have an account? <a href="#">Sign in</a>.</p>
     <label>
     <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
   </fieldset>
-    <br>
-    <fieldset>
-    <label>Enter your Login:</label>
-    <input type="text" placeholder="Enter Login" Enter Login="login" required>
-    <label>Enter your Password:</label>
-    <input type="text" placeholder="Enter Password" Enter Password="password" required>
-    <br>
-    <br>
-    <label>Your phone number:</label>
+  </form>
   <br>
-  <br>
-  <label for="country code">Country code</label>
-  <input type="text" placeholder="Enter Code" name="Enter Code" required>
+  <!--Форма входа в систему-->
 
-  <label for="phone Number">Phone humber</label>
-  <input type="text" placeholder="Enter Number" name="Enter number" required>
-  <br>
-  <br>
-  <button type="submit">Send</button>
-</fieldset>
-</fieldset>
-
+  <!--Форма для дополнительной информации-->
+  <form action="#" method="post">
   <fieldset>
-  <legend><h4><mark>Additional Information</mark></h4></legend>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    <article id="concent">
+    <legend><b><mark>Additional Information</mark></b></legend>
     <br>
-    <label for="city-select">Your City</label>
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <optgroup label="Latvia">
-        <option value="Riga">Riga</option>
-        <option value="Jelgava">Jelgava</option>
-        <option value="Balvi">Balvi</option>
-      </optgroup>
-      <optgroup label="Norway">
-        <option value="Oslo">Oslo</option>
-        <option value="Sandvika">Sandvika</option>
-      </optgroup>
-    </select>
-    <hr>
-    <h4><mark>Your gender</mark></h4> 
-<input type="radio">
-<label>Man</label>
+  <!--Форма для дополнительной информации-->
+ 
+  <!--Укажите имя, фамилию-->
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+   <!--Укажите имя, фамилию--> 
+
+<!--Укажите пол-->
+<h4>Your gender</h4> 
+<input type="radio" id="male" name="male" value="male" >
+<label for="male">Man</label><br>
+<input type="radio" id="female" name="female" value="female">
+<label for="female">Woman</label><br>
+    <!--Укажите пол-->
+   
+    <!--Укажите дату рождения-->  
+    <h4>Date of Birth</h4>
+    <input type="date" id="date" name="data" value="dd.mm.yyyy">
+    <!--Укажите дату рождения-->  
+   
+    <!--Укажите город ппроживания--> 
+    <h4>City of residence:</h4>
+        <select id="country" name="country">
+            <optgroup label="Latvia">
+              <option value="Riga">Riga</option>
+              <option value="Jelgava">Jelgava</option>
+              <option value="Balvi">Balvi</option>
+            </optgroup>
+            <optgroup label="Norway">
+               <option value="Oslo">Oslo</option>
+               <option value="Sandvika">Sandvika</option>
+           </optgroup>
+        </select><br>
+  </fieldset>
+  <!--Укажите город ппроживания-->
+ <br>
+  <!--указать хобби-->
+  <fieldset>
+    <legend><b><mark>Your Hobby</mark></b></legend>  
+    <table>
+          <tbody>
+ <!--<tr> строка
+      <td> колонки-->           
+            <tr>
+              <td>
+                <input type="checkbox" id="hobby1" name="hobby1" value="travel">
+                <label for="hobby1">Travel</label><br>
+              </td>
+              <td>
+                 <input type="checkbox" id="hobby1" name="hobby1" value="sport">
+                 <label for="hobby1">Sport</label><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="checkbox" id="hobby3" name="hobby3" value="programming">
+                  <label for="hobby3">Programming</label><br>
+            </td>
+            <td>
+                  <input type="checkbox" id="hobby4" name="hobby4" value="chess">
+                  <label for="hobby4">Chess</label><br>
+            </td>
+
+            <tr>
+            <td>
+                 <input type="checkbox" id="hobby1" name="hobby1" value="fishing">
+                 <label for="hobby1">Fishing</label><br>
+            </td>
+            <td>
+                 <input type="checkbox" id="hobby1" name="hobby1" value="to do nothing">
+                  <label for="hobby1">To do nothing</label><br>
+               </td>
+            </tr>
+        </tbody>
+    </table>
+  </fieldset>
 <br>
-<input type="radio">
-<label>Woman</label>
-<br>
-  <hr>
-  <h4><mark>Date of Birth</mark></h4>
-  <label for="firstname">FirstName: </label>
-  <br>
-   <input type="text" id="firstname" name="firstname"/>
-<br>
-   <label for="laststname">LastName: </label>
-   <br>
-    <input type="text" id="laststname" name="lasstname"/>
-  <br>
-  <br>
-    <label for="date">Date of Birth: </label>
-    <input type="date" id="date" name="date"/>
-    <hr>
-    <p><h4><mark>Place of residence</mark></h4></p>
-    <label for="city-select">Your City</label>
-    <select name="city" id="city-select">
-      <optgroup label="Latvia">
-        <option value="Riga">Riga</option>
-        <option value="Jelgava">Jelgava</option>
-        <option value="Balvi">Balvi</option>
-      </optgroup>
-      <optgroup label="Norway">
-        <option value="Oslo">Oslo</option>
-        <option value="Sandvika">Sandvika</option>
-      </optgroup>
-    </select>
-  <hr> 
-    <p>
-      <h4>
-      <legend><mark>Tell us about yourself:</mark></legend>
-    </h4>
-    </p>
-    <br>
-    <textarea id="story" name="story" rows="5" cols="53">Text</textarea>
-  <hr>
-    <legend><h4><mark>Hobby</mark></h4></legend>  
-  <p>You can choose any number of hobbies:</p>
-  <input type="checkbox">
-  <label>Travel</label>
-  <br>
-  <input type="checkbox">
-  <label>Sport</label>
-<br>
-<input type="checkbox">
-<label>Programming</label>
-<br>
-<input type="checkbox">
-<label>Play chess</label>
-<br>
-<input type="checkbox">
-<label>Fishing</label>
-<br>
-<input type="checkbox">
-<label>To do nothing</label>
+<!--fildset hobies-->
+
+<!--расказать о себе-->
+<fieldset>
+      <legend><b><mark>Tell about yourself:</mark></b></legend>
+      <textarea id="story" name="story" rows="5" cols="53">Text</textarea>
 </fieldset>
 <br>
-</fieldset>
-<br>
+<!--расказать о себе-->
+<!--кнопка отправить-->
   <button type="submit">Send</button>
+  <!--кнопка отправить-->
 </form>
 </body> 
 </html>
