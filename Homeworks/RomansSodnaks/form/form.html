@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+   <h2>Форма Регистрации</h2>
+   <form action="" method="get">
+        <fieldset>
+            <label for="login">Введите свой логин:</label>
+            <input type="text" name="login" id="login" required>
+            <label for="password">Введите пароль:</label>
+            <input type="password" name="password" id="password" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><span style="color:rgb(225, 192, 29)">Дополнительная информация о себе:</span></legend>
+            <h4>Укажите пол:</h4>
+                <input type="checkbox" name="gender" id="gender" required>
+                <label for="gender"> Мужской</label>
+                <br>
+                <input type="checkbox" name="gender" id="gender" required>
+                <label for="gender"> Женскый</label>
+            <h4>Укажите Дату рождения:</h4> 
+                <label for="DateOfBirth">День рождения:</label>
+                <input type="date" name="date" id="date" required>
+            <h4>Место проживания:</h4> 
+                <label for="login">Ваш город:</label>
+                <input type="text" name="login" id="login" required>
+        </fieldset>
+        <fieldset>
+                <legend><span style="color:rgb(225, 192, 29)">Ваши хобби:</span></legend>
+            <p>Можно выбрать любое количество увлеченый</p>
+                <input type="checkbox" name="hobby" id="hobby" required>
+                <label for="text">Путешествия</label>
+                <input type="checkbox" name="hobby" id="hobby" required>
+                <label for="text">Програмировать</label>
+                <br>
+                <input type="checkbox" name="hobby" id="hobby" required>
+                <label for="text">Рисовать</label>
+                <input type="checkbox" name="hobby" id="hobby" required>
+                <label for="text">Играть на музыкальных инструментах</label>
+        </fieldset>
+        <fieldset>
+            <legend><span style="color:rgb(225, 192, 29)">Своё поле:</span></legend>
+        </fieldset>
+        <fieldset>
+                <legend><span style="color:rgb(225, 192, 29)">Личные данные:</span></legend>
+            <h4>Укажите имя</h4>
+                <input type="text" name="FirstName" id="FirstName" required>
+                <br>
+            <h4>Укажите Фамилию</h4>
+                <input type="text" name="SecondName" id="SecondName" required>
+        </fieldset>
+        <br>
+        <button>Отправить</button>
+    </form>    
+</body>
+</html>
