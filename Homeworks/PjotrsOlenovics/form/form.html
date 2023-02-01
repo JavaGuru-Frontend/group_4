@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+  </head>
+  <body>
+      <!-- Форма регистрации -->
+      <hr>
+      <h2>Форма регистрации</h2>
+      <form action="" method="get">
+        <fieldset>
+          <label for="name">Введите свой логин:</label>
+          <input type="text" name="name" id="name" required>
+          <label for="password">Введите свой пароль:</label>
+          <input type="text" password="password" id="password" required>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Дополнительная информация о себе:</legend>        
+        <b>Укажите пол</b>
+        <p>
+                <label>Мужской</label>
+                <input type="radio"><br>
+                <label>Женский</label>
+                <input type="radio"><br>   
+                <label> <b> Дата рождения: </b></label>
+                <input type="date" id="date" name="date"/><br>
+                <label for="phone"><b>Телефон: </b></label>
+                <input type="tel" placeholder="(XXX)-XXX-XXXX" id="phone" name="phone"/><br>
+                <label for="city"><b>Ваш город:</b></label>
+                <select id="city" name="city">
+                    <option value="Riga">Riga</option>
+                    <option value="Ludza">Ludza</option>
+                    <option value="Helsinki">Helsinki</option>
+                    <option value="Vilnus">Vilnus</option>
+                </select>
+        </p>
+        </fieldset>
+        <fieldset>
+          <legend>Хобби:</legend>
+          <input type="checkbox" checked name="Путешествия"/>Путешествия
+          <input type="checkbox" checked name="Чтение"/>Чтение <br>
+          <input type="checkbox" checked name="Рисование"/> Рисование
+          <input type="checkbox" checked name="Фильмы"/>Фильмы <br> 
+        </fieldset>
+        <br>
+        <fieldset> 
+          <legend>Добавить документ:</legend>
+          <form enctype="multipart/form-data" method="post" action="http://localhost:8080/postfile.php">
+            <p>
+                <input type="file" name="file" />
+            </p>
+            <p>
+                <input type="submit" value="Отправить" />
+            </p>
+        </form>
+        </fieldset>
+        <fieldset>
+          <legend>My browser</legend>
+          <label for="my-browser">Выберите браузер из списка:</label>
+          <input list="browsers" id="my-browser" name="my-browser">
+          <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Yandex Browser">
+            <option value="Opera">
+            <option value="Safari">
+            <option value="Microsoft Edge">
+          </datalist>
+        </fieldset>
+      </form>
+      <fieldset>
+        <button type="submit">Отправить</button>
+      </fieldset>
+      <!-- Zeka check my homework please ;) -->
+  </body>
+</html>

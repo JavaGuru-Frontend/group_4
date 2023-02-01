@@ -1,0 +1,115 @@
+h1 {
+    color: rgb(0, 255, 110);
+    background-color:yellow;
+  }
+  h3 {
+    color: rgb(255, 85, 0);
+  }
+  fieldset{
+    background-color:yellow;
+
+  }
+  
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* скрываем дефолтный флажок */
+.container .check-highload {
+  position: absolute;
+  opacity: 0;
+}
+/* Создаем кастомный checkbox */
+.highload2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+/* При наведении указателя мыши перекрашиваем */
+.container:hover .check-highload ~ .highload2 {
+  background-color: #ccc;
+}
+/* Когда отмечен, то красим в зеленый цвет */
+.container .check-highload:checked ~ .highload2 {
+  background-color: green;
+}
+/* Создаем когда отмечено (не видно, когда не отмечено) */
+.highload2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Показываем когда отмечен */
+.container .check-highload:checked ~ .highload2:after {
+  display: block;
+}
+/* Стили индикатора */
+.container .highload2:after {
+  left: 8px;
+  top: 4px;
+  width: 8px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+
+
+input[type="radio"] + span {
+    display: inline-block;
+    position: relative;
+    padding-left: 1.5em;
+}
+input[type="radio"] + span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+input[type="radio"]:checked + span::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: calc(0.1em + 3px);
+    background-color: #ff151e;
+    width: calc(1em - 6px);
+    height: calc(1em - 6px);
+    border-radius: 50%;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    th, td:first-child {
+    background: #1474c7;
+    color: white;
+    padding: 10px 20px;
+    }
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+    td {
+    background: #d8f3da;
+    }
+    th:first-child, td:first-child {
+    text-align: left;
+    }

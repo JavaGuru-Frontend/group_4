@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #3a4037;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.header__section{
+    display: flex;
+    align-items: center;
+}
+.header__item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.header__item:hover{
+    background-color: #2f3043;
+    border-radius: 4px;
+}
+.headerlogo{
+    font-weight: bold;
+}
+.headerButton{
+    cursor: pointer;
+}

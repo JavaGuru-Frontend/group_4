@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Элемент select в HTML5</title>
+        <style>
+         
+           </style>
+           
+    </head>
+    <body>
+        <h1>Форма Регистрации</h1>
+        <form action="handler.html">
+            <div>
+                
+                <p><strong>Введите свой Логин:</strong>
+                    <input maxLength="15" size="20" name="login">   
+            <strong>Введите свой Пароль:</strong>
+                <input maxLenght="20" size="20" name="password"></p>
+            </div>
+
+            <fieldset>
+                <legend align="left">Дополнительная информация о себе</legend>
+            <div>
+                
+                <p><b>Укажите свой пол :</b><Br>
+                  <input type="radio" name="gender" value="man">Мужчина<br>
+                  <input type="radio" name="gender" value="woman">Женщина<br>  
+                </p>
+            
+                <p><b>Укажите откуда вы родом :</b><Br>
+                    <input type="radio" name="Country" value="L">Латвия<br>
+                    <input type="radio" name="Country" value="Alien">Переехал сюда с другой страны<br> 
+                </p>
+                
+                 <p>
+                 <label for="date">Дата рождения:</label>
+                 <input type="date" id="date" name="date"/></p>
+
+                 <p> 
+                    <label for="text">Место проживания:</label>
+                    <input type="text" id="place of residence" name="place of residence"/></p>
+                </div>
+            </fieldset>
+
+                <fieldset>
+
+                 <legend align="left">Ваше хобби</legend> 
+
+                <table>
+             <div align="justify">Можете выбрать любое количество увлечений :)</div>
+        
+            <table>
+                <tbody>        
+                    <tr>
+                        <td>
+                            <input type="checkbox"><label>Спорт</label><br>
+                        
+                         
+                            <input type="checkbox"><label>Музыка</label>
+                        </td>
+                        <td>   
+                            <input type="checkbox"><label>Путешествия</label><br>
+                        
+                            <input type="checkbox"><label>Програмирование</label>
+                        </td>
+                    </tr>   
+                </tbody>
+            </table>
+
+                </fieldset>
+            </table>
+            
+             <fieldset>
+                <legend align="left">Какой маркой телефона вы пользуетесь?</legend>
+
+                        
+                        <label for="phone">Выберите модель:</label>
+                        <select id="phone" name="phone">
+                        <option value="iphone ">iPhone </option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="Xiaomi">Xiaomi</option>
+                        </select>
+
+                   
+            </fieldset>
+                
+
+                <p>
+                    <input type="submit" value="Отправить" />
+                </p>
+            
+                
+
+
+
+
+
+
+
+        </form>
+
+        
+    </body>
+
+</html>
