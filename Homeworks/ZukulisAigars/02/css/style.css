@@ -1,0 +1,34 @@
+
+body {
+    background-color: coral;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#look {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: white;
+}
+/* idea with #look background image gradient failed, but I found animation instead, see H1 style bellow */
+h1 {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: white;
+    animation: h1animation 10s infinite;
+
+}
+@keyframes h1animation {
+    0% {color: red;}
+    25%{color:yellow;}
+    50%{color:green;}
+    75%{color:brown;}
+    100% {color: red;}
+  }
+
+h2 {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: yellow;
+}
