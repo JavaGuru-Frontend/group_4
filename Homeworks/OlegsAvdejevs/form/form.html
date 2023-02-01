@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Форма</title>
+  </head>
+   <!-- Form -->
+   <hr>
+   <h1>Форма Регистрации</h1>
+   <form action="" method="get">
+     <fieldset>
+       <label>Введите свой логин:</label>
+       <input>
+        <label>Введите свой пароль:</label>
+        <input>
+     </fieldset>
+     <fieldset>
+        <legend><mark>Дополнительная информация о себе</mark></legend>
+        <h3>Укажите ваш пол</h3>
+        <form>
+            <div class="form_radio">
+                <input id="Женский" type="radio" name="radio" value="1" checked>
+                <label for="Женский">Женский</label>
+            </div>
+             
+            <div class="form_radio">
+                <input id="Мужской" type="radio" name="radio" value="2">
+                <label for="Мужской">Мужской</label>
+            </div>
+    </form>
+    <h3>Укажите дату рождения</h3>
+    <label for="date">Дата Рождения: </label>
+                <input type="date" id="date" name="date"/>
+
+                <h3>Место проживания</h3>
+
+    <form>
+    <label for="my-city">Выберите город из списка:</label>
+    <input list="cities" id="my-city" name="my-city">
+    <datalist id="cities">
+      <option value="Париж">
+      <option value="Москва">
+      <option value="Рига">
+      <option value="Даугавпилс">
+      <option value="Дублин">
+      <option value="Просто Нигерия">
+    </datalist>
+</form>
+
+
+      <fieldset>
+        <fieldset>
+            <legend><mark>Хобби</mark></legend>
+            <h3>Укажите ваше хобби</h3>
+            <form>
+                <label class="container">Путишествия
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <form>
+                <label class="container">Здоровый и крепкий сон
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <form>
+                <label class="container">Поедание сосисек
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <form>
+                <label class="container">Загореть
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <form>
+                <label class="container">Прогулки с козлятами в деревне
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <form>
+                <label class="container">Выставки собак
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <form>
+                <label class="container">Смотреть Тик-Ток
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <form>
+                <label class="container">Полото огород
+                    <input type="checkbox" class="check-highload">
+                    <span class="highload2"></span>
+                  </label>
+            </form>
+            <legend>Button</legend>
+        <button type="submit">Отправить</button>
+      </fieldset>
+      
+
+      <table>
+        <tr>
+          <th>Рейтинг Компаний</th>
+          <th>Рига</th>
+          <th>Москва</th>
+          <th>Пекин</th>
+          <th>Берлин</th>
+          </tr>
+         <tr>
+          <td>Microsoft</td>
+          <td>20.3</td>
+          <td>30.5</td>
+          <td>23.5</td>
+          <td>40.3</td>
+         </tr>
+        <tr>
+          <td>Google</td>
+          <td>50.2</td>
+          <td>40.63</td>
+          <td>45.23</td>
+          <td>39.3</td>
+        </tr>
+        <tr>
+          <td>Apple</td>
+          <td>25.4</td>
+          <td>30.2</td>
+          <td>33.3</td>
+          <td>36.7</td>
+        </tr>
+        <tr>
+          <td>IBM</td>
+          <td>20.4</td>
+          <td>15.6</td>
+          <td>22.3</td>
+          <td>29.3</td>
+        </tr>
+        </table>
