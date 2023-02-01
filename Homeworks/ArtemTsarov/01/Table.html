@@ -1,61 +1,58 @@
-<!-- zeka (artemTsarov) 
-не закрыты тег <html>
-некоректная табуляция 
--->
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Форма Регистрации</title>
-  </head>
-  <body>
-	<h2>Форма Регистрации</h2>
-	<form action="" method="get">
-        <fieldset>
-          <label for="name">Введите свой логин:</label>
+  	<head>
+    	<meta charset="UTF-8">
+    	<title>Форма Регистрации</title>
+  	</head>
+ 	 <body>
+		<h2>Форма Регистрации</h2>
+		<form action="" method="get">
+        		<fieldset>
+          		<label for="name">Введите свой логин:</label>
 				<input type="text" name="name" id="name" required>
-		  <label for="name">Введите свой пароль:</label>
+		  		<label for="name">Введите свой пароль:</label>
 				<input type="text" name="name" id="name" required>
-        </fieldset>
-		<fieldset>
-          <legend><mark>Дополнительная информация о себе</mark></legend>
-		  <h4>Укажите пол</h4>
+        	</fieldset>
+			<fieldset>
+          		<legend><mark>Дополнительная информация о себе</mark></legend>
+		  		<h4>Укажите пол</h4>
 				<input type="radio">Мужской</input> <br>
 				<input type="radio">Женский</input>
-		  <h4>Укажите дату рождения</h4>
+		  		<h4>Укажите дату рождения</h4>
 				<input type="date" id="start" name="trip-start"
-			value="2023-01-21"
-			min="1900-01-01" max="2023-01-21">
-		  <h4>Укажите место проживания</h4>
-			<label for="name">Ваш город:</label>
+				value="2023-01-21"
+				min="1900-01-01" max="2023-01-21">
+		  		<h4>Укажите место проживания</h4>
+				<label for="name">Ваш город:</label>
 				<input type="text" name="name" id="name" required>
-		  </fieldset>
-		  <fieldset>
-			<legend><mark>Ваши хобби:</mark></legend>
-		  <label>
-			<p>Можно выбрать любое количество увлечений</p>
-			  <input type="checkbox">
-                Путешествия
-			  <input type="checkbox">
-                Програмировать  <br>
-			  <input type="checkbox">
-                Рисовать     
-			  <input type="checkbox">
-                Играть на музыкальных инструментах
-          </label>
-		  </fieldset>
-		  <fieldset>
-			<legend><mark>Используемый браузер:</mark></legend>
-			<label for="my-browser">Выберите браузер из списка:</label>
-          <input list="browsers" id="my-browser" name="my-browser">
-			<datalist id="browsers">
-				<option value="OperaGX">
-				<option value="Google Chrome">
-				<option value="Safari">
-				<option value="Mozila Firefox">
-				<option value="Microsoft Edge">
-				<option value="Internet Explorer">
-			</datalist>
-	</form>
-  </body>
+		  	</fieldset>
+		  	<fieldset>
+				<legend><mark>Ваши хобби:</mark></legend>
+		  		<label>
+					<p>Можно выбрать любое количество увлечений</p>
+			  		<input type="checkbox">
+                	Путешествия
+					<input type="checkbox">
+                	Програмировать  <br>
+			  		<input type="checkbox">
+                	Рисовать     
+			  		<input type="checkbox">
+					Играть на музыкальных инструментах
+          		</label>
+		  	</fieldset>
+		  	<fieldset>
+				<legend><mark>Используемый браузер:</mark></legend>
+				<label for="my-browser">Выберите браузер из списка:</label>
+				<input list="browsers" id="my-browser" name="my-browser">
+				<datalist id="browsers">
+					<option value="OperaGX">
+					<option value="Google Chrome">
+					<option value="Safari">
+					<option value="Mozila Firefox">
+					<option value="Microsoft Edge">
+					<option value="Internet Explorer">
+				</datalist>
+			</fieldset>
+		</form>
+	</body>
+</html>
