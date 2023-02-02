@@ -1,9 +1,11 @@
-body {background-color: rgb(201, 190, 184);}
-
-p{
-    font-family: 'Courier New', Courier, monospace;
+body {
+  background-color: rgb(201, 190, 184);
 }
 
-li{
-    font-family: 'Courier New', Courier, monospace;
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+li {
+  font-family: "Courier New", Courier, monospace;
 }
