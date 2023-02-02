@@ -4,6 +4,7 @@ https://github.com/JavaGuru-Frontend/group_4
 ## Лекции
 [00-Вводная](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/00/00-Intro.pdf)  
 [01-HTML](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/01-HTML/1-HTML.pdf)   
+[02-CSS / синтаксис / каскадность / специфичность / единицы измерения](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/01-CSS/1-CSS.pdf) 
 [02-CSS](https://github.com/JavaGuru-Frontend/group_4/blob/main/Lectures/01-CSS/1-CSS.pdf) 
 
 ## Домашние работы 
@@ -13,6 +14,7 @@ https://github.com/JavaGuru-Frontend/group_4
 
 
 ## Выполнение работ
+
 | github            | Student                       | 0 | 1 | 2 |
 :--------------     | :------------------------     |:-:|:-:|:-:|
 | axo987            | Andrejs	    Holavskis       | ✓ |   |   |

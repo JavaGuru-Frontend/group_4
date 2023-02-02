@@ -1,0 +1,64 @@
+/*
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2dGloKNQMlquVSMCwtLG1NK3MAeV9rSjp2Q&usqp=CAU);
+  }*/
+  body {
+     font-size: 16px; 
+    }
+    /*
+    body 
+    {
+        font-size: 100%; 
+    }
+    */
+  h1 {
+    color: #8133ff;
+    font-size: 300%;
+    }
+
+  h2 {
+    background: green;
+    border-color: blue;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 200%;
+    }
+ h3 {
+    color: plum;
+    font-size: 150%;
+    }
+ h4 {
+    color: #ff3344;
+    font-size: 24px;
+    font-size: 100%;
+     }
+h5 {
+    color: #33ff3d;
+    font-size: 70%;
+     }
+
+h6 {
+     color: #b1ff33;
+    font-size: 50%;
+         }
+ p {
+    background: rgb(216, 219, 216);
+    border-color: rgb(192, 181, 176);
+    border-width: 3px;
+    border-style: solid;
+}
+/* меняем цвет фона в списках*/
+li {
+background-color: aquamarine;
+}
+/* меняем цвет фона в списках*/
+
+/* меняем цвет текста по классу*/
+.other-text 
+ {
+  color: blueviolet; 
+ }
+/* меняем цвет текста по классу*/
+
+
+  

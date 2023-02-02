@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +12,7 @@
     <!--Подключение стилей-->
 
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
 
     <!--Подключение шрифтов-->
 
@@ -25,11 +24,19 @@
     <title>Homework</title>
 </head>
 
-<body style="background-color: blueviolet;">
+<body>
+    </header>
     <div class="container">
-
-        <!--Заголовок страницы-->
-        <h1>Homework</h1>
+        <header class="page-header">
+            <h1 id="page-title" class="tiltle">My page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#top">About me</a></li>
+                    <li><a href="#pop">Place and work experience</a></li>
+                    <li><a href="#spot">My contacts</a></li>
+                </ul>
+            </nav>
+        </header>
         <hr>
 
         <!--Картинка-->
@@ -38,8 +45,8 @@
 
         <!--Информация обо мне-->
 
-        <h1>About me:</h1>
-        <h3>Hello!My name is Vladislavs Ruskulis I am from Daugavpils. I am a motivated
+        <h1><a id="top">About me:</a></h1>
+        <div class="a">Hello!My name is Vladislavs Ruskulis I am from Daugavpils. I am a motivated
             and ambitious Front-end
             Developer who enjoy
             solving complex problems and helping my team to succeed am naturally
@@ -47,12 +54,12 @@
             achievable actions.
             am looking for opportunities where I can to learn, solving problems with a team
             of ambitious people.
-        </h3>
+        </div>
         <br>
 
         <!--Контактные данные-->
 
-        <h1>Place and work experience:</h1>
+        <h1><a id="pop">Place and work experience:</a></h1>
 
         <!--Таблица-->
 
@@ -79,7 +86,7 @@
             </tbody>
         </table>
         <br>
-        <h1>My contacts:</h1>
+        <h1><a id="spot">My contacts:</a></h1>
         <address>
             My phone:<a href="+37124226777">+37124226777</a>
             <br>
