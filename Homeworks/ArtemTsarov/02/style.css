@@ -1,43 +1,28 @@
-/* zeka (ArtemTsarov) 
-можно унифицировать код и установить значение шрифта один раз для body
-
-body{
-    font-family: 'Oswald', sans-serif;
-}
-
-и нам не придёться держать эту строчку в 6 местах
- */
-
 body{
     background-color: rgb(166, 166, 166);
+    font-family: 'Oswald', sans-serif;
 }
 h1{
     font-size: 50px;
-    font-family: 'Oswald', sans-serif;
 }
 h4{
     font-size: 30px;
-    font-family: 'Oswald', sans-serif;
     color:darkslategrey;
 
 }
 h3{
     font-size: 25px;
-    font-family: 'Oswald', sans-serif;
     color:darkslategrey;
 }
 a{
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
     color:rgb(0, 0, 0);
 }
 address{
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
     color:rgb(73, 0, 0);
 }
 b{
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
     color:rgb(135, 0, 0);
 }
