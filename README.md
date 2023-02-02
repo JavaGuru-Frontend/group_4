@@ -18,8 +18,8 @@ https://github.com/JavaGuru-Frontend/group_4
 | github            | Student                       | 0 | 1 | 2 |
 :--------------     | :------------------------     |:-:|:-:|:-:|
 | axo987            | Andrejs	    Holavskis       | ✓ |   |   |
-| Tsarov19          | Artem         Tsarov          | ✓ | ? |   |
-| ArtemCikun        | Artem         Cikuns          | ✓ | * |   |
+| Tsarov19          | Artem         Tsarov          | ✓ | ✓ | ? |
+| ArtemCikun        | Artem         Cikuns          | ✓ | ✓ | ? |
 | DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ | * |   |
 | Irvita74          | Irina	        Hohotva         | ✓ |   |   |
 | JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |   |   |

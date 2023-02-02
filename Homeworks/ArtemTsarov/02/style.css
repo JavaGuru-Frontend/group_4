@@ -1,3 +1,13 @@
+/* zeka (ArtemTsarov) 
+можно унифицировать код и установить значение шрифта один раз для body
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+и нам не придёться держать эту строчку в 6 местах
+ */
+
 body{
     background-color: rgb(166, 166, 166);
 }
