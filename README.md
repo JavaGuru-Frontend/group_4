@@ -15,26 +15,23 @@ https://github.com/JavaGuru-Frontend/group_4
 
 ## Выполнение работ
 
-| github            | Student                       | 0 | 1 | 2 |
-:--------------     | :------------------------     |:-:|:-:|:-:|
-| axo987            | Andrejs	    Holavskis       | ✓ |   |   |
-| Tsarov19          | Artem         Tsarov          | ✓ | ✓ | ? |
-| ArtemCikun        | Artem         Cikuns          | ✓ | ✓ | ? |
-| DmitrijsBorodins  | Dmitrijs      Borodins        | ✓ | * |   |
-| Irvita74          | Irina	        Hohotva         | ✓ |   |   |
-| JevgneijVoronov   | Jevgenij	    Voronov         | ✓ |   |   |
-|                   | Julija	    Maksimova       | ✓ |   |   |
-| KirillsSokolovs   | Kirills	    Sokolovs        | ✓ |   |   |
-| Satemmka          | Marina	    Kuznecova       | ✓ | * |   |
-| maklaj90          | Oleg          Avdejevs        | ✓ | * |   |
-| 7Pierre           | Pjotr         Olenovics       | ✓ | * |   |
-| Evirum            | Sergejs	    Fadins          | ✓ | * |   |
-| ChiuRiu           | Stanislavs	Savluks         | ✓ | * |   |
-| Ruskulis94        | Vladislavs	Ruskulis        | * | * | * |
-| ArtemCikun        | Artem         Cikuns          | ✓ |   |   |
-| Karina-kapliar    | Karina        Kapliar         | ✓ | * |   |
-| Natalija82        | Natalija	    Sapronenko      |   |   |   |
-| Davron96          | Davronbek	    Yusupjonov      |   |   |   |
-|                   | Romans 	    Šodnaks         | * |   |   |
-| Koreskov          |                               | * |   |   |
-| azukulis          | Aigars	    Zukulis         | ✓ | ✓ | ✓ |
+| Student               | Github           | 0 | 1 | 2 |
+| :-------------------- | :--------------- |:-:|:-:|:-:|
+| Andrejs	  Holavskis | axo987           | ✓ |   |   |
+| Artem       Tsarov    | Tsarov19         | ✓ | ✓ | ? |
+| Artem       Cikuns    | ArtemCikun       | ✓ | ✓ |   |
+| Dmitrijs    Borodins  | DmitrijsBorodins | ✓ | ✓ |   |
+| Irina	      Hohotva   | Irvita74         | ✓ |   |   |
+| Jevgenij	  Voronov   |                  | ✓ |   |   |
+| Julija	  Maksimova |                  | ✓ |   |   |
+| Karina      Kapliar   | Karina-kapliar   | ✓ | * |   |
+| Kirills	  Sokolovs  | KirillsSokolovs  | ✓ | * |   |
+| Marina	  Kuznecova | Satemmka         | ✓ | ✓ | ✓ |
+| Oleg        Avdejevs  | maklaj90         | ✓ | * |   |
+| Pjotr       Olenovics | 7Pierre          | ✓ | * |   |
+| Romans 	  Šodnaks   |                  | * | ✓ |   |
+| Sergejs     Fadins    | Evirum           | ✓ | ? |   |
+| Stanislavs  Savluks   | ChiuRiu          | ✓ | ? |   |
+| Viktor      Koreskov  | Koreskov         | * |   |   |
+| Vladislavs  Ruskulis  | Ruskulis94       | * | * | ? |
+| Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ |
