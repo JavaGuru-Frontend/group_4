@@ -10,10 +10,12 @@ body {
 }
 
 #look {
+    /* zeka(AigarsZukulis) its better to setup font-family for body this font will applys over all page  */
     font-family: Tahoma, Verdana, sans-serif;
     color: white;
 }
 /* idea with #look background image gradient failed, but I found animation instead, see H1 style bellow */
+/* zeka(AigarsZukulis) animations really nice */
 h1 {
     font-family: Tahoma, Verdana, sans-serif;
     color: white;
