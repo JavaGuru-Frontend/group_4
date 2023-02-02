@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+section {
+    padding: 50px;
+    min-height: 20vh;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: #f0c010;
+}
+
+a {
+    color: white;
+}
