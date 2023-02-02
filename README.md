@@ -22,7 +22,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | Artem       Cikuns    | ArtemCikun       | ✓ | ✓ |   |
 | Dmitrijs    Borodins  | DmitrijsBorodins | ✓ | ✓ |   |
 | Irina	      Hohotva   | Irvita74         | ✓ |   |   |
-| Jevgenij	  Voronov   |                  | ✓ |   |   |
+| Jevgenij	  Voronov   |                  | ✓ | ✓ | ✓ |
 | Julija	  Maksimova |                  | ✓ |   |   |
 | Karina      Kapliar   | Karina-kapliar   | ✓ | * |   |
 | Kirills	  Sokolovs  | KirillsSokolovs  | ✓ | * |   |
