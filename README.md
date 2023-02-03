@@ -10,7 +10,7 @@ https://github.com/JavaGuru-Frontend/group_4
 ## Домашние работы 
 [00](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/00/homework.md)  
 [01](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/01/Homework.md)  
-[02](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/02/Homework.md) 
+[02](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/02/Homework.md)   
 [03](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/03/Homework.md)
 
 
