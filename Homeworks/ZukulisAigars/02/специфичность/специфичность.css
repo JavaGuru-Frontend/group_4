@@ -1,0 +1,42 @@
+/* Укажите специфичность в коментариях */
+
+p {}    
+/*1*/                               
+
+.titleClass {}  
+/*10*/                       
+
+#titleId {}    
+/*100*/                         
+
+p.titleClass {}  
+/*11*/                       
+
+p#titleId {}   
+/*101*/                         
+
+p#titleId.titleClass1.titleClass2 {}   
+/*121*/
+
+p em {}            
+/*2*/                     
+
+p .class {}    
+/*11*/                         
+
+p .class {                              
+    color: red !important
+}                             
+/*1011*/
+
+/*  какое из свойств будет применено 
+    указать знаками < или = или >
+    пример  (em) < (.class)
+    em 0.0.1
+    .class 0.1.0
+*/
+
+(p em) /* 2 < 11 */ (p.class) 
+(#m_d) /* 100 > 11 */ (em.m_cl)
+(div p#my_id span) /* 103 < 112 */ (div[title*="City"] span#s_id) 
+(div>div.my_class p[contenteditable].red_color span:hover) /* 44 > 25 */ (div p+div[title="css"] p.green_color span) 

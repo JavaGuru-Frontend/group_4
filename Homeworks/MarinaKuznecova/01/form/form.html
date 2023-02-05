@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>  
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+   </head>
+  <body>
+  <!--Главный заголовок-->
+  <h1>Register</h1><hr>
+  <!--Форма входа в систему-->
+<form action="#" method="POST">
+  <fieldset>
+      <legend><p><b><mark>Please fill in this form to create an account</mark></p></b></legend>
+      <label for="email">Email</label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="psw">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw-repeat">Repeat Password</label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <label><p>Your phone number:</p></label>
+      <label for="country code">Country code</label>
+      <input type="text" placeholder="Enter Code" name="Enter Code" required>
+      <label for="phone Number">Phone humber</label>
+      <input type="text" placeholder="Enter Number" name="Enter number" required>
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+    <label>
+    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+  </fieldset>
+  </form>
+  <br>
+  <!--Форма входа в систему-->
+
+  <!--Форма для дополнительной информации-->
+  <form action="#" method="post">
+  <fieldset>
+    <legend><b><mark>Additional Information</mark></b></legend>
+    <br>
+  <!--Форма для дополнительной информации-->
+ 
+  <!--Укажите имя, фамилию-->
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+   <!--Укажите имя, фамилию--> 
+
+<!--Укажите пол-->
+<h4>Your gender</h4> 
+<input type="radio" id="male" name="male" value="male" >
+<label for="male">Man</label><br>
+<input type="radio" id="female" name="female" value="female">
+<label for="female">Woman</label><br>
+    <!--Укажите пол-->
+   
+    <!--Укажите дату рождения-->  
+    <h4>Date of Birth</h4>
+    <input type="date" id="date" name="data" value="dd.mm.yyyy">
+    <!--Укажите дату рождения-->  
+   
+    <!--Укажите город ппроживания--> 
+    <h4>City of residence:</h4>
+        <select id="country" name="country">
+            <optgroup label="Latvia">
+              <option value="Riga">Riga</option>
+              <option value="Jelgava">Jelgava</option>
+              <option value="Balvi">Balvi</option>
+            </optgroup>
+            <optgroup label="Norway">
+               <option value="Oslo">Oslo</option>
+               <option value="Sandvika">Sandvika</option>
+           </optgroup>
+        </select><br>
+  </fieldset>
+  <!--Укажите город ппроживания-->
+ <br>
+  <!--указать хобби-->
+  <fieldset>
+    <legend><b><mark>Your Hobby</mark></b></legend>  
+    <table>
+          <tbody>
+ <!--<tr> строка
+      <td> колонки-->           
+            <tr>
+              <td>
+                <input type="checkbox" id="hobby1" name="hobby1" value="travel">
+                <label for="hobby1">Travel</label><br>
+              </td>
+              <td>
+                 <input type="checkbox" id="hobby1" name="hobby1" value="sport">
+                 <label for="hobby1">Sport</label><br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="checkbox" id="hobby3" name="hobby3" value="programming">
+                  <label for="hobby3">Programming</label><br>
+            </td>
+            <td>
+                  <input type="checkbox" id="hobby4" name="hobby4" value="chess">
+                  <label for="hobby4">Chess</label><br>
+            </td>
+
+            <tr>
+            <td>
+                 <input type="checkbox" id="hobby1" name="hobby1" value="fishing">
+                 <label for="hobby1">Fishing</label><br>
+            </td>
+            <td>
+                 <input type="checkbox" id="hobby1" name="hobby1" value="to do nothing">
+                  <label for="hobby1">To do nothing</label><br>
+               </td>
+            </tr>
+        </tbody>
+    </table>
+  </fieldset>
+<br>
+<!--fildset hobies-->
+
+<!--расказать о себе-->
+<fieldset>
+      <legend><b><mark>Tell about yourself:</mark></b></legend>
+      <textarea id="story" name="story" rows="5" cols="53">Text</textarea>
+</fieldset>
+<br>
+<!--расказать о себе-->
+<!--кнопка отправить-->
+  <button type="submit">Send</button>
+  <!--кнопка отправить-->
+</form>
+</body> 
+</html>

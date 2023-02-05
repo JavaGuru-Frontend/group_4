@@ -1,0 +1,18 @@
+/* 
+    основной размер шрифта для body 16px
+    h1 в три раза больше  
+    h2 в два раза больше  
+    h3 в полтора раза больше  
+    h4 размер базового шрифта   
+    h5 меньше на треть  
+    h6 меньше на половину  
+*/
+
+html { font-size: 16px; }
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: .75rem; }
+h6 { font-size: .5rem; }
