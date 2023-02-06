@@ -31,7 +31,7 @@ https://github.com/JavaGuru-Frontend/group_4
 | Karina      Kapliar   | Karina-kapliar   | ✓ | * |   |
 | Kirills	  Sokolovs  | KirillsSokolovs  | ✓ | * |   |
 | Marina	  Kuznecova | Satemmka         | ✓ | ✓ | ✓ |
-| Oleg        Avdejevs  | maklaj90         | ✓ | * |   |
+| Oleg        Avdejevs  | maklaj90         | ✓ | * | * |
 | Pjotr       Olenovics | 7Pierre          | ✓ | * |   |
 | Romans 	  Šodnaks   |                  | * | ✓ |   |
 | Sergejs     Fadins    | Evirum           | ✓ | ? |   |
