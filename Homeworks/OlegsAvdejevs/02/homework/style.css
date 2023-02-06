@@ -1,0 +1,21 @@
+body { background: #f2f2f2;}
+
+main.head{
+font-size: 15px;
+font-weight: 700;
+}
+
+mark.green { 
+    background-color: rgb(96, 239, 60);
+    color: rgb(247, 9, 9);
+  }
+
+ p.rotate{
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    color:blue;
+    transform-origin: top right;
+    rotate: 30deg;
+
+ }
