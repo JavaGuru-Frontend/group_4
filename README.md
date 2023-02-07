@@ -39,3 +39,11 @@ https://github.com/JavaGuru-Frontend/group_4
 | Viktor      Koreskov  | Koreskov         | * |   |   |
 | Vladislavs  Ruskulis  | Ruskulis94       | * | * | ✓ |
 | Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ |
+
+
+
+
+
+
+
+test 
