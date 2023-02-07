@@ -1,0 +1,46 @@
+body * + * { margin-top: 1.5em;}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ---------------------------
+             GRIDS
+------------------------------ */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+  
+.grid-container > div {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+  
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-item:nth-child(2n + 2) {
+    background-color: rgb(0, 255, 217);
+}
