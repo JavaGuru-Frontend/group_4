@@ -1,6 +1,6 @@
-@import url(../styles/bem-large.css);
-@import url(../styles/bem-small.css);
-@import url(../styles/bem-extra-small.css);
+@import url(../css/bem-large.css);
+@import url(../css/bem-small.css);
+@import url(../css/bem-extra-small.css);
 
 .Normal {
     padding-left: 10px;
