@@ -53,7 +53,7 @@
     color: black;
     border: 0px;
     border-radius: 10px;
-    font-size: large
+    font-size: large;
 }
 
 .Large__link {
@@ -61,5 +61,5 @@
     padding: 20px 55px;
     border: 0px;
     border-radius: 10px;
-    font-size: large
+    font-size: large;
 }
