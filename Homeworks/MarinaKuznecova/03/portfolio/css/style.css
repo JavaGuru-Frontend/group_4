@@ -1,0 +1,97 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Playfair+Display:ital@1&display=swap');
+@import url('./navigation.css');
+@import url('./common.css');
+
+section {
+   padding: 50px;
+   min-width: 20vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   color: yellow;
+}
+
+a {
+   color: white;
+}
+
+div {
+   height: 100px;
+   width: 100px;
+   border: 1px solid red;
+   padding: 10px;
+   margin: 10px;
+   display: inline-block;
+      /*position: absolute; */
+
+}
+.boxModel {
+   height: 10px;
+   width: 10px;
+   border: 5px solid hotpink;
+   box-sizing: border-box;
+   background-color: aqua;
+   width: 50vw;
+   height: 50vw;
+   margin: 50px;
+   padding: 20px;
+   border: 5px solid hotpink;
+   border-radius: 30px;
+   display: inline-block;
+   border-color: green;
+   border-style: dotted;
+}
+
+.boxModel2 {
+   height: 10px;
+   width: 10px;
+   border: 5px solid rgb(255, 52, 17);
+   box-sizing: border-box;
+   background-color: red;
+   width: 200vw;
+   height: 150vw;
+   margin: 50px;
+   padding: 20px;
+   border: 5px solid hotpink;
+   border-radius: 30px;
+   display: inline-block;
+}
+
+.flex-container > div {
+   background-color: #CAFF33;
+   margin: 10px;
+   width: 75px;
+   height: 75px;
+padding: 20px;
+font-size: 30px;
+}
+/*
+.logo{
+   color: #CAFF33;
+   font-size: 75px;
+   letter-spacing: 2px;
+   cursor: pointer;
+}
+
+
+/*.header {}
+.header__logo {}
+.header__search {} */
+
+
+/*
+
+.header__btn {
+    width: 100px;
+    background-color: rgb(95, 95, 95);
+} 
+
+.header__btn_ok {
+   background-color: rgb(0, 255, 64);
+}  
+.header__btn_delite {
+   background-color: red;
+}  
+
+*/
