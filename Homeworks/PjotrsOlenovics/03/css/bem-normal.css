@@ -1,0 +1,63 @@
+@import url(../css/bem-large.css);
+@import url(../css/bem-small.css);
+@import url(../css/bem-extra-small.css);
+
+.Normal {
+    padding-left: 10px;
+}
+
+.Normal__Primary {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.Normal__danger {
+    background-color: red;
+    padding: 10px 30px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.Normal__warning {
+    background-color: orange;
+    padding: 10px 30px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.Normal__info {
+    background-color: rgb(73, 209, 214);
+    padding: 10px 20px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.Normal__success {
+    background-color: green;
+    padding: 10px 30px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.Normal__default {
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 0%;
+    border-radius: 10px;
+}
+
+.Normal__link {
+    color: blue;
+    padding: 10px 30px;
+    border: 0px;
+    background-color: white;
+    border-radius: 10px;
+}
