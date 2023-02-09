@@ -1,0 +1,66 @@
+.Large {
+    padding-left: 10px;
+}
+
+.Large__Primary {
+    background-color: blue;
+    color: white;
+    padding: 20px 55px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.Large__danger {
+    background-color: red;
+    padding: 20px 55px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.Large__warning {
+    background-color: orange;
+    padding: 20px 55px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.Large__info {
+    background-color: rgb(73, 209, 214);
+    padding: 20px 55px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.Large__success {
+    background-color: green;
+    padding: 20px 55px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large
+}
+
+.Large__default {
+    background-color: white;
+    padding: 20px 55px;
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.Large__link {
+    color: blue;
+    padding: 20px 55px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: white;
+}
