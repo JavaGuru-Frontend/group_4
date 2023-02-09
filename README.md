@@ -17,6 +17,9 @@ https://github.com/JavaGuru-Frontend/group_4
 ## Решение работ 
 [JevgenijVoronov](https://github.com/JavaGuru-Frontend/group_4/tree/main/Homeworks/JevgenijVoronov)   
 
+## Сайт портфолио с нуля  
+[Репозиторий](https://github.com/JavaGuru-Frontend/Portfolio)  
+
 ## Выполнение работ
 
 | Student               | Github           | 0 | 1 | 2 |
@@ -39,13 +42,3 @@ https://github.com/JavaGuru-Frontend/group_4
 | Viktor      Koreskov  | Koreskov         | * |   |   |
 | Vladislavs  Ruskulis  | Ruskulis94       | * | * | ✓ |
 | Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ |
-
-
-
-
-
-
-
-test 
-
-test3
