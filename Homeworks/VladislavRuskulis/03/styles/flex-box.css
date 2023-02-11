@@ -1,0 +1,16 @@
+@import url(./flex-container.css);
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.flex-container>div {
+    background-color: lightgrey;
+    margin: 10px;
+    width: 75px;
+    padding: 20px;
+    font-size: 30px;
+}
+

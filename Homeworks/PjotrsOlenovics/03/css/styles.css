@@ -1,0 +1,42 @@
+@import url(../css/navigation.css);
+
+th,
+td {
+    border: 2px solid rgb(161, 13, 124);
+}
+
+body {
+    font-family: 'Solitreo', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43, 39, 41);
+
+}
+
+.conteiner__item {
+    max-width: 800px;
+    background-color: rgb(219, 216, 15);
+    padding: 20px;
+}
+
+div.a {
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(161, 13, 124);
+}
+img{
+    width: 50%;
+}
