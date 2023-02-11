@@ -1,0 +1,51 @@
+th,
+td {
+    border: 2px solid rgb(161, 13, 124);
+}
+
+body {
+    font-family: 'Solitreo', cursive;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(219, 216, 15);
+}
+
+div.a {
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul a {
+    color: yellow;
+    background-color: rgb(161, 13, 124);
+    padding: 5px;
+    border-radius: 2px;
+    cursor: context-menu;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+h1 {
+    color: rgb(161, 13, 124);
+}

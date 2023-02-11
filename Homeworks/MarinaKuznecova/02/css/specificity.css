@@ -1,0 +1,46 @@
+p
+/*0.0.0.0.1*/
+.titleClass 
+/*0.0.0.1.0*/
+/*(p)< (.class)*/
+
+#titleId 
+/*0.0.1.1.0*/ 
+p.titleClass 
+/*0.0.0.1.1*/
+/*(#titleId) > (p.titleClass)*/                     
+
+p#titleId
+/*{0.0.1.1.1*/                           
+p#titleId.titleClass1.titleClass2
+/*1.0.1.3.1*/   
+/*(p#titleId) < p#titleId.titleClass1.titleClass2 */                           
+  
+p em 
+/*0.0.0.0.2*/                                 
+p .class 
+/*0.0.0.1.1*/  
+/*(p em) < (p .class) */                            
+                          
+/p .class {                              
+    color: red !important
+}                        
+/*1.0.0.1.1*/
+
+/*  какое из свойств будет применено 
+    указать знаками < или = или >
+    пример  (em) < (.class)
+    em 0.0.1
+    .class 0.1.0
+*/
+/*0.0.0.0.2  0.0.0.1.1*/
+/*(p em) < (p.class)*/ 
+
+/*0.0.1.0.0  0.0.0.1.1*/
+/*(#m_d) > (em.m_cl)*/
+
+/*0.0.1.0.3    0.0.2.0.2*/
+/*(div p#my_id span) < (div[title*="City"] span#s_id) 
+
+/*0.0.0.1.5*/                                                         /*0.0.0.1.5*/
+/*(div>div.my_class p[contenteditable].red_color span:hover)/* = *(div p+div[title="css"] p.green_color span)*/

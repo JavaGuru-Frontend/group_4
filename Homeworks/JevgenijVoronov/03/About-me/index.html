@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jevgenijs Voronovs | Front end developer</title>
+    <meta name="description" content="Jevgenijs Voronovs | Front end developer">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="header">
+                <li class="header__item"><a href="#work-experience" >Work experience</a></li>
+                <li class="header__item"><a href="#education">Education</a></li>
+                <li class="header__item"><a href="#skills">Skills</a></li>
+                <li class="header__item"><a href="#faq">FAQ</a></li>
+                <li class="header__item"><a href="#languages">Languages</a></li>
+                <li class="header__item"><a href="#contactme">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ABOUT ME -->
+        <section id="aboutme" class="main">
+            <address>
+                <p 
+                    class="main__preTitle" 
+                    data-animation="slideInUp"
+                    data-animation-delay="0.5"
+                >
+                    FRONTEND DEVELOPER
+                </p>
+                <h1 class="main__title"
+                    data-animation="slideInLeft"
+                    data-animation-delay="2"
+                >Jevgenijs Voronovs</h1>
+                <a class="main__contactInfo" href="https://linkedin.com/in/jevgenijsvoronovs/" target="_blank">LinkedIn</a><br>
+                <a class="main__contactInfo" href="mailto:jevgenijs.voronovs@gmail.com">jevgenijs.voronovs@gmail.com</a><br>
+                <a class="main__contactBtn" href="#contactme">CONTACT ME</a>
+            </address>
+        </section>
+        <!-- /ABOUT ME -->
+        <!-- WORK EXPERIENCE -->
+        <section id="work-experience" class="workExperience">
+            <h2>Work experience</h2>
+
+            <h3>Intexsys, Riga | Front-end developer</h3>
+            <h4>August 2016 – present</h4>
+
+            <ul class="workExperience__item">
+                <li>Participating in code and technical reviews;</li>
+                <li>Performing quality assurance and troubleshooting code rendering across multiple desktop and mobile devices;</li>
+                <li>Launching A/B tests using Google Optimize software;</li>
+                <li>Providing introductory and ongoing training for new frontend team members;</li>
+                <li>Working with PM to keep on track with the project plan and timeline;</li>
+                <li>Working closely with backend team to ensure that website functionality meets project requirements;</li>
+                <li>Participated in all-hands meeting across multiple frontend teams within company to discuss new feature implementation;</li>
+                <li>Participated in the initial wave of developers learning and implementing the React.JS library and rewriting legacy code to React framework.</li>
+            </ul>
+
+            <h3>Aligorex IT Services, Riga | Graphic web designer, Frontend developer</h3>
+            <h4>February 2014 – August 2016</h4>
+
+            <ul class="workExperience__item">
+                <li>Designed web page mockups using Adobe Photoshop software</li>
+                <li>Creating responsive landing pages using HTML, CSS and Javascript technologies</li>
+                <li>Maintained and updated website functionality in collaboration with backend developers</li>
+            </ul>
+        </section>
+        <!-- /WORK EXPERIENCE -->
+        <!-- SKILLS -->
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <h4>In the everyday work I'm using the following skills and technologies</h4>
+            <ul class="skills__item">
+                <li>HTML5</li>
+                <li>CSS3 (LESS)</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React JS</li>
+                <li>Redux/Saga</li>
+                <li>Jest</li>
+                <li>jQuery</li>
+                <li>Git</li>
+                <li>Bootstrap</li>
+                <li>Responsive UI</li>
+                <li>Adobe Lightroom</li>
+                <li>Adobe Photoshop</li>
+                <li>Google Optimize</li>
+            </ul>
+
+            <h4>I’m also interested in following technologies, which i’m using for my side projects</h4>
+            <ul class="skills__item">
+                <li>Next.JS</li>
+                <li>Vue.JS</li>
+                <li>Gatsby</li>
+                <li>Tailwind CSS</ul>
+            </ul>
+        </section>
+        <!-- SKIllS -->
+        <!-- EDUCATION -->
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <p>Latvia University of Life Sciences and Technologies, Jelgava – Bachelor's degree <em>2013 – 2016 (unfinished)</em></p>
+            <p> Jelgavas 5. vidusskola, Jelgava <em>2010 – 2013</em></p>
+        </section>
+        <!-- EDUCATION -->
+        <!-- FAQ -->
+        <section id="faq" class="faq">
+            <h2>FAQ</h2>
+            <details>
+                <summary>My hobbyies?</summary>
+                <ul>
+                    <li>Snowboarding</li>
+                    <li>Djing</li>
+                </ul>
+              </details>
+              <br>
+              <details>
+                <summary>My favorite playlist</summary>
+                <br>
+                <iframe 
+                    src="https://open.spotify.com/embed/playlist/16gXsmg48MdRTqCLNnx9Cu?utm_source=generator" 
+                    width="40%" 
+                    height="380" 
+                    frameBorder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                </iframe>
+              </details>
+        </section>
+        <!-- LANGUAGES -->
+        <!-- LANGUAGES -->
+        <section id="languages" class="languages">
+            <h2>Languages</h2>
+            <ul class="languages__item">
+                <li>Russian (native)</li>    
+                <li>English (working Professional)</li>    
+                <li>Latvian (working Professional)</li>    
+            </ul>
+        </section>
+        <!-- LANGUAGES -->
+        <!-- CONTACT FORM -->
+        <section id="contactme" class="contactMe">
+            <h2>Contact me</h2>
+
+            <form action="action_page.php">
+                <input 
+                    type="text" 
+                    id="firstname" 
+                    name="firstname" 
+                    placeholder="Your name.." 
+                    class="contactMe__input"
+                >
+                <br><br>
+
+                <input 
+                    type="text" 
+                    id="company" 
+                    name="lastname" 
+                    placeholder="Company name.." 
+                    class="contactMe__input"
+                >
+                <br><br>
+            
+                <textarea 
+                    id="subject" 
+                    name="subject" 
+                    placeholder="Write something.." 
+                    class="contactMe__text-area"></textarea>
+                <br><br>
+
+                <input type="submit" value="Submit" class="contactMe__submit-btn">            
+              </form>
+        </section>
+        <script src="./js/animation.js"></script>
+        <!-- CONTACT FORM -->
+    </main>
+</body>
+</html>

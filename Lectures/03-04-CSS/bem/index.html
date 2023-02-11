@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS BEM</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+    <!-- Не Бэм -->
+        <div class="hero">
+            <nav>
+                <h2 class="logo"><span class="prevent-select">Portfolio</span></h2>
+                <ul>
+                    <li class="prevent-select"><a href="#">Home</a></li>
+                    <li class="prevent-select"><a href="#">About Me</a></li>
+                    <li class="prevent-select"><a href="#">Services</a></li>
+                    <li class="prevent-select"><a href="#">Skills</a></li>
+                    <li class="prevent-select"><a href="#">Hire Me</a></li>
+                </ul>
+                <a href="#" class="btn"><span class="prevent-select">Message me</span></a>
+            </nav>
+    
+            <div class="content">
+                <h4 class="prevent-select">Hello, my name is</h4>
+                <h1 class="prevent-select">Konstantin Kolesnik</h1>
+                <h3 class="prevent-select">I`am a Web Developer</h3>
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                        <input type="submit" name="submit" value="Contact me">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <!-- BEM -->
+	    <!-- block__element_modificator -->
+    <!-- BEM -->
+
+        <ul class="navigation">
+            <span class="navigation__icon">6</span>
+            <li class="navigation__link">1</li>
+            <li class="navigation__link">2</li>
+            <li class="navigation__link">3</li>
+            <li class="navigation__link">4</li>
+            <li class="navigation__link">5</li>
+            <li class="navigation__link">6</li>
+        </ul>	
+
+    </body>
+</html>
