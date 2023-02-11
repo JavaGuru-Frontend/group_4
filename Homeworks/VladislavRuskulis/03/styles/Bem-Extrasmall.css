@@ -1,9 +1,9 @@
-.ExtrasmallSize {
+.ExtraSmallSize {
     padding-left: 10px;
 
 }
 
-.ExtrasmallSize__Primary {
+.ExtraSmallSize__Primary {
     background-color: blue;
     color: white;
     padding: 7px 20px;
@@ -12,7 +12,7 @@
     
 }
 
-.ExtrasmallSize__danger {
+.ExtraSmallSize__danger {
     background-color: red;
     padding: 7px 20px;
     color: white;
@@ -21,7 +21,7 @@
     
 }
 
-.ExtrasmallSize__warning {
+.ExtraSmallSize__warning {
     background-color: orange;
     padding: 7px 20px;
     color: white;
@@ -30,7 +30,7 @@
    
 }
 
-.ExtrasmallSize__info {
+.ExtraSmallSize__info {
     background-color: rgb(73, 209, 214);
     padding: 7px 15px;
     color: white;
@@ -39,7 +39,7 @@
     
 }
 
-.ExtrasmallSize__success {
+.ExtraSmallSize__success {
     background-color: green;
     padding: 7px 20px;
     color: white;
@@ -48,7 +48,7 @@
    
 }
 
-.ExtrasmallSize__default {
+.ExtraSmallSize__default {
     background-color: white;
     padding: 7px 20px;
     color: black;
@@ -58,7 +58,7 @@
 
 }
 
-.ExtrasmallSize__link {
+.ExtraSmallSize__link {
     color: blue;
     padding: 7px 20px;
     border: 0px;
