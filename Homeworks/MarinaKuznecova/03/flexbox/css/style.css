@@ -1,55 +1,20 @@
-body * + * { margin-top: 1.5em;}
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-}
+.container {max-width: 600px;}
 
 .flex-container {
-  display: flex;
-  min-height: 500px;
-  background-color: grey;
-/* flex-direction ---------------   */
-/*   flex-direction: row            */
-/*                   row-reverse    */
-/*                   column         */
-/*                   column-reverse */
-  
-/* flex-wrap ---------------  */
-/*   flex-wrap: nowrap;       */
-/*              wrap;         */
-/*              wrap-reverse; */
-
-/* flex-flow -------------- */  
-/*   flex-flow: row nowrap; */
-  
-/* justify-content ---------------   */
-/*   justify-content: flex-start;    */
-/*                    center         */
-/*                    flex-end;      */
-/*                    space-around;  */
-/*                    space-between; */
- 
-/* align-items -------------- */
-/*   align-items: stretch;    */
-/*                flex-end;   */
-/*                flex-start; */
-/*                flex-end;   */
-/*                baseline;   */
-  
-/* align-content ----------------- */ 
-/*   align-content: space-between; */
-/*                  space-around;  */
-/*                  stretch;       */
-/*                  flex-start;    */
-/*                  center;        */
-/*                  flex-end;      */
+    display: flex;
+    min-height: 500px;
+    background-color: gray;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
 .flex-container > div {
-  background-color: lightgrey;
-  margin: 10px;
-  width: 75px;
-  height: 75px;
-  padding: 20px;
-  font-size: 30px;
+    background-color: lightgrey;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    font-size: 30px;
 }

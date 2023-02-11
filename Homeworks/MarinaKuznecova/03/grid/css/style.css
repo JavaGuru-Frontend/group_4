@@ -1,70 +1,51 @@
-/*body * + * { margin-top: 1.5em;}
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-}
-*/
-/* ---------------------------
-             GRIDS
------------------------------- */
- .grid {
+/* .parent {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 200px); /* колонки складываются
-     ne skladivajutsja grid-template-columns: repeat(3, 1fr)
-     grid-template-columns: repeat(auto-fill, minmax(150px, 300px)); eto vidno na mobilah
-     */
-    grid-gap: 20px;          
-
- }
-
-/* вариант записи
-    grid-template-columns: minmax(150px, 250px) 1fr 1fr;/* dlja rastjagivanija prokrutki*//* 220px 220px 220px;
-    grid-gap: 20px; 
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-flow: column;
-    grid-auto-flow: rows; в строчку,  column  колонки
-    grid-template-rows: 160px 160px 160px 
- 
-    можно заменить grid-template-columns: repit(3, 1fr);  или  grid-template-columns: repit(2, 1fr, 2fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
     
-    grid-template-rows: 150px 150px;
-    grid-auto-rows: 100px;
-    grid-column-gap: 20px;
-      */
+.div1 { grid-area: 1 / 1 / 2 / 11;  background-color: aliceblue;}
+.div2 { grid-area: 2 / 1 / 9 / 3; background-color: rgb(201, 230, 255);}
+.div3 { grid-area: 9 / 1 / 11 / 5; background-color: rgb(168, 214, 255);}
+.div4 { grid-area: 9 / 5 / 11 / 8; background-color: rgb(138, 199, 254);}
+.div5 { grid-area: 9 / 8 / 11 / 11; background-color: rgb(121, 191, 252);}
+.div6 { grid-area: 6 / 3 / 9 / 5; background-color: rgb(89, 177, 253);}
+.div7 { grid-area: 6 / 5 / 9 / 7; background-color: rgb(70, 167, 252);}
+.div8 { grid-area: 6 / 7 / 9 / 9; background-color: rgb(59, 160, 248);}
+.div9 { grid-area: 6 / 9 / 9 / 11; background-color: rgb(57, 163, 255);}
+.div10 { grid-area: 2 / 3 / 6 / 7; background-color: rgb(0, 136, 255);}
+.div11 { grid-area: 2 / 7 / 6 / 9; background-color: rgb(2, 80, 148);}
+.div12 { grid-area: 2 / 9 / 6 / 11; background-color: rgb(201, 230, 255);} */
 
-.grid div {
-    background-color: #e621e6;
-    border: 1px solid rgb(33, 160, 19);
-    border-radius: 5px;
-    padding: 8px 15px;
-    color: rgb(239, 13, 13);
-    font-size: 18px;
-    font-family: roboto;
-}
-.grid div:nth-child(odd) {
-    background-color: rgb(109, 33, 232);
-}
-/*.grid-container {
+
+.parent {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    background-color: grey;
-    padding: 10px;
-}
-  
-.grid-container > div {
-    background-color: lightgrey;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-}
-  
-.item1 {
-    grid-column-start: 1;
-    grid-column-end: 5;
+    grid-template-areas:
+    'area1 area1 area1 area1 area1 area1 area1 area1 area1 area1'
+    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+    'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
+    'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
+    'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
+    'area3 area3 area3 area3 area4 area4 area4 area5 area5 area5'
+    'area3 area3 area3 area3 area4 area4 area4 area5 area5 area5';
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
-.grid-item:nth-child(2n + 2) {
-    background-color: rgb(0, 255, 217);
-}
-*/
+.div1 { grid-area: area1;  background-color: aliceblue;}
+.div2 { grid-area: area2; background-color: rgb(201, 230, 255);}
+.div3 { grid-area: area3; background-color: rgb(168, 214, 255);}
+.div4 { grid-area: area4; background-color: rgb(138, 199, 254);}
+.div5 { grid-area: area5; background-color: rgb(121, 191, 252);}
+.div6 { grid-area: area6; background-color: rgb(89, 177, 253);}
+.div7 { grid-area: area7; background-color: rgb(70, 167, 252);}
+.div8 { grid-area: area8; background-color: rgb(59, 160, 248);}
+.div9 { grid-area: area9; background-color: rgb(57, 163, 255);}
+.div10 { grid-area: area11; background-color: rgb(0, 136, 255);}
+.div11 { grid-area: area10; background-color: rgb(2, 80, 148);}
+.div12 { grid-area: area12; background-color: rgb(201, 230, 255);}
