@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+    <article id="content">
+        <h2> Форма Регистрации</h2>
+        <form action="" method="get">
+        <!--Форма логин пасс-->
+            <fieldset>
+            
+                <label for="login">Введите свой логин:</label>
+                <input type="text" name="login" id="login" required>
+                <label for="pwd">Введите пароль:</label>
+                <input type="password" name="pwd" id="pwd" required>
+
+            </fieldset>
+            <br>
+            
+            <!--Доп инфо-->
+            <fieldset>
+                <legend><mark><b>Дополнительная информация о себе</b></mark></legend>
+            
+                <h3><b>Укажите пол</b></h3>
+                
+                <input type="radio" name="gender" id="male" required>
+                <label for="gender">Мужской</label>
+                <br>
+                <input type="radio" name="gender" id="female" required>
+                <label for="gender">Женский</label>
+                <br>
+                <input type="radio" name="gender" id="na" required>
+                <label for="gender">Не отвечать</label>
+                <br>
+                <h3><b>Укажите дату рождения</b></h3>
+                <label for="dob">День рождения</label>
+                <input type="datetime-local" name="dob" id="dob" required>
+                <h3><b>Место проживания</b></h3>
+                <label for="city">Ваш город</label>
+                <input type="text" name="city" id="city" required>
+            </fieldset>
+                <br>
+            <!--Hobbies-->
+            <fieldset>
+                <legend><mark><b>Ваши увлечения</b></mark></legend>
+            
+                <pre>               Выберите ваши хобби</pre>
+                <pre>      Можно выбрать любое количество хобби</pre> <!--В примере скорее всего было сделано через цитату, но мне понравился такой вариант-->
+                
+                <input type="checkbox" name="hobbie1" id="hobbie1" > <!-- Потратил наверное час, но так и не смог найти как отформатировать без CSS чекбоксы :( -->
+                <label for="">Рисование</label>
+                <input type="checkbox" name="hobbie2" id="hobbie2" >
+                <label for="">Рыбалка</label>
+                <br>
+                <input type="checkbox" name="hobbie3" id="hobbie3" >
+                <label for="">Скалолазанье</label>
+                <input type="checkbox" name="hobbie4" id="hobbie4" >
+                <label for="">Футбол</label>
+                <br>
+                <input type="checkbox" name="hobbie5" id="hobbie5" >
+                <label for="">Программирование</label>
+                <input type="checkbox" name="hobbie6" id="hobbie6" >
+                <label for="">Путешествия</label>
+            
+            </fieldset>
+            <br>
+            <!--Experience-->
+            <fieldset>
+                <legend><mark><b>Опыт работы</b></mark></legend>
+            
+                <label for="story">Расскажите о своём опыте работы:</label>
+                <textarea id="story" name="story" rows="5" cols="33">Введите Ваш опыт работы</textarea>
+                  
+            
+            </fieldset>
+            <!--Buttons-->
+            <button type="button" onclick="alert('Вы успешно заполнили форму!')">Отправить</button>
+            <button type="button" onclick="alert('Упс...Что-то пошло не так')">Сбросить</button>
+        </form>
+    </article>
+    </body>
+</html>

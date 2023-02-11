@@ -1,0 +1,85 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    background-color: black;
+    color: white;
+        }
+    
+        .parent > div {
+    outline: 2px solid #ffffff;
+        }
+    
+        .div1 { 
+    grid-area: 1 / 1 / 2 / 11; 
+    background-color: rgb(191, 133, 24);
+    opacity: 0.6;
+        }
+    
+        .div2 { 
+    grid-area: 2 / 1 / 9 / 3; 
+    background-color: rgb(104, 104, 15);
+    opacity: 0.6;
+        }
+    
+        .div3 { 
+    grid-area: 9 / 1 / 11 / 5;
+    background-color: rgb(46, 191, 24);
+    opacity: 0.6; 
+        }
+    
+        .div4 { 
+    grid-area: 9 / 5 / 11 / 8; 
+    background-color: rgb(0, 218, 25);
+    opacity: 0.6;
+        }
+    
+        .div5 { 
+    grid-area: 9 / 8 / 11 / 11; 
+    background-color: rgb(0, 152, 13);
+    opacity: 0.6;
+        }
+    
+        .div6 { 
+    grid-area: 6 / 3 / 9 / 5; 
+    background-color: rgb(0, 204, 139);
+    opacity: 0.6;
+        }
+    
+        .div7 { 
+    grid-area: 6 / 5 / 9 / 7; 
+    background-color: rgb(0, 184, 190);
+    opacity: 0.6;
+        }
+    
+        .div8 { 
+    grid-area: 6 / 7 / 9 / 9; 
+    background-color: rgb(0, 128, 175);
+    opacity: 0.6;
+        }
+    
+        .div9 { 
+    grid-area: 6 / 9 / 9 / 11; 
+    background-color: rgb(5, 0, 161);
+    opacity: 0.6;
+        }
+    
+        .div10 { 
+    grid-area: 2 / 3 / 6 / 7; 
+    background-color: rgb(0, 42, 255);
+    opacity: 0.6;
+        }
+    
+        .div11 { 
+    grid-area: 2 / 7 / 6 / 9; 
+    background-color: rgb(91, 0, 177);
+    opacity: 0.6;
+        }
+    
+        .div12 { 
+    grid-area: 2 / 9 / 6 / 11; 
+    background-color: rgb(179, 0, 255);
+    opacity: 0.6;
+        }

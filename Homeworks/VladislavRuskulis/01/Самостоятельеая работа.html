@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+
+<body>
+
+    <!--Главный звголовок-->
+
+    <h1>Форма Регистрации</h1>
+    <hr>
+
+    <!--Форма для входа в систему-->
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend><b><mark>Вход в систему</mark></b></legend>
+            <b>Login </b><input type="text" value="e-mail" name="login" id="login" required><b> Password </b><input
+                type="password" name="password" id="password" value="********" maxlength="8" required>
+        </fieldset>
+    </form>
+    <br>
+
+    <!--Форма для дополнительной информации-->
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend><b><mark>Дополнительная информация</mark></b></legend>
+
+            <!--Укажите пол-->
+
+            <h4>Укажите пол</h4>
+            <input type="radio" name="sex" value="m" id="button">
+            <label>Мужской</label><br>
+
+            <input type="radio" name="sex" value="w" id="button">
+            <label>Женский</label>
+
+            <!--Дата рождения-->
+
+            <h4>Укажите дату рождения</h4>
+            <input type="date" name="data" id="data" value="дд.мм.гггг">
+
+            <!--Город проживания-->
+
+            <h4>Город проживания</h4>
+
+            <select>
+                <option>Riga</option>
+                <option>Daugavpils</option>
+                <option>Jurmala</option>
+                <option>Ventspils</option>
+            </select><br>
+
+            <!--Зангрузить фото-->
+
+            <h4>Загрузить фото</h4>
+
+            <input type="file" class="upload" id="photo-upload" name="file-upload" value="Download">
+        </fieldset>
+    </form>
+    <br>
+
+    <!--Хобби-->
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend><b><mark>Ваши Хобби</mark></b></legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="Sport" id="Hoby" value="select">
+                            Спорт
+                        </td>
+                        <td>
+                            <input type="checkbox" name="Wolking" id="Hoby" value="Select">
+                            Прогулка с друзьями
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Fishing" id="Hoby" value="Select">
+                            Рыбалка</td>
+                        <td><input type="checkbox" name="Hunting" id="Hoby" value="select">
+                            Охота</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Reading" id="Hoby" value="Select">
+                            Чтение</td>
+                        <td><input type="checkbox" name="Games" id="Hoby" value="Select">
+                            Компьютерные игры</td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+    <br>
+
+    <!--О себе-->
+
+    <form>
+        <fieldset>
+            <legend><b><mark>Расскажите о себе</mark></b></legend>
+            <label>О себе</label>
+            <textarea placeholder="Напишите текст">Напишите текст</textarea>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

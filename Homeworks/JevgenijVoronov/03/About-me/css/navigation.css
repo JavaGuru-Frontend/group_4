@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+    justify-content: center
+}
+
+.header__item {
+    padding: 0 15px;
+}
+
+.header__item a {
+    text-decoration: none;
+    color: var(--font-main-color);
+    text-transform: uppercase;
+}
+
+.header__item a:hover {
+    color: var(--font-hover-color);
+}
+
+/* Media query */
+@media only screen and (max-width: 700px) {
+    /* .header {
+        flex-wrap: wrap;
+    }
+    .header__item {
+        display: inline;
+        width: 100%;
+        text-align: center;
+        padding: 41px;
+        background-color: black;
+    }  */
+}

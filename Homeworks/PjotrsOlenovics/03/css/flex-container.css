@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-container__one {
+    height: 120px;
+}
+.flex-container__two {
+    height: 30px;
+}
+.flex-container__thre {
+    height: 280px;
+}
+.flex-container__four{
+    height: 80px;
+}
+.flex-container__five{
+    height: 85px;
+}
+.flex-container__six{
+    height: 85px;
+}
+.flex-container__seven{
+    height: 85px;
+}
