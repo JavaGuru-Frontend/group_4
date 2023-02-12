@@ -39,6 +39,6 @@ https://github.com/JavaGuru-Frontend/group_4
 | Romans 	  Šodnaks   |                  | * | ✓ |   |
 | Sergejs     Fadins    | Evirum           | ✓ | ? |   |
 | Stanislavs  Savluks   | ChiuRiu          | ✓ | ? |   |
-| Viktor      Koreskov  | Koreskov         | * |   |   |
+| Viktor      Koreskov  | Koreskov         | * | * |   |
 | Vladislavs  Ruskulis  | Ruskulis94       | * | * | ✓ |
 | Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ |
