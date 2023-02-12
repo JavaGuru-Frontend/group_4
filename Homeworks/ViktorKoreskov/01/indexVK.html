@@ -3,122 +3,121 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Форма регистрации </title>
+    <title>Viktors Koreskovs</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <article id="content">
-        <center>
-            <h1><mark>Форма регистрации</mark></h1>
-        </center>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Work-Experience">Work experience</a></li>
+                <li><a href="#Languages>">Languages</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--About me-->
+        <section id="aboutme">
+            <img src="img/VK photo.jpg" width="200px" height="300px">
+            <address>
+                <h1><mark>Viktors Koreskovs</mark></h1>
+                <a href="tel:+37129269401">+371 29269401</a><br>
+                <a href="viktor.koreskov@icloud.com">viktor.koreskov@icloud.com</a><br>
+                <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a><br>
+                <a href="#contactme">Contact me</a>
+            </address>
+        </section>
+        <!--About me-->
+
         <hr>
-        <br><br>
+        <!--Education-->
+        <section id="Education">
+            <h2>Education</h2>
+            <p>Latvia Bussines College - Bachelor's degree <em>2009 - 2012 (unfinished)</em> </p>
+            <p>Riga Building College - Construction work manager <em>2001-2005</em></p>
+            <p>Riga school nr.5</p>
+        </section>
 
-        <form action="" method="get">
-            <!-- fieldset logis password -->
-            <fieldset>
-                <label for="name">Введите свой логин</label>
-                <input type="text" name="name" id="name" required><br><br>
+        <br>
+        <!--Education-->
 
-                <label for="password">Введите пароль</label>
-                <input type="password" name="password" required>
-            </fieldset>
-            <br>
-            <br>
+        <!-- WORK EXPERIENCE -->
+        <section id="work-experience">
+            <h2>Work experience</h2>
 
+        </section>
+        <!-- /WORK EXPERIENCE -->
 
-            <!--fieldset about me with checkbox -->
-            <fieldset>
-                <legend>
-                    <mark>
-                        <b>Дополнительная инфомация о себе</b>
-                    </mark>
-                </legend>
+        <br>
+        <!-- LANGUAGES -->
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian (native)</li>
+                <li>English (B1 level)</li>
+                <li>Latvian (working Professional)</li>
+            </ul>
+        </section>
+        <!-- LANGUAGES -->
 
-
-                <p><b>Укажите пол</b></p>
-
-                <input type="radio" id="male" name="male" value="male">
-                <label for="male">Мужской</label><br>
-
-                <input type="radio" id="female" name="female" value="female">
-                <label for="female">Женский</label><br><br>
-
-
-                <p><b>Укажите дату рождения</b></p>
-                <label for="birthday">Дата рождения:</label>
-                <input type="date" id="birthday" name="birthday"><br><br><br>
-
-
-                <legend><b>Выберите ваш город</b></legend><br>
-
-                <label for="city-select">Ваш город</label>
-                <select name="city" id="city-select">
-                    <optgroup label="Латвия">
-                        <option value="Рига">Рига</option>
-                        <option value="Елгава">Елгава</option>
-                        <option value="Огре">Елгава</option>
-                    </optgroup>
-                    <optgroup label="Эстония">
-                        <option value="Таллин">Таллин</option>
-                        <option value="Пярну">Пярну</option>
-                    </optgroup>
-                    <optgroup label="Литва">
-                        <option value="Вильнюс">Вильнюс</option>
-                        <option value="Паланга">Паланга</option>
-                    </optgroup>
-                </select><br><br><br>
-
-            </fieldset>
+        <br>
+        <!-- FAQ -->
+        <section id="FAQ">
+            <h2>FAQ</h2>
+            <details>
+                <summary>My hobbyies</summary>
+                <ul>
+                    <li>Riding a motorcycle </li>
+                    <li>Snowboarding</li>
+                </ul>
+            </details>
             <br>
 
-            <!--fieldset hobbies -->
-
-            <fieldset>
-                <legend> <mark> <b>Ваши хобби</b> </mark> </legend>
-                <table>
-                    <caption>Можно выбрать любое количество увлечений</caption>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <input type="checkbox" id="hobby1" name="hobby1" value="travel">
-                                <label for="hobby1">Путешествия</label><br>
-                            </td>
-                            <td>
-                                <input type="checkbox" id="hobby1" name="hobby1" value="programmin">
-                                <label for="hobby1">Програмировать</label><br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" id="hobby3" name="hobby3" value="sport">
-                                <label for="hobby3">Спорт</label><br>
-                            </td>
-                            <td>
-                                <input type="checkbox" id="hobby4" name="hobby4" value="walking">
-                                <label for="hobby4">Прогулки </label><br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" id="hobby5" name="hobby5" value="Dancing">
-                                <label for="hobby5">Танцы</label><br>
-                            </td>
-                            <td>
-                                <input type="checkbox" id="hobby6" name="hobby6" value="swiming">
-                                <label for="hobby6">Плавание</label><br>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </fieldset>
-
+            <summary>My spotify favorite tracks</summary>
             <br>
-            <button type="submit">Отправить</button>
 
-        </form>
-    </article>
 
+            <iframe src="https://open.spotify.com/collection/tracks" width="20%" height="200" frameBorder="1"
+                llowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+
+
+        </section>
+        <!-- FAQ -->
+
+        <hr>
+        <!-- CONTACT -->
+        <section id="contactme">
+            <h2>Contact Me </h2>
+            <form action="action_page.php">
+                <input type="text" id="firstname" name="firstname" placeholder="Your name.." style="width: 200px;">
+                <br><br>
+
+                <input type="text" id="company" name="lastname" placeholder="Company name.." style="width: 200px;">
+                <br><br>
+
+                <textarea id="subject" name="subject" placeholder="Write something.."
+                    style="width: 200px; height:100px"></textarea>
+                <br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <!-- CONTACT -->
+
+    </main>
+
+    <br><br>
+    <a href="#top">Jump to top of page</a>
+
+    <br>
+    <hr>
+    <div align="center">Copyright @Viktors</div>
 </body>
 
 </html>
