@@ -1,51 +1,117 @@
-/* .parent {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-}
-    
-.div1 { grid-area: 1 / 1 / 2 / 11;  background-color: aliceblue;}
-.div2 { grid-area: 2 / 1 / 9 / 3; background-color: rgb(201, 230, 255);}
-.div3 { grid-area: 9 / 1 / 11 / 5; background-color: rgb(168, 214, 255);}
-.div4 { grid-area: 9 / 5 / 11 / 8; background-color: rgb(138, 199, 254);}
-.div5 { grid-area: 9 / 8 / 11 / 11; background-color: rgb(121, 191, 252);}
-.div6 { grid-area: 6 / 3 / 9 / 5; background-color: rgb(89, 177, 253);}
-.div7 { grid-area: 6 / 5 / 9 / 7; background-color: rgb(70, 167, 252);}
-.div8 { grid-area: 6 / 7 / 9 / 9; background-color: rgb(59, 160, 248);}
-.div9 { grid-area: 6 / 9 / 9 / 11; background-color: rgb(57, 163, 255);}
-.div10 { grid-area: 2 / 3 / 6 / 7; background-color: rgb(0, 136, 255);}
-.div11 { grid-area: 2 / 7 / 6 / 9; background-color: rgb(2, 80, 148);}
-.div12 { grid-area: 2 / 9 / 6 / 11; background-color: rgb(201, 230, 255);} */
 
+.grid-container {
+  display: grid;
 
-.parent {
-    display: grid;
-    grid-template-areas:
-    'area1 area1 area1 area1 area1 area1 area1 area1 area1 area1'
-    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
-    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
-    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
-    'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
-    'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
-    'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
-    'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
-    'area3 area3 area3 area3 area4 area4 area4 area5 area5 area5'
-    'area3 area3 area3 area3 area4 area4 area4 area5 area5 area5';
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+   /* так можно записывать?  */
+  grid-template-columns: repeat(auto-fill 150px 10, 1fr);
+  grid-template-rows: repeat(10, 1fr);  
+
+  grid-column-gap: 10px;
+  /* добавила такой вариант  */
+  grid-row-gap: 15px;
+ 
+  background-color: gray;
+  padding: 5px;
 }
 
-.div1 { grid-area: area1;  background-color: aliceblue;}
-.div2 { grid-area: area2; background-color: rgb(201, 230, 255);}
-.div3 { grid-area: area3; background-color: rgb(168, 214, 255);}
-.div4 { grid-area: area4; background-color: rgb(138, 199, 254);}
-.div5 { grid-area: area5; background-color: rgb(121, 191, 252);}
-.div6 { grid-area: area6; background-color: rgb(89, 177, 253);}
-.div7 { grid-area: area7; background-color: rgb(70, 167, 252);}
-.div8 { grid-area: area8; background-color: rgb(59, 160, 248);}
-.div9 { grid-area: area9; background-color: rgb(57, 163, 255);}
-.div10 { grid-area: area11; background-color: rgb(0, 136, 255);}
-.div11 { grid-area: area10; background-color: rgb(2, 80, 148);}
-.div12 { grid-area: area12; background-color: rgb(201, 230, 255);}
+.grid-container>div {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 11;
+  background-color: #cc9c19;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 9;
+  background-color:#1b1f03;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  background-color:#91f830 ;
+}
+
+.item4 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  background-color:#083504;
+}
+
+.item5 {
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  background-color:#043124;
+}
+
+.item6 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#063b2a;
+}
+
+.item7 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#53e3eb;
+}
+
+.item8 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#1972b6 ;
+}
+
+.item9 {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#061344;
+}
+
+.item10 {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-color:#170983;
+
+}
+
+.item11 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-color:#7921d6;
+
+}
+
+.item12 {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-color:#270f2c;
+}
