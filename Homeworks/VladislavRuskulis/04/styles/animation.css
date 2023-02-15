@@ -1,45 +1,50 @@
-body {
-    padding: 50px;
-}
-
-.parent {
-    width: 100%;
-    height: calc(100vh - 100px);
+.animation {
+    height: 95vh;
+    max-width: 300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
-.child {
-    border-radius: 25px;
-    width: 20px;
-    height: 20px;
-    background-color: rgb(179, 179, 179);
-    margin: 5px;
-    animation-name: circle-to-circle;
-    animation-duration: 2ms;
+.animation__loader {
+    background-color: lightgrey;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 50%;
+    animation-name: circle-to-cirkle;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-timing-function: ease-out;
 
 }
 
-.child:nth-child(2) {
-    animation-delay: 5ms;
+
+
+.animation__loader_2 {
+   animation-delay: 0.2s;
+
 }
 
-.child:nth-child(3) {
-    animation-delay: 10ms;
+.animation__loader_3 {
+    animation-delay: 0.4s;
 }
 
-@keyframes circle-to-circle{
-    from{
-        width: 30px;
-        height:30px;
-        background-color: rgb(56, 56, 56);
+
+@keyframes circle-to-cirkle {
+    from {
+        width: 10px;
+        height: 10px;
+        background-color: lightgrey;
     }
-    to{
+
+    to {
         width: 25px;
         height: 25px;
-        background-color: rgb(179, 179, 179);
+        background-color: rgb(56, 56, 56);
     }
 }
