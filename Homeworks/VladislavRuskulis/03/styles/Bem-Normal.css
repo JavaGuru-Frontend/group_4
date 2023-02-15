@@ -1,53 +1,10 @@
-@import url(../styles/Bem-large.css);
-@import url(../styles/Bem-Small.css);
-@import url(../styles/Bem-Extrasmall.css);
 
 .Normal {
-    padding-left: 10px;
-
-}
-
-.options {
     color: white;
     padding: 10px 30px;
     border: 0px;
     border-radius: 10px;
-}
-
-.Normal__Primary {
-    background-color: blue;
 
 }
 
-.Normal__danger {
-    background-color: red;
 
-}
-
-.Normal__warning {
-    background-color: orange;
-
-}
-
-.Normal__info {
-    background-color: rgb(73, 209, 214);
-
-}
-
-.Normal__success {
-    background-color: green;
-
-}
-
-.Normal__default {
-    background-color: transparent;
-    color: black;
-
-}
-
-.Normal__link {
-    color: blue;
-    background-color: transparent;
-
-
-}

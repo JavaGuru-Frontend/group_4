@@ -1,8 +1,4 @@
 .Large {
-    padding-left: 10px;
-}
-
-.options2 {
     color: white;
     padding: 20px 55px;
     border: 0px;
@@ -11,28 +7,5 @@
 
 }
 
-.Large__Primary {
-    background-color: blue;
 
-}
 
-.Large__danger {
-    background-color: red;
-
-}
-
-.Large__warning {
-    background-color: orange;
-
-}
-
-.Large__info {
-    background-color: rgb(73, 209, 214);
-    padding: 20px 30px;
-
-}
-
-.Large__success {
-    background-color:green;
-   
-}

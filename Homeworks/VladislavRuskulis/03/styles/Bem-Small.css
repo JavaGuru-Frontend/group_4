@@ -1,9 +1,4 @@
 .Small {
-    padding-left: 10px;
-
-}
-
-.options3 {
     color: white;
     padding: 7px 26px;
     border: 0px;
@@ -11,47 +6,4 @@
 
 }
 
-.Small__Primary {
-    background-color: blue;
 
-
-}
-
-.Small__danger {
-    background-color: red;
-
-
-}
-
-.Small__warning {
-    background-color: orange;
-
-
-}
-
-.Small__info {
-    background-color: rgb(73, 209, 214);
-    padding: 7px 20px;
-
-
-}
-
-.Small__success {
-    background-color: green;
-
-
-}
-
-.Small__default {
-    color: black;
-    background-color: transparent;
-
-
-}
-
-.Small__link {
-    color: blue;
-    background-color: transparent;
-
-
-}
