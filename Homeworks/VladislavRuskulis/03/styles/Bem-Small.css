@@ -3,67 +3,55 @@
 
 }
 
-.Small__Primary {
-    background-color: blue;
+.options3 {
     color: white;
     padding: 7px 26px;
     border: 0px;
     border-radius: 10px;
-   
+
+}
+
+.Small__Primary {
+    background-color: blue;
+
+
 }
 
 .Small__danger {
     background-color: red;
-    padding: 7px 26px;
-    color: white;
-    border: 0px;
-    border-radius: 10px;
-    
+
+
 }
 
 .Small__warning {
     background-color: orange;
-    padding: 7px 26px;
-    color: white;
-    border: 0px;
-    border-radius: 10px;
-    
+
+
 }
 
 .Small__info {
     background-color: rgb(73, 209, 214);
     padding: 7px 20px;
-    color: white;
-    border: 0px;
-    border-radius: 10px;
- 
+
+
 }
 
 .Small__success {
     background-color: green;
-    padding: 7px 26px;
-    color: white;
-    border: 0px;
-    border-radius: 10px;
-    
+
+
 }
 
 .Small__default {
-    background-color: white;
-    padding: 7px 26px;
     color: black;
-    border-radius: 0%;
-    border-radius: 10px;
-    
+    background-color: transparent;
+
 
 }
 
 .Small__link {
     color: blue;
-    padding: 7px 26px;
-    border: 0px;
-    background-color: white;
-    border-radius: 10px;
-    
+    background-color: transparent;
+
 
 }

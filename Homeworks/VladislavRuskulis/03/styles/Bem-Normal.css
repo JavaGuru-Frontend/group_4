@@ -40,13 +40,14 @@
 }
 
 .Normal__default {
-    background-color: white;
-
+    background-color: transparent;
+    color: black;
 
 }
 
 .Normal__link {
     color: blue;
+    background-color: transparent;
 
 
 }
