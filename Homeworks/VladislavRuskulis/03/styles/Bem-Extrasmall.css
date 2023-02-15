@@ -1,9 +1,10 @@
-.ExtrasmallSize {
+.ExtraSmallSize {
     padding-left: 10px;
 
 }
 
-.options4 {
+.ExtrasmallSize__Primary {
+    background-color: blue;
     color: white;
     padding: 7px 20px;
     border-radius: 10px;
@@ -14,31 +15,31 @@
     background-color: blue;
 }
 
-.ExtrasmallSize__danger {
+.ExtraSmallSize__danger {
     background-color: red;
 }
 
-.ExtrasmallSize__warning {
+.ExtraSmallSize__warning {
     background-color: orange;
 }
 
-.ExtrasmallSize__info {
+.ExtraSmallSize__info {
     background-color: rgb(73, 209, 214);
     padding: 7px 15px;
 }
 
-.ExtrasmallSize__success {
+.ExtraSmallSize__success {
     background-color: green;
 }
 
-.ExtrasmallSize__default  {
+.ExtrasmallSize__default {
     background-color: white;
     color: black;
     border: 5px !important;
     
 }
 
-.ExtrasmallSize__link {
+.ExtraSmallSize__link {
     color: blue;
     background-color: transparent;
 }

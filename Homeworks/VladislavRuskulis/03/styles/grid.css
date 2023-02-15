@@ -1,0 +1,111 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-gap: 10px;
+    background-color: rgb(49, 48, 48);
+    padding: 10px;
+}
+
+.grid-container>div {
+    padding: 5px 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    background-color: #675115;
+}
+
+.item2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    background-color:#5e6918;
+}
+
+.item3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background-color:#3f6917 ;
+}
+
+.item4 {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background-color:#1f6918;
+}
+
+.item5 {
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background-color:#206c55;
+}
+
+.item6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color:#15684d;
+}
+
+.item7 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color:#1b696d;
+}
+
+.item8 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color:#17486d ;
+}
+
+.item9 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color:#14276d;
+}
+
+.item10 {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color:#1e136c;
+
+}
+
+.item11 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color:#492274;
+
+}
+
+.item12 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color:#5d126c;
+
+}
