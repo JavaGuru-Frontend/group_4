@@ -1,0 +1,38 @@
+:root {
+    --primary:  blue;
+    --danger:   red;
+    --warning:  orange;
+    --info:     lightblue;
+    --succes:   green;
+    --default:  white;
+}
+
+.button {
+    border-radius: 2px;
+    padding: 5px 10px;  
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+button:hover { 
+    filter: invert(100%);
+
+}
+
+.button_normal      { font-size: normal;}
+.button_large       { font-size: large;}
+.button_small       { font-size: small;}
+.button_extra-small { font-size: x-small;}
+
+.button_primary     { background-color: var(--primary) }
+.button_danger      { background-color: var(--danger) }
+.button_warning     { background-color: var(--warning) }
+.button_info        { background-color: var(--info) }
+.button_success     { background-color: var(--succes) }
+.button_default     { color: black; }
+.button_link {
+    background-color: white;
+    border:0px;
+    color: var(--primary);
+}
