@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(206, 206, 206);
+}
+
+/*
+#Education {
+  padding-inline-start: 3%;
+}
+*/
+
+
+
+
+
+h1,
+h2 {
+  color: #0b2352;
+  padding-inline-start: 2%;
+}
+
+
+
+
+
+/*  получить разметку по блокам   применяеться ко всему 
+  {
+    border: 1px solid red
+}
+*/
