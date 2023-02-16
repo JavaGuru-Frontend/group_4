@@ -1,0 +1,49 @@
+
+
+.animation {
+    height: 95vh;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.animation__loader {
+    background-color: lightgrey;
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.animation__loader_1 {
+    animation: color-change 1s ease-in-out infinite;
+  }
+  
+  .animation__loader_2 {
+    animation: color-change 1s ease-in-out infinite;
+    animation-delay: 0.3s;
+  }
+  
+  .animation__loader_3 {
+    animation: color-change 1s ease-in-out infinite;
+    animation-delay: 0.8s;
+  }
+  
+
+@keyframes color-change {
+  from {
+      background-color: #f7f1f2;
+  }
+  25% {
+    background-color: #336302;
+  }
+  50% {
+      background-color: #9c1f57;
+  }
+  to {
+      background-color: #f4edfb;
+  }
+}
