@@ -1,0 +1,5 @@
+.calculator {
+    display: flex;
+    flex-direction: inline;
+    align-items: left;
+}
