@@ -1,0 +1,117 @@
+
+.grid-container {
+  display: grid;
+
+   /* так можно записывать?  */
+  grid-template-columns: repeat(auto-fill 150px 10, 1fr);
+  grid-template-rows: repeat(10, 1fr);  
+
+  grid-column-gap: 10px;
+  /* добавила такой вариант  */
+  grid-row-gap: 15px;
+ 
+  background-color: gray;
+  padding: 5px;
+}
+
+.grid-container>div {
+  padding: 5px 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 11;
+  background-color: #cc9c19;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 9;
+  background-color:#1b1f03;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  background-color:#91f830 ;
+}
+
+.item4 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  background-color:#083504;
+}
+
+.item5 {
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  background-color:#043124;
+}
+
+.item6 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#063b2a;
+}
+
+.item7 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#53e3eb;
+}
+
+.item8 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#1972b6 ;
+}
+
+.item9 {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  background-color:#061344;
+}
+
+.item10 {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-color:#170983;
+
+}
+
+.item11 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-color:#7921d6;
+
+}
+
+.item12 {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-color:#270f2c;
+}

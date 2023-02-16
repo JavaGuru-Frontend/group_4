@@ -1,0 +1,23 @@
+
+  .parent {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill 150px 10, 1fr);
+  grid-template-rows: repeat(10, 1fr);  
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: gray;
+  padding: 5px;
+  }
+  .div1 { grid-area: 1 / 1 / 2 / 11;  background-color: rgb(169, 200, 175);}
+  .div2 { grid-area: 2 / 1 / 9 / 3; background-color: rgb(138, 238, 159);}
+  .div3 { grid-area: 9 / 1 / 11 / 5; background-color: rgb(102, 197, 120);}
+  .div4 { grid-area: 9 / 5 / 11 / 8; background-color: rgb(118, 160, 124);}
+  .div5 { grid-area: 9 / 8 / 11 / 11; background-color: rgb(104, 184, 136);}
+  .div6 { grid-area: 6 / 3 / 9 / 5; background-color: rgb(26, 87, 41);}
+  .div7 { grid-area: 6 / 5 / 9 / 7; background-color: rgb(13, 176, 100);}
+  .div8 { grid-area: 6 / 7 / 9 / 9; background-color: rgb(135, 208, 50);}
+  .div9 { grid-area: 6 / 9 / 9 / 11; background-color: rgb(69, 97, 45);}
+  .div10 { grid-area: 2 / 3 / 6 / 7; background-color: rgb(193, 240, 191);}
+  .div11 { grid-area: 2 / 7 / 6 / 9; background-color: rgb(60, 245, 27);}
+  .div12 { grid-area: 2 / 9 / 6 / 11; background-color: rgb(13, 141, 34);}
