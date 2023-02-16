@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Форма регистрации </title>
+</head>
+
+<body>
+    <article id="content">
+        <center>
+            <h1><mark>Форма регистрации</mark></h1>
+        </center>
+        <hr>
+        <br><br>
+
+        <form action="" method="get">
+            <!-- fieldset logis password -->
+            <fieldset>
+                <label for="name">Введите свой логин</label>
+                <input type="text" name="name" id="name" required><br><br>
+
+                <label for="password">Введите пароль</label>
+                <input type="password" name="password" required>
+            </fieldset>
+            <br>
+            <br>
+
+
+            <!--fieldset about me with checkbox -->
+            <fieldset>
+                <legend>
+                    <mark>
+                        <b>Дополнительная инфомация о себе</b>
+                    </mark>
+                </legend>
+
+
+                <p><b>Укажите пол</b></p>
+
+                <input type="radio" id="male" name="male" value="male">
+                <label for="male">Мужской</label><br>
+
+                <input type="radio" id="female" name="female" value="female">
+                <label for="female">Женский</label><br><br>
+
+
+                <p><b>Укажите дату рождения</b></p>
+                <label for="birthday">Дата рождения:</label>
+                <input type="date" id="birthday" name="birthday"><br><br><br>
+
+
+                <legend><b>Выберите ваш город</b></legend><br>
+
+                <label for="city-select">Ваш город</label>
+                <select name="city" id="city-select">
+                    <optgroup label="Латвия">
+                        <option value="Рига">Рига</option>
+                        <option value="Елгава">Елгава</option>
+                        <option value="Огре">Елгава</option>
+                    </optgroup>
+                    <optgroup label="Эстония">
+                        <option value="Таллин">Таллин</option>
+                        <option value="Пярну">Пярну</option>
+                    </optgroup>
+                    <optgroup label="Литва">
+                        <option value="Вильнюс">Вильнюс</option>
+                        <option value="Паланга">Паланга</option>
+                    </optgroup>
+                </select><br><br><br>
+
+            </fieldset>
+            <br>
+
+            <!--fieldset hobbies -->
+
+            <fieldset>
+                <legend> <mark> <b>Ваши хобби</b> </mark> </legend>
+                <table>
+                    <caption>Можно выбрать любое количество увлечений</caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby1" name="hobby1" value="travel">
+                                <label for="hobby1">Путешествия</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby1" name="hobby1" value="programmin">
+                                <label for="hobby1">Програмировать</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby3" name="hobby3" value="sport">
+                                <label for="hobby3">Спорт</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby4" name="hobby4" value="walking">
+                                <label for="hobby4">Прогулки </label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="hobby5" name="hobby5" value="Dancing">
+                                <label for="hobby5">Танцы</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hobby6" name="hobby6" value="swiming">
+                                <label for="hobby6">Плавание</label><br>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <br>
+            <button type="submit">Отправить</button>
+
+        </form>
+    </article>
+
+</body>
+
+</html>

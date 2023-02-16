@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <style>
+                mark {
+                 background: #fb82ff;
+                }
+            </style>
+            <title>Форма Регистрации</title>
+        </head>
+<body>
+<!--set1-->
+<h2>Форма Регистрации</h2>
+    <form action="" method="get">
+        <div>
+            <fieldset>
+                <label for="name">Введите свой логин:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="password">Введите свой пароль:</label>
+                <input type="password" required>
+            </fieldset>
+        </div>
+ <br>
+<!--set2-->
+<div>
+    <fieldset>
+        <legend><mark>Дополнительная информация о себе:</mark></legend>
+    <h3>Укажите пол</h3>
+        <input type="radio" name="name">
+        <label for="name">Мужской</label>
+<br>
+        <input type="radio" name="name">
+        <label for="name">Женский</label>
+    <h3>Укажите дату рождения</h3>
+        <label for="name">День рождения:</label>
+        <input type="date" name="name">
+    <h3>Место проживания</h3>
+        <label for="name">Ваш город</label> 
+        <input type="text">
+    </fieldset>
+</div>
+<br>
+<!--set3-->
+
+<fieldset>
+<legend><mark>Ваши хобби:</mark></legend>
+    <dd>Можно выбрать любое количество увлечений</dd>
+    <table>
+    <tr>
+        <td>
+        <input type="checkbox" name="name">
+        <label for="name">Путешествия</label>
+        </td>
+        <td>
+        <input type="checkbox" name="name">
+        <label for="name">Рисовать</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <input type="checkbox" name="name">
+        <label for="name">Програмировать</label>
+        </td>
+        <td>
+        <input type="checkbox" name="name">
+        <label for="name">Играть на музыкальных инструментах</label>
+        </td>
+    </tr>
+    </table>
+</fieldset>
+<br>
+<!--set4-->
+<fieldset>
+<label for="my-pet">Выберете любимое животное:</label>
+    <input list="pets" id="my-pet" name="my-pet">
+    <datalist id="pets">
+        <option value="кот"></option>
+        <option value="собака"></option>
+        <option value="хомяк"></option>
+    </datalist>
+    <br>
+    <br>
+    <img src="image src.jpeg" alt="фото">
+</fieldset>
+</body>
+</html>

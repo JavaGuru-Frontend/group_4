@@ -1,0 +1,22 @@
+/* 
+    основной размер шрифта для body 16px
+*/
+
+.title {
+  font-size: 48px;
+}
+.title2 {
+  font-size: 32px;
+}
+.title3 {
+  font-size: 24px;
+}
+.title4 {
+  font-size: 16px;
+}
+.title5 {
+  font-size: 5.33px;
+}
+.title6 {
+  font-size: 8px;
+}

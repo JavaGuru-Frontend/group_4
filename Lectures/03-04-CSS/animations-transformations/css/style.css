@@ -27,7 +27,7 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-out;		
-    animation:
+    /* animation: */
         /* circle-to-square 5s infinite alternate ease-out 1s,
         color-change 5s alternate linear infinite; */
 }
