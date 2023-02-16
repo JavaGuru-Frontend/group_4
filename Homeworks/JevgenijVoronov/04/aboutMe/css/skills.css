@@ -1,0 +1,18 @@
+.skills {
+    background-color: var(--color-black);
+    padding: 0 20% 30px 20%;
+}
+.skills__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start
+    
+}
+.skills__item li {
+    padding: 10px 30px 10px 0px;
+}
+
+.skills__item li:last-child {
+    padding-bottom: 40px;
+}
+
