@@ -2,12 +2,12 @@
 // результат написать рядом в коментария
 
 
-String(123)                
-String(-12.3)               
-String(null)
-String(undefined)        
-String(true)                 
-String(false)                
+String(123)     //"123"                
+String(-12.3)   //"-12.3"              
+String(null)    //"null"
+String(undefined)   //"undefined"        
+String(true)    //"true"                 
+String(false)   //"false"                
 String(function () {})  
 String({})                   
 String({ key: 42 })     
@@ -15,32 +15,32 @@ String([])
 String([1, 2])               
 
 
-Number("123")            
-Number("123.4")          
-Number("123,4")          
-Number("")               
-Number(null)             
-Number(undefined)        
-Number(true)            
-Number(false)            
-Number(function () {})   
-Number({})               
-Number([])               
-Number([1])              
+Number("123")   //123            
+Number("123.4") //123.4          
+Number("123,4") //123,4          
+Number("")  //0               
+Number(null)    //0             
+Number(undefined)   //NaN        
+Number(true)    //1           
+Number(false)   //0            
+Number(function () {})  //0   
+Number({})  //0               
+Number([])  //0               
+Number([1]) //1              
 Number([1, 2])           
 
 
-Boolean("")              
+Boolean("") //false              
 Boolean("string")        
-Boolean("false")        
-Boolean(0)               
-Boolean(42)              
-Boolean(-42)             
-Boolean(NaN)             
-Boolean(null)            
-Boolean(undefined)       
-Boolean(function () {})  
-Boolean({})              
-Boolean({ key: 42 })     
-Boolean([])              
+Boolean("false")    //false        
+Boolean(0)  //false               
+Boolean(42) //false              
+Boolean(-42)    //false             
+Boolean(NaN)    //false             
+Boolean(null)   //false            
+Boolean(undefined)  //false       
+Boolean(function () {}) //true  
+Boolean({}) //true              
+Boolean({ key: 42 })    //true     
+Boolean([]) //true              
 Boolean([1, 2])          
