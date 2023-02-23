@@ -1,0 +1,44 @@
+.main {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(0 0 0 / 80%)), 
+        url(../mainImg.png);
+    background-size: contain;
+    /* background-position: bottom; */
+    background-position: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap;
+
+    text-align: center;
+    padding-bottom: 130px
+}
+
+.main__preTitle { font-size: 3vw; }
+.main__title { font-size: 5vw;}
+
+.main__contactBtn,
+.main__contactInfo {
+    padding: 15px 0px;
+    font-size: 1.5vw;
+    display: inline-block;
+    color: var(--font-hover-color);
+    text-decoration: none;
+}
+
+.main__contactBtn {
+    margin-top: 15px;
+    border: 1px solid var(--font-hover-color);
+    border-radius: 5px;
+    padding: 10px 70px;
+}
+
+.main__contactInfo:hover {color: var(--font-main-color);}
+.main__contactBtn:hover {
+    color: var(--color-black);
+    background-color: var(--font-main-color);
+    border-color: var(--font-main-color);
+}

@@ -1,0 +1,7 @@
+.education {
+    background-color: var(--color-black);
+}
+
+.education p  {
+    padding: 0 20% 30px 20%;
+}

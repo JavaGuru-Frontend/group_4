@@ -1,0 +1,32 @@
+
+.parent {
+  display: grid;
+  
+
+  grid-template-areas:
+  'area1 area1 area1 area1 area1 area1 area1 area1 area1 area1'
+  'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+  'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+  'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+  'area2 area2 area10 area10 area10 area10 area11 area11 area12 area12'
+  'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
+  'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
+  'area2 area2 area6 area6 area7 area7 area8 area8 area9 area9'
+  'area3 area3 area3 area3 area4 area4 area4 area5 area5 area5'
+  'area3 area3 area3 area3 area4 area4 area4 area5 area5 area5';
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+}
+.div1 { grid-area: area1;  background-color: gray;}
+.div2 { grid-area: area2; background-color: rgb(215, 110, 150);}
+.div3 { grid-area: area3; background-color: rgb(232, 193, 234);}
+.div4 { grid-area: area4; background-color: rgb(120, 225, 136);}
+.div5 { grid-area: area5; background-color: rgb(121, 191, 252);}
+.div6 { grid-area: area6; background-color: rgb(179, 230, 196);}
+.div7 { grid-area: area7; background-color: rgb(221, 194, 105);}
+.div8 { grid-area: area8; background-color: rgb(196, 200, 149);}
+.div9 { grid-area: area9; background-color: rgb(180, 110, 126);}
+.div10 { grid-area: area11; background-color: rgb(227, 177, 225);}
+.div11 { grid-area: area10; background-color: rgb(78, 188, 164);}
+.div12 { grid-area: area12; background-color: rgb(201, 146, 209);}

@@ -1,0 +1,42 @@
+@import url(./Bem-large.css);
+@import url(./Bem-Small.css);
+@import url(./Bem-Extrasmall.css);
+@import url(./Bem-Normal.css);
+
+.container>div{
+    margin-left: 10px;
+}
+    
+
+.primary {
+    background-color: blue;
+}
+
+.danger {
+    background-color: red;
+}
+
+.warning {
+    background-color: orange;
+}
+
+.info {
+    background-color: rgb(73, 209, 214);
+    
+}
+
+.success {
+    background-color: green;
+}
+
+.default {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.link {
+    color: blue;
+    background-color: transparent;
+}
