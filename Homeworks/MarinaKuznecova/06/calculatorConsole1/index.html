@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+    <link type="text/css" href="./css/main.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, height=device-height, viewport-fit=cover, initial-scale=1" />
+
+</head>
+<body>
+	<!-- поле ввода первого числа -->
+	<input id="num1" />
+
+	<!-- блок с кнопками -->
+	<div id="operator_btns">
+        <button id="plus" onclick="op='+'">+</button>
+        <button id="minus" onclick="op='-'">-</button>
+        <button id="times" onclick="op='*'">*</button>
+        <button id="divide" onclick="op='/'">/</button>
+      </div>
+
+      <!-- поле ввода второго числа -->
+      <input id="num2" />
+      <br>
+  
+      <!-- кнопка для расчётов -->
+      <button onclick="func()">Count</button>
+  
+      <!-- здесь будет результат -->
+      <p id="result"></p>
+  
+      <!-- наш скрипт -->
+      <script language="javascript">
+var default_color;
+function mouseIn() {
+  default_color = document.changecolorbutton.but.style.background;
+  document.changecolorbutton.but.style.background = "red";
+}
+function mouseOut() {
+  document.changecolorbutton.but.style.background = default_color;
+}
+</script>
+<script>
+
+        // переменная, в которой хранится выбранное математическое действие
+        var op; 
+  
+        // функция расчёта
+        function func() {
+            // переменная для результата
+          var result;
+          // получаем первое и второе число
+          var num1 = Number(document.getElementById("num1").value);
+          var num2 = Number(document.getElementById("num2").value);
+          // смотрим, что было в переменной с действием, и действуем исходя из этого
+          switch (op) {
+            case '+':
+              result = num1 + num2;
+              break;
+            case '-':
+              result = num1 - num2;
+              break;
+            case '*':
+              result = num1 * num2;
+              break;
+            case '/':
+              result = num1 / num2;
+              break;
+          }
+  
+          // отправляем результат на страницу
+          document.getElementById("result").innerHTML = result;
+        }
+      </script>
+  
+  </body>
+  </html>

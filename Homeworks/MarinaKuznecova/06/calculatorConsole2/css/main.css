@@ -1,0 +1,21 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    }
+    .calc {
+      width: 325px;
+      height: auto;	
+      margin: 100px auto;
+      padding: 20px 20px 9px;
+      color: rgb(255, 255, 255);
+      background: #ba52da;
+      background: linear-gradient(#35b80d, #6b9cb3);
+      border-radius: 3px;
+      box-shadow: 0px 4px #be3de6, 0px 10px 15px rgba(68, 24, 24, 0.2);
+    }
