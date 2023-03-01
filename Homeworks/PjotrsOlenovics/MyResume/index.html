@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Моё резюме</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* добавим стили для страницы */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      h1 {
+        margin-top: 0;
+      }
+      
+      section {
+        padding: 20px;
+      }
+      
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+      
+      h2 {
+        margin-top: 0;
+      }
+      
+      /* добавим стили для адаптивной вёрстки */
+      @media screen and (max-width: 767px) {
+        /* стили для мобильных устройств */
+        header {
+          padding: 10px;
+        }
+        
+        h1 {
+          font-size: 24px;
+        }
+        
+        section {
+          padding: 10px;
+        }
+        
+        li {
+          font-size: 16px;
+        }
+        
+        h2 {
+          font-size: 20px;
+        }
+      }
+      
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        /* стили для планшетных устройств */
+        header {
+          padding: 15px;
+        }
+        
+        h1 {
+          font-size: 32px;
+        }
+        
+        section {
+          padding: 15px;
+        }
+        
+        li {
+          font-size: 18px;
+        }
+        
+        h2 {
+          font-size: 24px;
+        }
+      }
+      
+      @media screen and (min-width: 992px) {
+        /* стили для компьютеров */
+        header {
+          padding: 20px;
+        }
+        
+        h1 {
+          font-size: 48px;
+        }
+        
+        section {
+          padding: 20px;
+        }
+        
+        li {
+          font-size: 20px;
+        }
+        
+        h2 {
+          font-size: 32px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Моё резюме</h1>
+    </header>
+    <section>
+      <h2>Личная информация</h2>
+      <ul>
+        <li>Имя: Иван Иванов</li>
+        <li>Дата рождения: 1 января 2000 г.</li>
+        <li>Адрес: ул. Пушкина, д. 10, кв. 5, г. Москва</li>
+        <li>Телефон: +7 (999) 123-45-67</li>
+        <li>E-mail: ivanov@example.com</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Образование</h2>
+      <ul>
+        <li>Бакалавр экономики, Московский государственный университет имени М.В. Ломоносова, 2018-2022 гг.</li>
+        <li>Магистр экономики, Московский государственный университет имени М.В. Ломоносова, 2022-2024 гг. (ожидаемая дата окончания)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Опыт работы</h2>
+      <ul>
+        <li>Стажёр-экономист, ООО "Рога и копыта", март-июнь 2021 г.</li>
+        <li>Аналитик, ООО "Рога и копыта", июль 2021 - по настоящее время</li>
+      </ul>
+    </section>
+    <script>
+      // добавим скрипт для адаптивной вёрстки
+      const viewport = document.querySelector('meta[name="viewport"]');
+      const setViewport = () => {
+        const width = window.innerWidth || document.documentElement.clientWidth;
+        const breakpoint = 768; // ширина, при которой переход на мобильный вид
+        if (width < breakpoint) {
+          viewport.setAttribute('content', 'width=480');
+        } else {
+          viewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
+        }
+      };
+      window.addEventListener('resize', setViewport);
+      setViewport(); // вызовем функцию при загрузке страницы
+    </script>
+  </body>
+</html>
