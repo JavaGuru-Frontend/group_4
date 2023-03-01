@@ -1,6 +1,6 @@
-let num1 = parseFloat(prompt("Введите первое число:"));
-let num2 = parseFloat(prompt("Введите второе число:"));
-let operator = prompt("Введите оператор (+, -, *, /):");
+let num1 = parseFloat(prompt("Number 1"));
+let num2 = parseFloat(prompt("Number 2"));
+let operator = prompt("Choose a math action (+, -, *, /):");
 
 let result;
 
@@ -13,7 +13,7 @@ if (operator === "+") {
 } else if (operator === "/") {
   result = num1 / num2;
 } else {
-  console.log("Некорректный оператор");
+  console.log("Error");
 }
 
-console.log(`Результат: ${result}`);
+console.log(`Result: ${result}`);
