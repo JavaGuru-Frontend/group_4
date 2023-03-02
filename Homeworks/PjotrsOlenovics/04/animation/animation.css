@@ -1,0 +1,46 @@
+.animation {
+    height: 100vh;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.animation__loader {
+    background-color: rgb(215, 215, 215);
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 50%;
+    animation-name: circle-to-cirkle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+.animation__loader_2 {
+   animation-delay: 0.25s;
+}
+
+.animation__loader_3 {
+    animation-delay: 0.5s;
+}
+
+
+@keyframes circle-to-cirkle {
+    from {
+        width: 15px;
+        height: 15px;
+        background-color: rgb(151, 151, 151);
+    }
+
+    to {
+        width: 30px;
+        height: 30px;
+        background-color: rgb(30, 30, 30);
+    }
+}

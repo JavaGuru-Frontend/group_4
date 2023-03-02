@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <style>
+      /* стили для внешнего вида калькулятора */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: lightgray;
+      }
+      .calculator {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-color: white;
+      }
+      input[type="button"] {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        font-size: 24px;
+        border-radius: 5px;
+        border: none;
+        background-color: #ccc;
+      }
+      input[type="button"]:hover {
+        background-color: #ddd;
+        cursor: pointer;
+      }
+      #output {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 36px;
+        text-align: right;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <div id="output">0</div>
+      <input type="button" value="1" onclick="buttonClicked('1')">
+      <input type="button" value="2" onclick="buttonClicked('2')">
+      <input type="button" value="3" onclick="buttonClicked('3')">
+      <input type="button" value="+" onclick="buttonClicked('+')">
+      <br>
+      <input type="button" value="4" onclick="buttonClicked('4')">
+      <input type="button" value="5" onclick="buttonClicked('5')">
+      <input type="button" value="6" onclick="buttonClicked('6')">
+      <input type="button" value="-" onclick="buttonClicked('-')">
+      <br>
+      <input type="button" value="7" onclick="buttonClicked('7')">
+      <input type="button" value="8" onclick="buttonClicked('8')">
+      <input type="button" value="9" onclick="buttonClicked('9')">
+      <input type="button" value="*" onclick="buttonClicked('*')">
+      <br>
+      <input type="button" value="0" onclick="buttonClicked('0')">
+      <input type="button" value="C" onclick="clearOutput()">
+      <input type="button" value="=" onclick="calculateResult()">
+      <input type="button" value="/" onclick="buttonClicked('/')">
+    </div>
+    <script>
+      // функция вызываемая при клике на кнопки
+      function buttonClicked(value) {
+        document.getElementById('output').innerHTML += value;
+      }
+
+      // функция очищает поле вывода
+      function clearOutput() {
+        document.getElementById('output').innerHTML = "0";
+      }
+
+      // функция вычисляет результат и выводит его в поле вывода
+      function calculateResult() {
+        var output = document.getElementById('output');
+        var result = eval(output.innerHTML);
+        output.innerHTML = result;
+      }
+    </script>
+  </body>
+</html>
