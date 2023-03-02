@@ -1,0 +1,39 @@
+/* test comment */
+
+:root {
+    --primary:  #2965A8;
+    --danger:   #CE3C3E;
+    --warning:  #EB9E3E;
+    --info:     #4CB3D6;
+    --succes:   #4EAD4A;
+    --default:  #FFFFFF;
+}
+
+.button {
+    border-radius: 4px;
+    padding: 5px 10px;  
+    color: white;
+    border-style: unset; 
+    border: 1px solid;
+}
+
+button:hover { filter: brightness(0.8);}
+
+/* Size modifiers */
+.button_normal      { font-size: normal; }
+.button_large       { font-size: large; padding: 10px; }
+.button_small       { font-size: small; }
+.button_extra-small { font-size: x-small; }
+
+/* Color modifiers */
+.button_primary     { background-color: var(--primary) }
+.button_danger      { background-color: var(--danger) }
+.button_warning     { background-color: var(--warning) }
+.button_info        { background-color: var(--info) }
+.button_success     { background-color: var(--succes) }
+.button_default     { color: black; }
+.button_link {
+    background-color: white;
+    border:0px;
+    color: var(--primary);
+}

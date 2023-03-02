@@ -1,0 +1,144 @@
+/* 0.0.0.1.1  ---> 11 
+h1.child {
+    color: red;
+}
+
+/* 1.0.0.1.0  ---> 10010*/  
+/* .child {
+    color: aqua !important;
+} */
+
+/* 1.0.0.0.1 ---> 10001*/
+/* h1 {
+    color: blue !important;
+} */
+/* 0.0.1.0.0 ---> 100*/
+/* #titleId {
+    color: blueviolet;
+} */
+
+
+/* .navigation {
+    border: solid 1px green;
+    margin: 50px;
+}
+.navigation__link {
+    border: solid 1px red;
+    
+}
+.navigation_active {
+    border: solid 1px rgb(60, 0, 255);
+} */
+
+html {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 10vh;
+}
+
+.boxModel {
+    /* box-sizing: border-box;
+    background-color: aqua; 
+    width: 50vw;
+    height: 50vh;
+    /* margin: 50px; */
+    /* padding: 20px; */
+    /* border: 5px solid hotpink; */
+    /* border-radius: 30px; */
+    /* display: inline-block; */
+}
+
+.boxModel2 {
+    /* box-sizing: border-box;
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid hotpink;
+    border-radius: 30px;
+    display: inline-block; */
+}
+
+
+body * + * { margin-top: 1.5em;}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 500px;
+  background-color: grey;
+/* flex-direction ---------------   */
+/*   flex-direction: row            */
+/*                   row-reverse    */
+/*                   column         */
+/*                   column-reverse */
+  
+/* flex-wrap ---------------  */
+/*   flex-wrap: nowrap;       */
+/*              wrap;         */
+/*              wrap-reverse; */
+
+/* flex-flow -------------- */  
+/*   flex-flow: row nowrap; */
+  
+/* justify-content ---------------   */
+/*   justify-content: flex-start;    */
+/*                    center         */
+/*                    flex-end;      */
+/*                    space-around;  */
+/*                    space-between; */
+ 
+/* align-items -------------- */
+/*   align-items: stretch;    */
+/*                flex-end;   */
+/*                flex-start; */
+/*                flex-end;   */
+/*                baseline;   */
+  
+/* align-content ----------------- */ 
+/*   align-content: space-between; */
+/*                  space-around;  */
+/*                  stretch;       */
+/*                  flex-start;    */
+/*                  center;        */
+/*                  flex-end;      */
+}
+
+.flex-container > div {
+  background-color: lightgrey;
+  margin: 10px;
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+/* ---------------------------
+             GRIDS
+------------------------------ */
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: grey;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  } */

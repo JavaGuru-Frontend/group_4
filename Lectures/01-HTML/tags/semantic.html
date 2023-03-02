@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Теги Семантические</title>
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <li><a href="main.html">Основные</a></li>
+        <li><a href="textformat.html">Форматирование</a></li>
+        <li><a href="semantic.html">Семантические</a></li>
+        <li><a href="form.html">Формы</a></li>
+        <li><a href="img.html">Картинки</a></li>
+        <li><a href="link.html">Ссылки</a></li>
+        <li><a href="list.html">Списки</a></li>
+        <li><a href="media.html">Интерактив</a></li>
+        <li><a href="tables.html">Таблицы</a></li>
+        <li><a href="meta.html">Мета</a></li>
+        <li><a href="resources.html">Ресурсы</a></li>
+      </ul>
+      <hr>
+    </header>
+    <article id="content">
+      div | span | header | footer | main | article | aside | nav | time | del | ins | kbd | output | strong | em | cite | var | dfn |
+
+<!-- header -->
+      <hr>
+      <h2>header</h2>
+      <header>
+        <nav>
+          <a href="#">Мои работы</a>
+          <a href="#">Мои навыки</a>
+          <a href="#">Контакты</a>
+        </nav>
+      </header>
+<!-- /header -->
+
+<!-- footer -->
+      <hr>
+      <h2>footer</h2>
+      <article>
+        <footer>
+          <address>
+            <p>Jevgenij Voronov</p>
+            <p>Почта: <a href="mailto:jevgenijsvoronovs@gmail.com">jevgenijsvoronovs@gmail.com</a>.</p>
+          </address>
+        </footer>
+      </article>
+<!-- footer -->
+
+<!-- Main -->
+      <hr>
+      <h2>Main</h2>
+      <header>Сайт об архитекторах Санкт-Петербурга</header>
+
+      <main>
+        <h3>Несколько фактов о Растрелли</h3>
+        <p>Франческо Растрелли — российский архитектор итальянского происхождения.</p>
+        <p>Он был ярким представителем елизаветинского барокко.</p>
+      </main>
+      
+      <footer>Подписывайтесь на нас в Инстаграме</footer>  
+<!-- Main -->
+
+<!-- Section -->
+      <hr>
+      <h2>Section</h2>
+      <section>
+        <h1>Заголовок первого блока</h1>
+        <p>текст текст</p>
+      </section>
+      
+      <section>
+        <h1>Заголовок второго блока</h1>
+        <p>текст текст</p>
+      </section>
+<!-- Section -->
+
+<!-- Article -->
+      <hr>
+      <h2>article</h2>
+      <article>
+        <h1>Тег <code>&lt;article&gt;</code>, и с чем его едят</h1>
+        <h2>Кратко</h2>
+        <p>
+          Тег <code>&lt;article&gt;</code> обозначает законченный и самодостаточный
+          раздел документа, описывающий какую-то сущность: статью, товар, карточку
+          пользователя и т. д.
+        </p>
+        <h2>Пример</h2>
+        <pre>
+          <code>Рекурсия! 💥</code>
+        </pre>
+      </article>
+<!-- Article -->
+
+<!-- Aside -->
+      <hr>
+      <h2>aside</h2>
+      <aside>
+        <ul>
+          <li>Комментарий 1</li>
+          <li>Комментарий 2</li>
+        </ul>
+      </aside>
+<!-- Aside -->
+
+<!-- nav -->
+      <hr>
+      <h2>nav</h2>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>  
+<!-- nav -->
+
+<!-- time -->
+      <hr>
+      <h2>time</h2>
+      Челябинский метеорит вошёл в земную атмосферу
+      <time datetime="2013-02-15T09:20+06:00">
+        15 февраля 2013 около 09:20
+      </time>    
+<!-- time -->
+
+<!-- del / ins -->
+      <hr>
+      <h2>del / ins</h2>
+      <pre>
+        body {
+          font-size: 16px;
+          <del>color: black;</del>
+          <ins>color: white;</ins>
+        }
+      </pre> 
+<!-- del / ins -->
+
+<!-- kbs -->
+      <hr>
+      <h2>kbs</h2>
+      <p>
+        Эту страницу можно
+        распечатать, если нажать
+        <kbd>
+          <kbd>Ctrl</kbd> + <kbd>P</kbd>
+        </kbd>.
+      </p>
+<!-- kbs -->
+
+<!-- output -->
+      <hr>
+      <h2>output</h2>
+      <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="b" name="b" value="50" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+      </form>
+<!-- output -->
+
+<!-- strong -->
+      <hr>
+      <h2>strong</h2>
+      <p>Это <strong>критически важно</strong> для проекта!</p>
+<!-- strong -->
+
+<!-- em -->
+      <hr>
+      <h2>em</h2>
+      <p>Это просто <em>невозможно</em> физически.</p>
+<!-- /em -->
+
+<!-- cite -->
+      <hr>
+      <h2>cite</h2>
+      <p>
+        — За актуальными новостями можно следить на
+        <cite>
+          <a href="#">сайте Стивена Кинга</a>
+        </cite>.
+      </p>
+<!-- /cite -->
+
+<!-- var -->
+      <hr>
+      <h2>var</h2>
+      <var>E</var> = <var>m</var> × <var>c<sup>2</sup></var>
+<!-- /var -->
+
+<!-- dfn -->
+      <hr>
+      <h2>dfn</h2>
+      <p>
+        <dfn><abbr>HTML</abbr></dfn> — hypertext markup language
+      </p>
+<!-- /dfn -->
+    </article>
+  </body>
+</html>

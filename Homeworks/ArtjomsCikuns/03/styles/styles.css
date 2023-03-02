@@ -1,0 +1,105 @@
+/* body {
+ background-image: url(images/background.jpg);
+ 
+ background-size:auto;
+
+ background-position: center;
+
+ background-size: cover;
+
+
+
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+h1,
+h2,
+h4 {
+  font-family: "Anton", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding-top: 25px;
+}
+
+/* my photo and background */
+
+.text-center {
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+/* headers */
+
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+li {
+  font-family: "Courier New", Courier, monospace;
+  color: azure;
+}
+
+p {
+  color: azure;
+}
+
+/* p and li fonts, color */
+
+h1,
+h2,
+h4 {
+  color: rgb(231, 209, 95);
+}
+
+/* header color */
+
+.container {
+  width: 100%;
+}
+
+.container ul {
+  text-align: center;
+  list-style: none;
+}
+
+.container li {
+  display: inline-block;
+}
+
+/* education */
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.myhobbies_hobbies {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact_info {
+  text-align: center;
+}
+
+.container__aboutme {
+  width: 500px;
+  display: flex;
+  text-align: center;
+  margin-left: 690px;
+}

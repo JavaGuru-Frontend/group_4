@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color:rgb(201, 201, 201)
+}
+h4{
+    font-size: 30px;
+    color:rgb(0, 151, 151);
+
+}
+h3{
+    font-size: 25px;
+    color:rgb(0, 121, 121);
+}
+a{
+    font-size: 20px;
+    color:rgb(83, 83, 83);
+}
+address{
+    font-size: 18px;
+    color:rgb(255, 0, 0);
+}
+b{
+    font-size: 18px;
+    color:rgb(0, 165, 19);
+}

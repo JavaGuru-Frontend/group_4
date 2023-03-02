@@ -1,0 +1,54 @@
+@import url(./navigation.css);
+
+th,
+td {
+    border: 2px solid rgb(161, 13, 124);
+}
+
+body {
+    font-family: 'Solitreo', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(43, 39, 41);
+
+}
+
+.conteiner__item {
+    max-width: 800px;
+    background-color: rgb(219, 216, 15);
+    padding: 20px;
+}
+
+div.a {
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(161, 13, 124);
+}
+img{
+    width: 50%;
+}
+.images{
+    background: url(https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/26100309/blur-close-up-code-computer-546819.jpg) no-repeat;
+    background-size: contain;
+    margin-top:20px;
+    max-width: 500px;
+    height: 500px;
+}
+@media only screen and (min-width:700px) {
+    .images{
+        background-image: url(https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg);
+    }
+}

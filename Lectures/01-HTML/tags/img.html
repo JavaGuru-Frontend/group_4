@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Теги картинок</title>
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <li><a href="main.html">Основные</a></li>
+        <li><a href="textformat.html">Форматирование</a></li>
+        <li><a href="semantic.html">Семантические</a></li>
+        <li><a href="form.html">Формы</a></li>
+        <li><a href="img.html">Картинки</a></li>
+        <li><a href="link.html">Ссылки</a></li>
+        <li><a href="list.html">Списки</a></li>
+        <li><a href="media.html">Интерактив</a></li>
+        <li><a href="tables.html">Таблицы</a></li>
+        <li><a href="meta.html">Мета</a></li>
+        <li><a href="resources.html">Ресурсы</a></li>
+      </ul>
+      <hr>
+    </header>
+    <article id="content">
+      img | picture | source | svg
+
+      <!-- img -->
+      <br>
+      <hr>
+      <h2>img</h2>
+      <img src="../../../Homeworks/JevgenijVoronov/00/profileImg.png" alt="фото профиля">
+      <!-- /img -->
+
+      <!-- picture -->
+      <hr>
+      <h2>img</h2>
+      <picture>
+        <source srcset="750x400.png" media="(min-width: 1000px)">
+        <img src="../../../Homeworks/JevgenijVoronov/00/profileImg.png" alt="фото профиля">
+      </picture>
+      <!-- /picture -->
+
+      <!-- source -->
+      <hr>
+      <h2>source</h2> 
+
+       <video controls width="250" height="200" muted>
+        <source src="" type="video/webm">
+        <source src="" type="video/mp4">
+      </video>
+      <!-- /source -->
+
+      <!-- svg -->
+      <hr>
+      <h2>svg</h2>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        viewBox="0 0 24 24"
+        width="200px"
+        height="50px"
+      >
+        <path
+          d="M16 12a3.001 3.001 0 016 0 3.001 3.001 0 01-6 0zm1 0a2 2 0
+            114.001.001A2 2 0 0117 12zm-8 0a3.001 3.001 0 016 0 3.001 3.001 0
+            01-6 0zm1 0a2 2 0 114.001.001A2 2 0 0110 12zm-8 0a3.001 3.001 0 016
+            0 3.001 3.001 0 01-6 0zm1 0a2 2 0 114.001.001A2 2 0 013 12z"
+        />
+      </svg>
+      <!-- /svg -->
+    </article>
+  </body>
+</html>

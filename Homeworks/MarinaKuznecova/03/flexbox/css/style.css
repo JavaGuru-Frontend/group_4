@@ -1,0 +1,20 @@
+.container {max-width: 600px;}
+
+.flex-container {
+    display: flex;
+    min-height: 500px;
+    background-color: gray;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.flex-container > div {
+    background-color: lightgrey;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    font-size: 30px;
+}

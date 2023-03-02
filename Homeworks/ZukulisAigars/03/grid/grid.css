@@ -1,0 +1,116 @@
+
+.all_divs {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 0.5rem;
+    background-color: transparent;
+}
+
+.all_divs > div {
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+}
+
+.div1 {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row: 1;
+    height: 1fr;
+    width: 10fr;
+    background-color: rgb(142, 108, 23);
+}
+
+.div2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    background-color: rgb(118, 132, 66); 
+    height: 7fr;
+    width: 2fr;
+
+}
+
+.div3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    height: 2fr;
+    width: 4fr;
+    background-color: rgb(62, 114, 34);
+}
+
+.div4 {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background-color: rgb(14, 103, 2);
+}
+.div5 {
+    grid-column-start: 8;
+    grid-column-end: 11;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    background-color: rgb(51, 126, 58);
+}
+
+.div6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color: rgb(86, 132, 87);
+}
+
+.div7 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color: rgb(106, 130, 104);
+}
+
+.div8 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color: rgb(76, 80, 133);
+}
+
+.div9 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    background-color: rgb(29, 36, 135);
+}
+
+.div10 {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: rgb(38, 10, 161);
+}
+.div11 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: rgb(81, 21, 142);
+}
+
+.div12 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: rgb(89, 22, 136);
+}
+ /* HELP NEEDED */
+/* No idea, how I can change height of divs, since they are measured in fraction */
