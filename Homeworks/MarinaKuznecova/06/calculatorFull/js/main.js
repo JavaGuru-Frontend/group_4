@@ -2,7 +2,9 @@ const buttons = document.getElementsByClassName('btn');
 const output = document.getElementById('output');
 const historyElement = document.getElementById('history');
 
+
 let equation = '';
+let number = "";
 let id = '';
 let type = '';
 // let mathCount = localStorage.length || 0;

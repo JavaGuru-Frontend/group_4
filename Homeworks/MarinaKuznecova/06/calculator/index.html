@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="./css/main.css" rel="stylesheet" />
+    <title>Calculator</title>
+</head>
+<body> 
+<form>
+    	<table>
+        	<tr>	
+            	<td><h4>Number 1</h4></td>
+                <td><input type="number" id="t1"/></td>
+            </tr>
+            <tr>	
+            	<td><h4>Number 2</h4></td>
+                <td><input type="number" id="t2"/></td>
+            </tr>
+            <tr>	
+            	<td><h4>Result</h4></td>
+                <td><input type="text" id="t3"/></td>
+            </tr>
+            <tr>	
+            	<td><h4>Select <br> Operation</h4></td>
+                <td>
+                	<select id="s1">
+                    	<option value="">Select Operation</option>
+						<option value="+">Addition</option>
+                        <option value="-">Substraction</option>
+                        <option value="*">Product</option>
+                        <option value="/">Quotient</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>	
+            	<td></td>
+                <td><input type="button" value="Calculate" onClick="cal()"/></td>
+            </tr>
+        </table>
+    </form>
+
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>

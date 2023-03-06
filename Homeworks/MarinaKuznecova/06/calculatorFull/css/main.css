@@ -57,10 +57,20 @@ body {
     border-radius: 5px;
 }
 
-.btn[data-type="operator"]
-.btn[data-type="symbol"] {
-    background-color: #333;
+ /*.btn_clear {
+    background-color: blue; меняем цвет кнопки clear С
+}   */
+.btn[data-type="clear"] {
+    background-color: red;
 }
+.btn[data-type="number"] {
+    background-color: gray;
+}
+.btn[data-type="operator"] {
+    background-color: black;
+}
+
+
 
 .btn[data-type="equal"] {
     background-color: #17f77c;
