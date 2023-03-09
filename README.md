@@ -41,4 +41,4 @@ https://github.com/JavaGuru-Frontend/group_4
 | Stanislavs  Savluks   | ChiuRiu          | ✓ | ? |   |   |   |   |   |
 | Viktor      Koreskov  | Koreskov         | * | * |   |   |   |   |   |
 | Vladislavs  Ruskulis  | Ruskulis94       | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |   |
-| Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |
+| Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ | ✓ | ✓ | * | * |
