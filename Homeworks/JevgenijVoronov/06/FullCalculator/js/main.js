@@ -37,6 +37,7 @@ for (let i = 0; i < buttons.length; i++) {
     }, false);
 }
 
+
 // clear:
 let clear = () => {
     number = "";
@@ -64,13 +65,8 @@ let symbol = () => {
 // equal:
 let equal = () => {
     number = eval(equation);
-
-    saveToLocalStorage(equation)
-
     equation = number;
     output.innerHTML = number;
-
-    loadFromLocalStorage();
 }
 
 
@@ -95,5 +91,3 @@ document.addEventListener("keyup", function(event) {
         equal();
     }
 }, false);
-
-loadFromLocalStorage();
