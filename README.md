@@ -33,12 +33,12 @@ https://github.com/JavaGuru-Frontend/group_4
 | Julija	  Maksimova |                  | ✓ | ? | ? |   |   |   |   |
 | Karina      Kapliar   | Karina-kapliar   | ✓ | * |   |   |   |   |   |
 | Kirills	  Sokolovs  | KirillsSokolovs  | ✓ | * |   |   |   |   |   |
-| Marina	  Kuznecova | Satemmka         | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |   |
+| Marina	  Kuznecova | Satemmka         | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Oleg        Avdejevs  | maklaj90         | ✓ | * | * |   |   |   |   |
 | Pjotr       Olenovics | 7Pierre          | ✓ | * | ✓ |   |   |   |   |
 | Romans 	  Šodnaks   |                  | * | ✓ |   |   |   |   |   |
 | Sergejs     Fadins    | Evirum           | ✓ | ? |   |   |   |   |   |
 | Stanislavs  Savluks   | ChiuRiu          | ✓ | ? |   |   |   |   |   |
 | Viktor      Koreskov  | Koreskov         | * | * |   |   |   |   |   |
-| Vladislavs  Ruskulis  | Ruskulis94       | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |   |
-| Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ | ✓ | ✓ | * | * |
+| Vladislavs  Ruskulis  | Ruskulis94       | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |

@@ -15,6 +15,7 @@ buttons.forEach(function(button) {
 
     if (buttonType === "number") {
       let currentValue = output.innerHTML;
+// zeka ZukulisAigars тебе понятно что делает строчка ниже ?
       output.innerHTML = currentValue === "0" ? buttonValue : currentValue + buttonValue;
 
 // Handling operators
@@ -61,6 +62,7 @@ buttons.forEach(function(button) {
       let calculation = `${storedValue} ${operator} ${currentValue} = ${result}`;
       let calculationItem = document.createElement("li");
       calculationItem.innerHTML = calculation;
+// zeka ZukulisAigars посмотри строчку 60
 // Need some help here, next line is simly stolen from google, and I have no idea how it works and error in console says that historylist not defined
       historyList.appendChild(calculationItem);
     } else if (buttonType === "clear") {
