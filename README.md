@@ -12,7 +12,11 @@ https://github.com/JavaGuru-Frontend/group_4
 [01](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/01/Homework.md)  
 [02](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/02/Homework.md)   
 [03](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/03/Homework.md)
-
+[04](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/04/Homework.md)
+[05](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/05/Homework.md)
+[06](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/06/Homework.md)
+[07](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/07/Homework.md)
+[08](https://github.com/JavaGuru-Frontend/group_4/blob/main/Homeworks/%F0%9F%8E%92HOMEWORKS/08/Homework.md)
 
 ## Решение работ 
 [JevgenijVoronov](https://github.com/JavaGuru-Frontend/group_4/tree/main/Homeworks/JevgenijVoronov)   
@@ -33,12 +37,12 @@ https://github.com/JavaGuru-Frontend/group_4
 | Julija	  Maksimova |                  | ✓ | ? | ? |   |   |   |   |
 | Karina      Kapliar   | Karina-kapliar   | ✓ | * |   |   |   |   |   |
 | Kirills	  Sokolovs  | KirillsSokolovs  | ✓ | * |   |   |   |   |   |
-| Marina	  Kuznecova | Satemmka         | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |   |
+| Marina	  Kuznecova | Satemmka         | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Oleg        Avdejevs  | maklaj90         | ✓ | * | * |   |   |   |   |
 | Pjotr       Olenovics | 7Pierre          | ✓ | * | ✓ |   |   |   |   |
 | Romans 	  Šodnaks   |                  | * | ✓ |   |   |   |   |   |
 | Sergejs     Fadins    | Evirum           | ✓ | ? |   |   |   |   |   |
 | Stanislavs  Savluks   | ChiuRiu          | ✓ | ? |   |   |   |   |   |
 | Viktor      Koreskov  | Koreskov         | * | * |   |   |   |   |   |
-| Vladislavs  Ruskulis  | Ruskulis94       | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |   |
-| Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |
+| Vladislavs  Ruskulis  | Ruskulis94       | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
