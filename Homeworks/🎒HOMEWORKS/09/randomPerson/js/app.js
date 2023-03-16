@@ -1,0 +1,1 @@
+// fetch("https://randomuser.me/api/");
