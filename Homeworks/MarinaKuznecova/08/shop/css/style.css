@@ -1,0 +1,8 @@
+.e-shop__menu {
+    padding-left: 0px;
+}
+.e-shop__menu li {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 10px;
+}
