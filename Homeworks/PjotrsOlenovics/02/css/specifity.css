@@ -1,34 +1,34 @@
 /* Укажите специфичность в коментариях */
 
 p {}                                    
-/*0.0.0.0.1*/
+/*0.0.1*/
 .titleClass {}                         
-/*0.0.0.1.0*/
+/*0.1.0*/
 #titleId {}                             
-/*0.0.1.1.0*/ 
+/*1.0.0*/ 
 p.titleClass {}                         
-/*0.0.0.1.1*/
+/*0.1.1*/
 p#titleId {}                            
-/*{0.0.1.1.1*/                           
+/*1.0.1*/                           
 p#titleId.titleClass1.titleClass2 {}   
-/*1.0.1.3.1*/   
+/*1.2.1*/   
 p em {}                                 
-/*0.0.0.0.2*/                                 
+/*0.0.2*/                                 
 p .class {}                             
-/*0.0.0.1.1*/  
+/*0.1.1*/  
 p .class {                               
     color: red Important;
 }                             
-/*1.0.0.1.1*/
+/*0.1.1*/
 
 /*  какое из свойт будет применено 
     указать знаками < или = или >
     пример  (em) < (.class)
     em 0.0.1
-    .class 0.1.0
-*/
+    .class 0.1.0 */
+
 
 (p em) /* 0.0.2 < 0.1.1 */ (p.class) 
-(#m_d) /* 0.1.0 > 0.1.1 */ (em.m_cl)
-(div p#my_id span) /* 1.0.3 < 2.0.2 */ (div[title*="City"] span#s_id) 
-(div>div.my_class p[contenteditable].red_color span:hover) /* 0.1.5 = 0.1.5 */ (div p+div[title="css"] p.green_color span) 
+(#m_d) /* 1.0.0 > 0.1.1 */ (em.m_cl)
+(div p#my_id span) /* 1.0.3 < 1.1.2 */ (div[title*="City"] span#s_id) 
+(div>div.my_class p[contenteditable].red_color span:hover) /* 0.4.4 > 0.2.5 */ (div p+div[title="css"] p.green_color span) 
