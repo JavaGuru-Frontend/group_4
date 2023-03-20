@@ -39,50 +39,61 @@
                 если нажали на сам элемент то нам надо добавить класс done и пересохранить данные в локальное хранилище
 */
 const taskAdder = document.querySelector('.taskAdder');
+const taskInput = document.querySelector('#textTaskAdder');
 const myTasks = document.querySelector('.myTasks');
-// const tasks = JSON.parse(localStorage.getItem('taskList')) || [];
 
-// addEventListener click 
-// addEventListener submit
 
-const tasks = [
-    {
-        text: 'xuj',
-        done: false
-    },
-    {
-        text: 'xuj1',
-        done: false
-    },
-    {
-        text: 'xuj2',
-        done: false
-    }
-
-]
-
-renderTask();
+function saveToLocalStorage(taskList) {
+    taskListString = (JSON.stringify(taskList))
+    localStorage.setItem('taskList', taskListString);
+}
 
 function addTask() {
-
+    const taskList = localStorage.getItem('taskList') ? JSON.parse(localStorage.getItem('taskList')) : [];
+    taskList.push(
+        {
+            textTask: taskInput.value,
+            done: false
+        }
+    )
+    saveToLocalStorage(taskList);
 }
 
-function saveToLocalStorage() {
+taskAdder.addEventListener('submit', addTask)
 
-}
+
 
 function renderTask() {
-    tasks.forEach(task => {
-        debugger;
-        return `<li data-index='${i}'>
-                        <div class="">
-                            ${task.text}<span class="remove">❌</span>
-                        </div>
-                    </li>`;
-        
+    const tasks = localStorage.getItem('taskList') ? JSON.parse(localStorage.getItem('taskList')) : [];
+    let res = ""
+    tasks.forEach((task, i) => {
+        res += `<li data-index='${i}'>
+                    <div class="">
+                        ${task.textTask}<span class="remove">❌</span>
+                    </div>
+                </li>`;
     });
 
+    return res;
 }
 
-function toggleDone(e) {
-}
+
+myTasks.innerHTML = renderTask();
+
+
+const deleteInf = document.querySelectorAll('.remove')
+
+// function toggleDone(event) {
+
+// }
+
+deleteInf.forEach(item => {
+    item.addEventListener('click', event => {
+        const taskList = localStorage.getItem('taskList') ? JSON.parse(localStorage.getItem('taskList')) : [];
+        const index = item.parentElement.parentElement.getAttribute('data-index')
+        taskList.splice(index, 1);
+        saveToLocalStorage(taskList);
+
+        myTasks.innerHTML = renderTask();
+    })
+})
