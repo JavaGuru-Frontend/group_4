@@ -1,37 +1,24 @@
-const apiURL = 'https://dog.ceo/api/';
-const dogSelector = document.getElementById('dogSelector');
-const dogImg = document.getElementById('dogImg');
-let url = '';
+const dogSelector = document.getElementById("dogSelector");
+const dogImg = document.getElementById("dogImg")
 
-
-function createBreedList() {
-    let htmlDogs = data.map(function (breed, i) {
-        if (i === 0) {
-            return `<option>Choose a dog breed</option>` +                 
-                `<option value ="${breed.value}">${breed.name} </option>`; 
-        } else {
-            return `<option value ="${breed.value}">${breed.name} </option>`;
-        }
-    })
-    dogSelector.innerHTML = htmlDogs.join('');
+let renderList = (data) => {
+    data.forEach(breed => {
+        let holder = `<option value=${breed.value}>${breed.name}</option>`
+        dogSelector.innerHTML += holder
+    });
 }
 
-function renderDogData(data) {
-    dogImg.innerHTML = `<img src='${data.message}'>`
+let renderDogData = (data) => {
+    dogImg.innerHTML = `<img src="${data.message}"></img>`
 }
 
-function getBreedImg() {
-    if (dogSelector.value !== 'Choose a dog breed') {                     
-        url = apiURL + `breed/${dogSelector.value}/images/random`;        
-        fetch(url)
-            .then(response => response.json())
-            .then(data => renderDogData(data))
-            .catch(error => alert(error));
-
-    } else {
-        dogImg.innerHTML = '';
-    }
+let getDogImg = () => {
+    let link = `https://dog.ceo/api/breed/${dogSelector.value}/images/random`
+    
+    fetch(link)
+                .then(response => response.json())
+                .then(data => renderDogData(data))
+                .catch(error => alert(error));
 }
-
-createBreedList()
-dogSelector.addEventListener('change', getBreedImg);
+renderList(data);
+addEventListener('change', getDogImg)
