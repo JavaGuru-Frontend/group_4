@@ -1,34 +1,19 @@
-// Скопировать материалы в свою репозиторию
+const dogSelector = document.querySelector('#dog-selector');
+const dogImage = document.querySelector('#dog-image');
 
-// Создадим приложение которое выведит фотографию породы собак
-// Пример приложения можно рассмотреть в видео ./DogApiDemo.mp4
+function renderBreeds() {
+  for (const breed of data) {
+    dogSelector.innerHTML += `<option value="${breed.value}">${breed.name}</option>`;
+  }
+}
 
-// 1) отрендерить список всех парод собак список доступен в data.js
-// для этого неблоходимо пройти циклом через все данные и в сущестующий select 
-// добавить новую опцию <option value=${breed.value}>${breed.name}
+async function handleChange() {
+  const url = `https://dog.ceo/api/breed/${dogSelector.value}/images/random`;
+  const response = await fetch(url);
+  const data = await response.json();
+  dogImage.innerHTML = `<img src="${data.message}" alt="dog"/>`;
+}
 
-// 2) добавить на селект .addEventListener('change')
-// и вызвать функцию котороя сделает запрос на сервер 
+dogSelector.addEventListener('change', handleChange);
 
-// 3) создать запрос на сервер 
-// мы будем использовать https://dog.ceo/dog-api/
-// наш запрос для получения картинки будет вышледить вот так
-// https://dog.ceo/api/breed/${dogSelector.value}/images/random`;
-// где ${dogSelector.value} это опция которую мы выбрали
-
-// 4) обработать запрос и отобразить картинку 
-// использовать innerHTML и подставить 
-// = `<img src='${data.message}'/>`
-// где ${data.message} будет ссылочка на картинку 
-
-// 5) добавить стилей по желанию
-
-
-
-
-// Пример ответа от сервера на запрос 
-// https://dog.ceo/api/breed/Affenpinscher/images/random
-// {
-//     "message": "https://images.dog.ceo/breeds/saluki/n02091831_5654.jpg",
-//     "status": "success"
-// }
+renderBreeds();
