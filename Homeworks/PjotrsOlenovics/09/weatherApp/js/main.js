@@ -1,61 +1,40 @@
+const inputval = document.querySelector("#cityinput");
+const addbtn = document.querySelector("#add");
+const cityoutput = document.querySelector("#cityoutput");
+const description = document.querySelector("#description");
+const temp = document.querySelector("#temp");
+const wind = document.querySelector("#wind");
 
+const apik = "3045dd712ffe6e702e3245525ac7fa38";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
 
-// fetch metod
-// fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputval.value+'&appid='+apik)
-  // inputval.value === введённый город
-  // apik = "3045dd712ffe6e702e3245525ac7fa38"
+function convertKelvinToCelsius(kelvin) {
+  return (kelvin - 273).toFixed(1);
+}
 
-// on btn click
-  // addEventListener
-  // fetch
-  // response
-  // теспература отображаеться в кельвинах но нам надо перевести в градусы цельсия
-      // необходимо от введёной температуры отнять 273 и тогда мы получим градусы цельсия
+function showWeatherData(data) {
+  cityoutput.textContent = data.name;
+  description.textContent = data.weather[0].description;
+  temp.textContent = `${convertKelvinToCelsius(data.main.temp)} °C`;
+  wind.textContent = `Wind speed: ${data.wind.speed} m/s`;
+}
 
-  // ответ с сервера
-  //   {
-  //     "coord": {
-  //         "lon": 23.7128,
-  //         "lat": 56.65
-  //     },
-  //     "weather": [
-  //         {
-  //             "id": 802,
-  //             "main": "Clouds",
-  //             "description": "scattered clouds",
-  //             "icon": "03d"
-  //         }
-  //     ],
-  //     "base": "stations",
-  //     "main": {
-  //         "temp": 293.17,
-  //         "feels_like": 292.48,
-  //         "temp_min": 293.17,
-  //         "temp_max": 293.17,
-  //         "pressure": 1014,
-  //         "humidity": 48,
-  //         "sea_level": 1014,
-  //         "grnd_level": 1014
-  //     },
-  //     "visibility": 10000,
-  //     "wind": {
-  //         "speed": 4.6,
-  //         "deg": 299,
-  //         "gust": 8.75
-  //     },
-  //     "clouds": {
-  //         "all": 46
-  //     },
-  //     "dt": 1655294073,
-  //     "sys": {
-  //         "type": 1,
-  //         "id": 1876,
-  //         "country": "LV",
-  //         "sunrise": 1655256795,
-  //         "sunset": 1655320681
-  //     },
-  //     "timezone": 10800,
-  //     "id": 459279,
-  //     "name": "Jelgava",
-  //     "cod": 200
-  // }
+function fetchWeatherData() {
+  const city = inputval.value;
+  const url = `${apiUrl}?q=${city}&appid=${apik}`;
+  fetch(url)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.json();
+    })
+    .then((data) => {
+      showWeatherData(data);
+    })
+    .catch((error) => {
+      console.error("There was a problem with the fetch operation:", error);
+    });
+}
+
+addbtn.addEventListener("click", fetchWeatherData);
