@@ -1,64 +1,59 @@
-const taskInput = document.querySelector('#task-input');
-const taskList = document.querySelector('#task-list');
+const taskForm = document.getElementById('task-form');
+const taskInput = document.getElementById('task-input');
+const taskList = document.getElementById('task-list');
 
-loadTasks();
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
-document.querySelector('#task-form').addEventListener('submit', function(event) {
-  event.preventDefault();
+function addTask(e) {
+  e.preventDefault();
 
-  const textTask = taskInput.value;
+  const taskText = taskInput.value;
+  const task = { text: taskText, done: false };
+  tasks.push(task);
 
-  const task = {
-    textTask,
-    done: false
-  };
-
-  addTask(task);
-
+  saveToLocalStorage();
+  renderTasks();
   taskInput.value = '';
-});
+}
 
-taskList.addEventListener('click', function(event) {
-  const target = event.target;
+function saveToLocalStorage() {
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
+function renderTasks() {
+  let html = '';
+  tasks.forEach((task, index) => {
+    const doneClass = task.done ? 'done' : '';
+    html += `
+      <li data-index="${index}">
+        <div class="${doneClass}">
+          <span class="task-text">${task.text}</span>
+          <span class="remove">❌</span>
+        </div>
+      </li>
+    `;
+  });
+  taskList.innerHTML = html;
+}
+
+function toggleDone(e) {
+  const target = e.target;
+  const parent = target.closest('li');
 
   if (target.classList.contains('remove')) {
-    const index = target.parentElement.parentElement.dataset.index;
-
-    removeTask(index);
-  } else {
-    const index = target.parentElement.dataset.index;
-
-    toggleDone(index);
+    const index = parent.dataset.index;
+    tasks.splice(index, 1);
+    saveToLocalStorage();
+    renderTasks();
+  } else if (target.classList.contains('task-text')) {
+    const index = parent.dataset.index;
+    tasks[index].done = !tasks[index].done;
+    saveToLocalStorage();
+    renderTasks();
   }
-});
-
-function addTask(task) {
-  saveToLocalStorage(task);
-
-  renderTask(task);
 }
 
-function removeTask(index) {
-  removeFromLocalStorage(index);
+taskForm.addEventListener('submit', addTask);
+taskList.addEventListener('click', toggleDone);
 
-  taskList.removeChild(taskList.childNodes[index]);
-}
-
-function toggleDone(index) {
-  toggleDoneInLocalStorage(index);
-
-  taskList.childNodes[index].classList.toggle('done');
-}
-
-function saveToLocalStorage(task) {
-  let taskList = JSON.parse(localStorage.getItem('taskList')) || [];
-
-  taskList.push(task);
-
-  localStorage.setItem('taskList', JSON.stringify(taskList));
-}
-
-function removeFromLocalStorage(index) {
-  let taskList = JSON.parse(localStorage.getItem('taskList')) || [];
-
-  taskList.splice(index, 1);
+renderTasks();
