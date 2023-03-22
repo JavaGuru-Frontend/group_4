@@ -1,65 +1,64 @@
-// TODO app
-// Скорировать данные исходники в свою папку
-// Посмотреть видео appDemo.mp4 что бы понять как работает апликация
+const taskInput = document.querySelector('#task-input');
+const taskList = document.querySelector('#task-list');
 
-/* Нам небходимо создать приложение которое может создавать, удалять и отмечать задание как сделанное
-    для этого нам надо несколько функций
-        addTask() - добавить задание
-            1 - нам нужно получуть значение из нашего поля ввода selector.value;
-            2 - создать объект для нового задания 
-                const task = {
-                    textTask,
-                    done: false
-                }
-            3 - вызвать функцию saveToLocalStorage
+loadTasks();
 
-        saveToLocalStorage() - сохранить данные в локальное хранилище
-            1 - использовать JSON.stringify
-            2 - использовать ключь 'taskList'
+document.querySelector('#task-form').addEventListener('submit', function(event) {
+  event.preventDefault();
 
-        renderTask() - вывести список задач
-            1 - использовать innerHTML
-            2 - создать цикл которой проёдет по всем данным из локального хранилища и выведит нам ХТМЛ
-            3 - можно использовать этот кусочек кода
-            return `<li data-index='${i}'>
-                        <div class="">
-                            ${data.textTask}<span class="remove">❌</span>
-                        </div>
-                    </li>`;
-            4 - Если элемент отмечен как выполнен нам нужно добавить класс .done ../style.css
-                для этого надо сделать проверку if else  test.done === 'true'
+  const textTask = taskInput.value;
 
-        toggleDone() - отметить как задание как выполненое
-            Для этого на надо добавить несколько eventlisteners
-                addEventListener('submit', addTask);   ----> добавить новое задание 
-                addEventListener('click', toggleDone); ----> отметить как выделенное
+  const task = {
+    textTask,
+    done: false
+  };
 
-                функция toogleDone делает две операции
-                если нажали на Х клавиши удалить то данные стераються из локального хранилища
-                если нажали на сам элемент то нам надо добавить класс done и пересохранить данные в локальное хранилище
-*/          
-const taskAdder = document.querySelector('.taskAdder');
-const myTasks   = document.querySelector('.myTasks');
-const tasks     = JSON.parse(localStorage.getItem('taskList')) || [];
+  addTask(task);
 
-// addEventListener click 
-// addEventListener submit
+  taskInput.value = '';
+});
 
+taskList.addEventListener('click', function(event) {
+  const target = event.target;
 
+  if (target.classList.contains('remove')) {
+    const index = target.parentElement.parentElement.dataset.index;
 
-renderTask();
+    removeTask(index);
+  } else {
+    const index = target.parentElement.dataset.index;
 
-function addTask(){
+    toggleDone(index);
+  }
+});
 
+function addTask(task) {
+  saveToLocalStorage(task);
+
+  renderTask(task);
 }
 
-function saveToLocalStorage() {
+function removeTask(index) {
+  removeFromLocalStorage(index);
 
+  taskList.removeChild(taskList.childNodes[index]);
 }
 
-function renderTask() {
+function toggleDone(index) {
+  toggleDoneInLocalStorage(index);
 
+  taskList.childNodes[index].classList.toggle('done');
 }
 
-function toggleDone(e) {
+function saveToLocalStorage(task) {
+  let taskList = JSON.parse(localStorage.getItem('taskList')) || [];
+
+  taskList.push(task);
+
+  localStorage.setItem('taskList', JSON.stringify(taskList));
 }
+
+function removeFromLocalStorage(index) {
+  let taskList = JSON.parse(localStorage.getItem('taskList')) || [];
+
+  taskList.splice(index, 1);
