@@ -97,3 +97,17 @@ deleteInf.forEach(item => {
         myTasks.innerHTML = renderTask();
     })
 })
+
+const toggleDone = (event) => {
+
+    taskIndex = event.target.dataset.index;
+
+
+    if(taskList[taskIndex].done) {
+
+        taskList[taskIndex].done = false;
+    } else {
+        taskList[taskIndex].done = true;
+    }
+    saveStorage();
+}
