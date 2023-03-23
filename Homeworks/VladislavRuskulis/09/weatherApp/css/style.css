@@ -1,0 +1,16 @@
+body{
+    background-image: url('https://sugdnews.com/wp-content/uploads/2022/01/%D0%9D%D0%B5%D1%83%D1%81%D1%82%D0%BE%D1%87%D0%B8%D0%B2%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+#cityinput{
+    color:rgb(82, 10, 177);
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+#add{
+    margin-left: 660px;
+}
