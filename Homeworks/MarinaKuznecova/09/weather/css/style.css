@@ -1,0 +1,87 @@
+ody {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(71, 171, 253);
+}
+
+.container-fluid {
+    margin: 1em;
+    padding: 1em;
+}
+
+.inputs {
+    padding: 1em 0 1em 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inputs input[type="text"] {
+    height: 2em;
+    width: 15em;
+    font-family: tahoma;
+    font-size: 1em;
+    background: gray;
+    padding: 0.5em;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #ed1212;
+    border-radius: 1em;
+    margin-right: 8px;
+}
+
+.inputs input[type="submit"] {
+    height: 3em;
+    width: 6em;
+    font-family: tahoma;
+    background: #bfe189;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(112, 22, 31);
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.display {
+    text-align: center;
+}
+
+.wrapper {
+    height: 3m;
+    margin: 2em auto;
+}
+
+.wrapper h2 {
+    font-family: tahoma;
+    font-size: 2em;
+    text-align: center;
+    background: #04214c;
+    color: rgb(39, 189, 248);
+    border-radius: 8px;
+}
+
+.wrapper p {
+    font-family: tahoma;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.wrapper h2 span {
+    color: yellow;
+}
+
+.wrapper p span {
+    font-family: tahoma;
+    font-size: 1.5em;
+    color: #04214c;
+    font-weight: bold;
+}

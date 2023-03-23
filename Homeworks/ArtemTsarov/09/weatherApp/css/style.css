@@ -1,0 +1,12 @@
+body{
+    background-image: url("https://oir.mobi/uploads/posts/2021-03/1616543411_52-p-nebesnii-fon-57.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+}
+
+#cityinput{
+    color:red;
+}

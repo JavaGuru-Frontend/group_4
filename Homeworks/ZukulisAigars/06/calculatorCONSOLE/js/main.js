@@ -62,13 +62,13 @@ function getValidNumber(promptMessage) {
     let number;
   
     while (attempts < 3) {
-      number = Number(prompt(promptMessage));
-        if (!isNaN(number)) {
-            return number;
-        }
+        number = Number(prompt(promptMessage));
+            if (!isNaN(number)) {
+                return number;
+            }
 
-      attempts++;
-      alert(`Wrong input ${number} is not a valid number, please enter a number`);
+        attempts++;
+        alert(`Wrong input ${number} is not a valid number, please enter a number`);
     }
   
     throw new Error('Maximum number of attempts reached');
