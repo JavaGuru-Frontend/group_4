@@ -30,7 +30,6 @@ https://github.com/JavaGuru-Frontend/group_4
 | :-------------------- | :--------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Andrejs	  Holavskis | axo987           | ✓ |   |   |   |   |   |   |   |   |   |
 | Artem       Tsarov    | Tsarov19         | ✓ | ✓ | ✓ | ✓ | ✓ |   | ? | ? | ✓ |   |
-| Artem       Cikuns    | ArtemCikun       | ✓ | ✓ | ? | ? |   |   |   |   |   |   |
 | Dmitrijs    Borodins  | DmitrijsBorodins | ✓ | ✓ |   |   |   |   |   |   |   |   |
 | Irina	      Hohotva   | Irvita74         | ✓ |   |   |   |   |   |   |   |   |   |
 | Julija	  Maksimova |                  | ✓ | ? | ? |   |   |   |   |   |   |   |
@@ -43,5 +42,5 @@ https://github.com/JavaGuru-Frontend/group_4
 | Sergejs     Fadins    | Evirum           | ✓ | ? |   |   |   |   |   |   |   |   |
 | Stanislavs  Savluks   | ChiuRiu          | ✓ | ? |   |   |   |   |   |   |   |   |
 | Viktor      Koreskov  | Koreskov         | * | * |   |   |   |   |   |   |   |   |
-| Vladislavs  Ruskulis  | Ruskulis94       | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Vladislavs  Ruskulis  | Ruskulis94       | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Zukulis	  Aigars    | azukulis         | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
